@@ -1,0 +1,9 @@
+[{{repository.name}}] {{{issue.title}}}
+{{{issue.user.login}}} has just created a new issue for {{{repository.html_url}}}:
+
+== {{{issue.title}}} ==
+{{{issue.body}}}
+
+See {{{issue.html_url}}}
+Further comments on this issue will NOT be notified to this list. If you'd like to follow the discussion, please do so by subscribing to the issue via the above link. Do not reply to this email.
+

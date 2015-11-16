@@ -1,0 +1,237 @@
+{
+    "public-media-capture-logs@w3.org": {
+        "w3c/mediacapture-main": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        }
+    },
+    "public-annotation@w3.org": {
+        "w3c/web-annotation": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "w3c/findtext": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        }
+    },
+    "public-html-media@w3.org": {
+        "w3c/media-source": {
+            "events": ["issues.opened"]
+        },
+        "w3c/encrypted-media": {
+            "events": ["issues.opened"]
+        }
+    },
+    "public-audio@w3.org": {
+        "WebAudio/web-audio-api": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "WebAudio/web-midi-api": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        }
+    },
+    "public-secondscreen@w3.org": {
+        "w3c/presentation-api": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        },
+        "w3c/remote-playback": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        }
+    },
+    "public-device-apis@w3.org": {
+        "w3c/sensors": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        }
+    },
+    "public-nfc@w3.org": {
+        "w3c/nfc": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        }
+    },
+    "public-web-nfc@w3.org": {
+        "w3c/web-nfc": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        }
+    },
+    "www-dom@w3.org": {
+        "whatwg/dom": {
+            "events": ["issues.opened", "pull_request.opened"]
+        }
+    },
+    "public-web-bluetooth-log@w3.org": {
+        "WebBluetoothCG/web-bluetooth": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        }
+    },
+    "www-international@w3.org": {
+	"w3c/manifest": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created"],
+	    "eventFilter": {"label":"I18N-WG"}
+        },
+	"w3c/presentation-api": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created"],
+            "eventFilter": {"label":"I18N-WG"}
+	},
+        "w3c/typography": {
+            "events": ["issues.opened",  "issues.closed"]
+        },
+        "w3c/predefined-counter-styles": {
+            "events": ["issues.opened",  "issues.closed"]
+        },
+        "w3c/bp-i18n-specdev": {
+            "events": ["issues.opened",  "issues.closed"]
+        },
+        "w3c/charmod-norm": {
+            "events": ["issues.opened",  "issues.closed"]
+        }
+    },
+    "public-pointer-events@w3.org": {
+        "w3c/pointerevents": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        }
+    },
+    "public-touchevents@w3.org": {
+        "w3c/touch-events": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"]
+        }
+    },
+    "public-webrtc-testsuite@w3.org": {
+       "w3c/web-platform-tests": {
+	   "events": ["pull_request.opened", "pull_request.labeled"],
+	   "eventFilter": {"label": "wg-webrtc"}
+	}
+    },
+   "public-i18n-cjk@w3.org": {
+          "w3c/klreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created"]
+      }
+   },
+   "public-i18n-indic@w3.org": {
+          "w3c/ilreq": {
+            "events": ["issues.opened",  "issues.closed"]
+      }
+   },
+   "public-i18n-arabic@w3.org": {
+          "w3c/alreq": {
+            "events": ["issues.opened",  "issues.closed"]
+      }
+   },
+    "public-i18n-archive@w3.org": {
+       "w3c/bp-i18n-specdev": {
+	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/charmod-norm": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/clreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+      "w3c/klreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/ilreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/alreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/predefined-counter-styles": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/typography": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      }
+    },
+ "public-webtiming@w3.org": {
+    "webtiming/timingobject": {
+           "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+    }
+  },
+ "public-texttracks@w3.org": {
+     "w3c/webvtt": {
+           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
+     }
+ },
+ "public-tt@w3.org": {
+     "w3c/imsc": {
+           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
+     },
+     "w3c/ttml1": {
+           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
+     },
+     "w3c/ttml2": {
+           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
+     },
+     "w3c/ttml-webvtt-mapping": {
+           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
+     },
+     "w3c/tt-profile-registry": {
+	   "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
+     }
+ },
+ "public-web-and-tv@w3.org": {
+     "w3c/Web-and-TV-IG": {
+           "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"]
+     }
+ },
+    "public-music-notation-contrib@w3.org": {
+        "w3c/musicxml": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        },
+        "w3c/smufl": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        }
+    }
+}
