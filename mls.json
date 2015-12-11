@@ -9,7 +9,7 @@
     },
     "public-webrtc@w3.org": {
         "w3c/webrtc-pc": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened"]        }
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]        }
     },
     "public-annotation@w3.org": {
         "w3c/web-annotation": {
