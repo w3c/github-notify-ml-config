@@ -7,9 +7,36 @@
             }
         }
     },
+    "public-media-capture@w3.org": {
+        "w3c/mediacapture-main": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        },
+        "w3c/mediacapture-record": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        },
+        "w3c/mediacapture-image": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        },
+        "w3c/mediacapture-depth": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        },
+        "w3c/mediacapture-fromelement": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        },
+        "w3c/mediacapture-output": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        },
+        "w3c/mediacapture-screen-share": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        }
+    },
     "public-webrtc@w3.org": {
         "w3c/webrtc-pc": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]        }
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        },
+        "w3c/webrtc-stats": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        }
     },
     "public-annotation@w3.org": {
         "w3c/web-annotation": {
