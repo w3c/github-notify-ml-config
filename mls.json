@@ -46,6 +46,11 @@
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         }
     },
+    "public-ortc@w3.org": {
+        "openpeer/ortc": {
+            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        }
+    },
     "public-html-media@w3.org": {
         "w3c/media-source": {
             "events": ["issues.opened"]
