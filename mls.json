@@ -282,5 +282,10 @@
 	    "events": ["pull_request.labeled", "issue.labeled"],
 	    "eventFilter": {"label": "Chair decision needed"}
 	}
+    },
+    "dom@w3.org": {
+        "http://www.w3.org/TR/webrtc/": {
+            "events": ["tr.published"]
+        }
     }
 }
