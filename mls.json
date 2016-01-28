@@ -275,11 +275,11 @@
     },
     "webrtc-chairs@w3.org": {
         "w3c/webrtc-pc": {
-	    "events": ["pull_request.labeled", "issue.labeled"],
+	    "events": ["pull_request.labeled", "issues.labeled"],
 	    "eventFilter": {"label": "Chair decision needed"}
 	},
         "w3c/mediacapture-main": {
-	    "events": ["pull_request.labeled", "issue.labeled"],
+	    "events": ["pull_request.labeled", "issues.labeled"],
 	    "eventFilter": {"label": "Chair decision needed"}
 	}
     },
