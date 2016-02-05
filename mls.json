@@ -287,5 +287,16 @@
         "http://www.w3.org/TR/webrtc/": {
             "events": ["tr.published"]
         }
+    },
+    "public-geolocation@w3.org": {
+        "w3c/geolocation-api": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
+        },
+        "w3c/deviceorientation": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
+        },
+        "w3c/geofencing-api": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
+        }
     }
 }
