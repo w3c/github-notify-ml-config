@@ -87,6 +87,9 @@
         },
         "w3c/ambient-light": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "w3c/vibration": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         }
     },
     "public-nfc@w3.org": {
