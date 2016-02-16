@@ -298,5 +298,15 @@
         "w3c/geofencing-api": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
         }
+    },
+    "public-svg-issues@w3.org": {
+    	"w3c/svgwg": {
+    	    "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    	}
+    },
+    "w3c-svg-wg@w3.org": {
+    	"w3c/svgwg": {
+    	    "events": ["pull_request.opened"]
+    	}
     }
 }
