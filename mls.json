@@ -306,10 +306,7 @@
     },
     "w3c-svg-wg@w3.org": {
     	"w3c/svgwg": {
-    	    "events": ["pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }    	    
+    	    "events": ["pull_request.opened"]
     	}
     }
 }
