@@ -291,6 +291,14 @@
             "events": ["tr.published"]
         }
     },
+    "public-poe-archives@w3.org": {
+    	"w3c/poe" : {
+    	    "events" : ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "issues.labeled", "pull_request.labeled"],
+    	    "branches": {
+    	    	"gh-pages": ["push"]
+    	    }
+    	}
+    },
     "public-geolocation@w3.org": {
         "w3c/geolocation-api": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
