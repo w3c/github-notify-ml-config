@@ -90,6 +90,9 @@
         },
         "w3c/vibration": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "https://www.w3.org/TR/wake-lock/": {
+            "events": ["tr.published"]
         }
     },
     "public-nfc@w3.org": {
@@ -285,11 +288,6 @@
 	    "events": ["pull_request.labeled", "issues.labeled"],
 	    "eventFilter": {"label": "Chair decision needed"}
 	}
-    },
-    "dom@w3.org": {
-        "http://www.w3.org/TR/webrtc/": {
-            "events": ["tr.published"]
-        }
     },
     "public-poe-archives@w3.org": {
     	"w3c/poe" : {
