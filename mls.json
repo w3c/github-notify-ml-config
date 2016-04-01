@@ -312,5 +312,10 @@
         "w3c/svgwg": {
             "events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"]
         }
+    },
+    "public-webauthn@w3.org": {
+    	"w3c/webauthn": {
+    		"events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created"]
+    	}
     }
 }
