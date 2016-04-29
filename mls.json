@@ -154,7 +154,7 @@
     },
     "public-digipub-ig@w3.org": {
         "w3c/i18n-discuss": {
-            "events": ["issues.opened", "issue_comment.created",  "issues.closed"],
+            "events": ["issues.labeled", "issue_comment.created",  "issues.closed"],
             "eventFilter": {"label":"digipub"}
         }
     },
