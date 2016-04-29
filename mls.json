@@ -125,14 +125,14 @@
         }
     },
     "www-international@w3.org": {
-	"w3c/manifest": {
+		"w3c/manifest": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created"],
-	    "eventFilter": {"label":"I18N-WG"}
+	    	"eventFilter": {"label":"I18N-WG"}
         },
-	"w3c/presentation-api": {
+		"w3c/presentation-api": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created"],
             "eventFilter": {"label":"I18N-WG"}
-	},
+		},
         "w3c/typography": {
             "events": ["issues.opened",  "issues.closed"]
         },
@@ -142,8 +142,20 @@
         "w3c/bp-i18n-specdev": {
             "events": ["issues.opened",  "issues.closed"]
         },
+        "w3c/i18n-discuss": {
+            "events": ["issues.opened",  "issue_comment.created", "issues.closed"]
+        },
+        "w3c/i18n-activity": {
+            "events": ["issues.opened",  "issues.closed"]
+        },
         "w3c/charmod-norm": {
             "events": ["issues.opened",  "issues.closed"]
+        }
+    },
+    "public-digipub-ig@w3.org": {
+        "w3c/i18n-discuss": {
+            "events": ["issues.opened", "issue_comment.created",  "issues.closed"],
+            "eventFilter": {"label":"digipub"}
         }
     },
     "public-pointer-events@w3.org": {
