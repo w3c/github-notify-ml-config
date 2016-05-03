@@ -154,7 +154,7 @@
         "w3c/html": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
-        }
+        },
         "w3c/browser-payment-api": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
