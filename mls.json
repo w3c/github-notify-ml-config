@@ -152,7 +152,7 @@
             "events": ["issues.opened",  "issues.closed"]
         },
         "w3c/html": {
-            "events": ["issues.labeled",  "issues.closed"]
+            "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
         }
     },
