@@ -157,7 +157,7 @@
         },
         "w3c/browser-payment-api": {
             "events": ["issues.labeled",  "issues.closed"],
-            "eventFilter": {"label":"i18n"}
+            "eventFilter": {"label":"HR: i18n"}
         }
     },
     "public-digipub-ig@w3.org": {
