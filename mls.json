@@ -243,6 +243,24 @@
                 "gh-pages": ["push"]
             }
       },
+       "w3c/i18n-activity": {
+	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/i18n-drafts": {
+	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/i18n-discuss": {
+	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
        "w3c/typography": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
