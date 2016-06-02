@@ -361,7 +361,7 @@
     },
     "public-webauthn@w3.org": {
     	"w3c/webauthn": {
-    		"events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created", "pull_request.opened",  "pull_request.closed", "push"]
+    		"events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened",  "pull_request.closed", "push"]
     	}
     },
     "public-css-archive@w3.org": {
