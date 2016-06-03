@@ -91,7 +91,7 @@
         "w3c/vibration": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         },
-        "https://www.w3.org/TR/wake-lock/": {
+        "http://www.w3.org/TR/wake-lock/": {
             "events": ["tr.published"]
         }
     },
