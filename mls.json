@@ -163,6 +163,18 @@
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
         },
+        "w3c/activitystreams": {
+            "events": ["issues.labeled",  "issues.closed"],
+            "eventFilter": {"label":"i18n"}
+        },
+        "aaronpk/webmention": {
+            "events": ["issues.labeled",  "issues.closed"],
+            "eventFilter": {"label":"i18n"}
+        },
+        "aaronpk/micropub": {
+            "events": ["issues.labeled",  "issues.closed"],
+            "eventFilter": {"label":"i18n"}
+        },
         "w3c/browser-payment-api": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"HR: i18n"}
