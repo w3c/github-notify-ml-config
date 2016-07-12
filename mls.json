@@ -167,11 +167,11 @@
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
         },
-        "aaronpk/webmention": {
+        "w3c/webmention": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
         },
-        "aaronpk/micropub": {
+        "w3c/micropub": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
         },
