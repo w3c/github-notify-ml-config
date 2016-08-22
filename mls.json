@@ -47,7 +47,7 @@
         }
     },
     "public-ortc@w3.org": {
-        "openpeer/ortc": {
+        "ortclib/ortc": {
             "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
         }
     },
