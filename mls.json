@@ -81,7 +81,7 @@
             }
         }
     },
-    "public-device-apis@w3.org": {
+    "public-device-apis-log@w3.org": {
         "w3c/sensors": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         },
@@ -90,7 +90,9 @@
         },
         "w3c/vibration": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
+        }
+    },
+    "public-device-apis@w3.org": {
         "http://www.w3.org/TR/wake-lock/": {
             "events": ["tr.published"]
         }
