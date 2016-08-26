@@ -88,6 +88,27 @@
         "w3c/ambient-light": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         },
+        "w3c/accelerometer": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "w3c/proximity": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "w3c/gyroscope": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "w3c/magnetometer": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "w3c/battery": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "w3c/wake-lock": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
+        "w3c/html-media-capture": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
         "w3c/vibration": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         }
