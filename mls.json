@@ -200,6 +200,14 @@
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
         },
+        "w3c/activitypub": {
+            "events": ["issues.labeled",  "issues.closed"],
+            "eventFilter": {"label":"i18n"}
+        },
+        "w3c/ldn": {
+            "events": ["issues.labeled",  "issues.closed"],
+            "eventFilter": {"label":"i18n"}
+        },
         "w3c/sdw": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
