@@ -264,6 +264,11 @@
             "events": ["issues.opened",  "issues.closed"]
       }
    },
+   "public-i18n-ethiopic@w3.org": {
+          "w3c/elreq": {
+            "events": ["issues.opened",  "issues.closed"]
+      }
+   },
    "public-i18n-arabic@w3.org": {
           "w3c/alreq": {
             "events": ["issues.opened",  "issues.closed"]
@@ -283,6 +288,12 @@
             }
       },
        "w3c/clreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/elreq": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
                 "gh-pages": ["push"]
