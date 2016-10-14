@@ -182,6 +182,9 @@
         "w3c/charmod-norm": {
             "events": ["issues.opened",  "issues.closed"]
         },
+        "w3c/ltli": {
+            "events": ["issues.opened",  "issues.closed"]
+        },
         "w3c/html": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
@@ -324,6 +327,12 @@
             }
       },
        "w3c/alreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/ltli": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
                 "gh-pages": ["push"]
