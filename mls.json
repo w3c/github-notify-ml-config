@@ -173,6 +173,9 @@
         "w3c/i18n-discuss": {
             "events": ["issues.opened",  "issues.closed"]
         },
+        "w3c/i18n-checker": {
+            "events": ["issues.opened",  "issues.closed"]
+        },
         "w3c/charmod-norm": {
             "events": ["issues.opened",  "issues.closed"]
         },
@@ -324,6 +327,12 @@
             }
       },
        "w3c/i18n-activity": {
+	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
+       "w3c/i18n-checker": {
 	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
                 "gh-pages": ["push"]
