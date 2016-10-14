@@ -335,6 +335,12 @@
                 "gh-pages": ["push"]
             }
       },
+       "w3c/tlreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
        "w3c/alreq": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
