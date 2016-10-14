@@ -173,6 +173,9 @@
         "w3c/i18n-discuss": {
             "events": ["issues.opened",  "issues.closed"]
         },
+        "w3c/i18n-drafts": {
+            "events": ["issues.opened",  "issues.closed"]
+        },
         "w3c/i18n-checker": {
             "events": ["issues.opened",  "issues.closed"]
         },
