@@ -305,6 +305,12 @@
                 "gh-pages": ["push"]
             }
       },
+       "w3c/jlreq": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+      },
       "w3c/klreq": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
