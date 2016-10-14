@@ -154,11 +154,11 @@
     },
     "www-international@w3.org": {
 	"w3c/manifest": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created"],
+            "events": ["issues.opened",  "issues.closed"],
 	    "eventFilter": {"label":"I18N-WG"}
         },
 	"w3c/presentation-api": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created"],
+            "events": ["issues.opened",  "issues.closed"],
             "eventFilter": {"label":"I18N-WG"}
 	},
         "w3c/typography": {
@@ -271,7 +271,7 @@
     },
    "public-i18n-cjk@w3.org": {
           "w3c/klreq": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created"]
+            "events": ["issues.opened",  "issues.closed"]
       }
    },
    "public-i18n-indic@w3.org": {
