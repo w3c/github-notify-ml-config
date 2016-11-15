@@ -5,6 +5,42 @@
             "branches": {
                 "master": ["push"]
             }
+        },
+        "w3c/mediacapture-record": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-image": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-depth": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-fromelement": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-output": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-screen-share": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
         }
     },
     "public-media-capture@w3.org": {
@@ -36,6 +72,20 @@
         },
         "w3c/webrtc-stats": {
             "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+        }
+    },
+    "public-webrtc-logs@w3.org": {
+        "w3c/webrtc-pc": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/webrtc-stats": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
         }
     },
     "public-annotation@w3.org": {
