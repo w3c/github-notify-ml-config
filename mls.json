@@ -45,33 +45,33 @@
     },
     "public-media-capture@w3.org": {
         "w3c/mediacapture-main": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/mediacapture-record": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/mediacapture-image": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/mediacapture-depth": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/mediacapture-fromelement": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/mediacapture-output": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/mediacapture-screen-share": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         }
     },
     "public-webrtc@w3.org": {
         "w3c/webrtc-pc": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/webrtc-stats": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+            "events": ["issues.opened", "pull_request.opened"]
         }
     },
     "public-webrtc-logs@w3.org": {
