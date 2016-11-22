@@ -590,5 +590,10 @@
                 "gh-pages": ["push"]
             }
         }
+    },
+    "public-web-perf@w3.org": {
+        "digest:weekly": {
+            "repos": ["w3c/hr-time", "w3c/performance-timeline", "w3c/resource-timing", "w3c/navigation-timing", "w3c/user-timing", "w3c/beacon", "w3c/page-visibility", "w3c/preload", "w3c/resource-hints", "w3c/requestidlecallback"]
+        }
     }
 }
