@@ -541,6 +541,11 @@
             "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
         }
     },
+    "www-svg@w3.org": {
+         "digest:weekly": {
+            "repos": ["w3c/svgwg", "w3c/fxtf-drafts"]
+        }
+    },
     "public-svg-issues@w3.org": {
         "w3c/svgwg": {
             "events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"]
