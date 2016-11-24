@@ -257,11 +257,7 @@
         },
         "w3c/csswg-drafts": {
             "events": ["issues.labeled",  "issues.closed"],
-            "eventFilter": {"label":"i18n-comment"}
-        },
-        "w3c/csswg-drafts": {
-            "events": ["issues.labeled",  "issues.closed"],
-            "eventFilter": {"label":"i18n-tracking"}
+	    "eventFilter": {"label":["i18n-tracking","i18n-comment"]}
         },
         "w3c/activitystreams": {
             "events": ["issues.labeled",  "issues.closed"],
