@@ -301,7 +301,7 @@
         },
         "w3c/browser-payment-api": {
             "events": ["issues.labeled",  "issues.closed"],
-            "eventFilter": {"label":"HR: i18n"}
+            "eventFilter": {"label":["HR: i18n-tracking","HR: i18n-comment"]}
         }
     },
     "public-digipub-ig@w3.org": {
