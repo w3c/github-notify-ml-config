@@ -211,11 +211,6 @@
             }
         }
     },
-    "public-i18n-core@w3.org": {
-        "w3c/i18n-activity": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created"]
-        }
-    },
     "www-international@w3.org": {
 	"w3c/manifest": {
             "events": ["issues.opened",  "issues.closed"],
