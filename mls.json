@@ -593,7 +593,7 @@
         }
     },
     "public-webscreens@w3.org": {
-        "webscreens/openscreenprotocol ": {
+        "webscreens/openscreenprotocol": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
                 "gh-pages": ["push"]
