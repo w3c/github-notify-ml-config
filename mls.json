@@ -320,7 +320,7 @@
         "w3c/browser-payment-api": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":["HR: i18n-tracking","HR: i18n-comment"]}
-        }
+        },
    	"digest:weekly": {
      	   "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli"]
    	}
