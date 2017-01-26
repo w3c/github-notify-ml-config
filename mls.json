@@ -328,7 +328,10 @@
     "public-i18n-core@w3.org": {
         "w3c/i18n-activity": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created"]
-        }
+        },
+   	"digest:daily": {
+     	    "repos": ["w3c/i18n-activity"]
+   	}
     },
     "public-digipub-ig@w3.org": {
         "w3c/i18n-discuss": {
