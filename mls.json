@@ -225,36 +225,6 @@
             "events": ["issues.opened",  "issues.closed"],
             "eventFilter": {"label":"I18N-WG"}
 	},
-        "w3c/typography": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/predefined-counter-styles": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/bp-i18n-specdev": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/unicode-xml": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/i18n-discuss": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/i18n-drafts": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/i18n-checker": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/charmod-norm": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/string-search": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
-        "w3c/ltli": {
-            "events": ["issues.opened",  "issues.closed"]
-        },
         "w3c/html": {
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":"i18n"}
@@ -323,9 +293,10 @@
             "events": ["issues.labeled",  "issues.closed"],
             "eventFilter": {"label":["HR: i18n-tracking","HR: i18n-comment"]}
         },
-   	"digest:weekly": {
-     	   "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli"]
-   	}
+   	"digest:daily": {
+            "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/elreq", "w3c/alreq", "w3c/unicode-xml", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq"],
+            "topic": "I18n repos"
+        }
     },
     "public-i18n-core@w3.org": {
         "w3c/i18n-activity": {
