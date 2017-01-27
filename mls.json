@@ -53,7 +53,8 @@
     },
     "public-media-capture@w3.org": {
         "digest:weekly": {
-            "repos": ["w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share"]
+            "repos": ["w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share"],
+            "topic": "Media Capture Task Force specifications"
         },
         "w3c/mediacapture-main": {
             "events": ["issues.opened", "pull_request.opened"]
@@ -79,7 +80,8 @@
     },
     "public-webrtc@w3.org": {
         "digest:weekly": {
-            "repos": ["w3c/webrtc-pc", "w3c/webrtc-stats"]
+            "repos": ["w3c/webrtc-pc", "w3c/webrtc-stats"],
+            "topic": "WebRTC WG specifications"
         },
         "w3c/webrtc-pc": {
             "events": ["issues.opened", "pull_request.opened"]
