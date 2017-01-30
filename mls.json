@@ -226,11 +226,9 @@
             ]
     },
     "public-i18n-core@w3.org": {
-        "w3c/i18n-activity": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created"]
-        },
    	"digest:daily": {
-     	    "repos": ["w3c/i18n-activity"]
+     	    "repos": ["w3c/i18n-activity"],
+            "topic": "WG INTERNAL review issues" 
    	}
     },
     "public-digipub-ig@w3.org": {
