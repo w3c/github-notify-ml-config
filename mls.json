@@ -134,6 +134,10 @@
         }
     },
     "public-secondscreen@w3.org": {
+        "digest:weekly": {
+            "repos": ["w3c/presentation-api", "w3c/remote-playback", "webscreens/openscreenprotocol"],
+            "topic": "Second Screen WG/CG repos"
+        },
         "w3c/presentation-api": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
