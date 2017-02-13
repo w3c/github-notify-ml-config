@@ -282,9 +282,10 @@
       }
    },
    "public-i18n-indic@w3.org": {
-          "w3c/ilreq": {
-            "events": ["issues.opened",  "issues.closed"]
-      }
+   	"digest:daily": {
+     	    "repos": ["w3c/ilreq"],
+            "topic": "Github digest" 
+   	    }
    },
    "public-i18n-ethiopic@w3.org": {
           "w3c/elreq": {
