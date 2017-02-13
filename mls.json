@@ -284,7 +284,11 @@
    "public-i18n-indic@w3.org": {
    	"digest:daily": {
      	    "repos": ["w3c/ilreq"],
-            "topic": "Github digest" 
+   	    }
+   },
+   "public-i18n-hebrew@w3.org": {
+   	"digest:daily": {
+     	    "repos": ["w3c/hlreq"],
    	    }
    },
    "public-i18n-ethiopic@w3.org": {
