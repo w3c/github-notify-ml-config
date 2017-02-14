@@ -305,6 +305,12 @@
  	    "topic": "w3c/alreq"
   	    }
    },
+   "public-i18n-tibetan@w3.org": {
+   	"digest:daily": {
+     	    "repos": ["w3c/tlreq"],
+ 	    "topic": "w3c/tlreq"
+  	    }
+   },
     "public-i18n-archive@w3.org": {
        "w3c/bp-i18n-specdev": {
 	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
