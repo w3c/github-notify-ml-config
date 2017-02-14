@@ -277,9 +277,10 @@
 	}
     },
    "public-i18n-cjk@w3.org": {
-          "w3c/klreq": {
-            "events": ["issues.opened",  "issues.closed"]
-      }
+   	"digest:daily": {
+     	    "repos": ["w3c/clreq","w3c/jlreq","w3c/klreq"],
+	    "topic": "w3c/c-j-k-lreq"
+   	    }
    },
    "public-i18n-indic@w3.org": {
    	"digest:daily": {
