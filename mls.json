@@ -294,9 +294,10 @@
   	    }
    },
    "public-i18n-ethiopic@w3.org": {
-          "w3c/elreq": {
-            "events": ["issues.opened",  "issues.closed"]
-      }
+   	"digest:daily": {
+     	    "repos": ["w3c/elreq"],
+ 	    "topic": "w3c/elreq"
+  	    }
    },
    "public-i18n-arabic@w3.org": {
    	"digest:daily": {
