@@ -299,9 +299,10 @@
       }
    },
    "public-i18n-arabic@w3.org": {
-          "w3c/alreq": {
-            "events": ["issues.opened",  "issues.closed"]
-      }
+   	"digest:daily": {
+     	    "repos": ["w3c/alreq"],
+ 	    "topic": "w3c/alreq"
+  	    }
    },
     "public-i18n-archive@w3.org": {
        "w3c/bp-i18n-specdev": {
