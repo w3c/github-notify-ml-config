@@ -301,11 +301,15 @@
   	    }
    },
    "public-i18n-arabic@w3.org": {
-   	"digest:daily": {
+       "digest:daily": {
      	    "repos": ["w3c/alreq"],
- 	    "topic": "w3c/alreq"
-  	    }
-   },
+            "topic": "w3c/alreq" 
+   	    },
+       "digest:weekly": {
+     	    "repos": ["w3c/alreq"],
+            "topic": "w3c/alreq" 
+   	    }
+        },
    "public-i18n-tibetan@w3.org": {
    	"digest:daily": {
      	    "repos": ["w3c/tlreq"],
