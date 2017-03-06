@@ -52,7 +52,7 @@
         }
     },
     "public-media-capture@w3.org": {
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share"],
             "topic": "Media Capture Task Force specifications"
         },
@@ -79,7 +79,7 @@
         }
     },
     "public-webrtc@w3.org": {
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/webrtc-pc", "w3c/webrtc-stats"],
             "topic": "WebRTC WG specifications"
         },
@@ -134,7 +134,7 @@
         }
     },
     "public-secondscreen@w3.org": {
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/presentation-api", "w3c/remote-playback", "webscreens/openscreenprotocol"],
             "topic": "Second Screen WG/CG repos"
         },
@@ -187,7 +187,7 @@
         "http://www.w3.org/TR/wake-lock/": {
             "events": ["tr.published"]
         },
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/sensors", "w3c/ambient-light", "w3c/accelerometer", "w3c/proximity", "w3c/gyroscope", "w3c/magnetometer", "w3c/battery", "w3c/wake-lock", "w3c/html-media-capture", "w3c/vibration"]
         }
     },
@@ -230,7 +230,7 @@
             ]
     },
     "ishida@w3.org": {
-   	"digest:weekly": [ 
+   	"digest:tuesday": [ 
             { "repos": ["w3c/i18n-activity", "w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/elreq", "w3c/alreq", "w3c/unicode-xml", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq"],
             "topic": "I18n repos" },
             { "repos": ["w3c/html", "w3c/web-annotation", "w3c/csswg-drafts", "w3c/activitystreams", "w3c/webmention", "w3c/micropub", "w3c/activitypub", "w3c/ldn", "w3c/sdw", "w3c/dpub-pagination", "w3c/svgwg", "w3c/ttml2", "w3c/webvtt", "w3c/uievents", "w3c/uievents-key", "w3c/uievents-code", "w3c/browser-payment-api", "w3c/websub", "w3c/remote-playback"],
@@ -243,7 +243,7 @@
      	    "repos": ["w3c/i18n-activity"],
             "topic": "WG INTERNAL review issues" 
    	    },
-   	"digest:weekly": [ 
+   	"digest:tuesday": [ 
             { "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/elreq", "w3c/alreq", "w3c/unicode-xml", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq"],
             "topic": "I18n repos" },
             { "repos": ["w3c/html", "w3c/web-annotation", "w3c/csswg-drafts", "w3c/activitystreams", "w3c/webmention", "w3c/micropub", "w3c/activitypub", "w3c/ldn", "w3c/sdw", "w3c/dpub-pagination", "w3c/svgwg", "w3c/ttml2", "w3c/webvtt", "w3c/uievents", "w3c/uievents-key", "w3c/uievents-code", "w3c/browser-payment-api", "w3c/websub"],
@@ -305,7 +305,7 @@
      	    "repos": ["w3c/alreq"],
             "topic": "w3c/alreq" 
    	    },
-       "digest:weekly": {
+       "digest:tuesday": {
      	    "repos": ["w3c/alreq"],
             "topic": "w3c/alreq" 
    	    }
@@ -511,7 +511,7 @@
         }
     },
     "www-svg@w3.org": {
-         "digest:weekly": {
+         "digest:tuesday": {
             "repos": ["w3c/svgwg", "w3c/fxtf-drafts"]
         }
     },
@@ -566,27 +566,27 @@
         }
     },
     "public-web-perf@w3.org": {
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/hr-time", "w3c/performance-timeline", "w3c/resource-timing", "w3c/navigation-timing", "w3c/user-timing", "w3c/beacon", "w3c/page-visibility", "w3c/preload", "w3c/resource-hints", "w3c/requestidlecallback"]
         }
     },
     "public-html@w3.org": {
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/html", "w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/html-landscape", "w3c/html-reference", "w3c/aria-in-html", "w3c/microdata", "w3c/2dcontext"]
         }
     },
     "www-dom@w3.org": {
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/DOM-Parsing", "w3c/uievents", "w3c/uievents-code", "w3c/uievents-key", "w3c/dom"]
         }
     },
     "public-editing-tf@w3.org": {
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/clipboard-apis", "w3c/editing", "w3c/selection-api", "w3c/input-events"]
         }
     },
     "public-webapps@w3.org": {
-        "digest:weekly": {
+        "digest:tuesday": {
             "repos": ["w3c/webcomponents", "w3c/FileAPI", "w3c/ServiceWorker", "w3c/WebIDL", "w3c/filesystem-api", "w3c/gamepad", "w3c/manifest", "w3c/manifest-csp", "w3c/pointerlock", "w3c/push-api", "w3c/screen-orientation", "w3c/workers", "w3c/websockets", "w3c/webmessaging", "w3c/webstorage", "w3c/eventsource", "w3c/ime-api", "w3c/uievents", "w3c/uievents-code", "w3c/uievents-key", "w3c/eventsource"]
         }
     }
