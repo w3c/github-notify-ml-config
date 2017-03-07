@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "definitions": {
+        "digest": {
+            "type": "object",
+            "properties": {
+                "repos": {"type": "array"},
+                "topic": {"type": "string"},
+                "eventFilter": {
+                    "$ref": "#/definitions/eventfilter"
+                }
+            },
+            "required": ["repos"]
+        },
+        "eventfilter": {
+            "type": "object",
+            "properties": {
+                "label": {"type": "array", "items": { "type": "string"} }
+            }
+        },
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^(issues\\.opened)|(issues\\.closed)|(issue_comment\\.created)|(pull_request\\.opened)|(pull_request\\.closed)|(pull_request\\.labeled)|(issues\\.labeled)|(push)$"
+            }
+        }
+    },
+    "type": "object",
+    "patternProperties": {
+        "@": {
+            "type": "object",
+            "patternProperties": {
+                "^([^:/]*)/([^/]*)": {
+                    "type": "object",
+                    "properties": {
+                        "events": { "$ref": "#/definitions/events" },
+                        "branches": {
+                            "type": "object",
+                            "patternProperties": {
+                                ".*": { "$ref": "#/definitions/events" }
+                            }
+                        },
+                        "eventFilter": { "$ref": "#/definitions/eventfilter" }
+                    },
+                    "additionalProperties": false
+                },
+                "^http://www.w3.org/TR/": {
+                    "type": "object"
+                },
+                "^digest:(daily|monday|tuesday|wednesday|thursday|friday|saturday|sunday)$": {
+                    "anyOf": [
+                        { "$ref": "#/definitions/digest" },
+                        { "type": "array", "items": { "$ref": "#/definitions/digest" } }
+                        ]
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}
