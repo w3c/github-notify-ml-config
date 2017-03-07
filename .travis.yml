@@ -1,3 +1,6 @@
 language: python
+install:
+  - pip install demjson
 script:
   - python -mjson.tool mls.json > /dev/null
+  - jsonlint mls.json
