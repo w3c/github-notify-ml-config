@@ -260,7 +260,7 @@
     "public-digipub-ig@w3.org": {
         "w3c/i18n-discuss": {
             "events": ["issues.labeled", "issues.closed"],
-            "eventFilter": {"label":"digipub"}
+            "eventFilter": {"label":["digipub"]}
         }
     },
     "public-pointer-events@w3.org": {
@@ -279,7 +279,7 @@
     "public-webrtc-testsuite@w3.org": {
        "w3c/web-platform-tests": {
 	   "events": ["pull_request.opened", "pull_request.labeled"],
-	   "eventFilter": {"label": "wg-webrtc"}
+	   "eventFilter": {"label": ["wg-webrtc"]}
 	}
     },
    "public-i18n-cjk@w3.org": {
@@ -490,11 +490,11 @@
     "webrtc-chairs@w3.org": {
         "w3c/webrtc-pc": {
 	    "events": ["pull_request.labeled", "issues.labeled"],
-	    "eventFilter": {"label": "Chair decision needed"}
+	    "eventFilter": {"label": ["Chair decision needed"]}
 	},
         "w3c/mediacapture-main": {
 	    "events": ["pull_request.labeled", "issues.labeled"],
-	    "eventFilter": {"label": "Chair decision needed"}
+	    "eventFilter": {"label": ["Chair decision needed"]}
 	}
     },
     "public-poe-archives@w3.org": {
