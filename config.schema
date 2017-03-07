@@ -17,13 +17,6 @@
             "properties": {
                 "label": {"type": "array", "items": { "type": "string"} }
             }
-        },
-        "events": {
-            "type": "array",
-            "items": {
-                "type": "string",
-                "pattern": "^(issues\\.opened)|(issues\\.closed)|(issue_comment\\.created)|(pull_request\\.opened)|(pull_request\\.closed)|(pull_request\\.labeled)|(issues\\.labeled)|(push)$"
-            }
         }
     },
     "type": "object",
@@ -34,11 +27,23 @@
                 "^([^:/]*)/([^/]*)": {
                     "type": "object",
                     "properties": {
-                        "events": { "$ref": "#/definitions/events" },
+                        "events": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "pattern": "^issues\\.opened|issues\\.closed|issue_comment\\.created|pull_request\\.opened|pull_request\\.closed|pull_request\\.labeled|issues\\.labeled|push$"
+                            }
+                        },
                         "branches": {
                             "type": "object",
                             "patternProperties": {
-                                ".*": { "$ref": "#/definitions/events" }
+                                ".*": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string",
+                                        "pattern": "^push$"
+                                    }
+                                }
                             }
                         },
                         "eventFilter": { "$ref": "#/definitions/eventfilter" }
