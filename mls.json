@@ -213,6 +213,9 @@
     "www-dom@w3.org": {
         "whatwg/dom": {
             "events": ["issues.opened", "pull_request.opened"]
+        },
+        "digest:tuesday": {
+            "repos": ["w3c/DOM-Parsing", "w3c/uievents", "w3c/uievents-code", "w3c/uievents-key", "w3c/dom"]
         }
     },
     "public-web-bluetooth-log@w3.org": {
@@ -576,11 +579,6 @@
     "public-html@w3.org": {
         "digest:tuesday": {
             "repos": ["w3c/html", "w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/html-landscape", "w3c/html-reference", "w3c/aria-in-html", "w3c/microdata", "w3c/2dcontext"]
-        }
-    },
-    "www-dom@w3.org": {
-        "digest:tuesday": {
-            "repos": ["w3c/DOM-Parsing", "w3c/uievents", "w3c/uievents-code", "w3c/uievents-key", "w3c/dom"]
         }
     },
     "public-editing-tf@w3.org": {
