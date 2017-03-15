@@ -173,6 +173,9 @@
         "w3c/orientation-sensor": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         },
+        "w3c/motion-sensors": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
         "w3c/battery": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         },
@@ -191,7 +194,7 @@
             "events": ["tr.published"]
         },
         "digest:tuesday": {
-            "repos": ["w3c/sensors", "w3c/ambient-light", "w3c/accelerometer", "w3c/proximity", "w3c/gyroscope", "w3c/magnetometer", "w3c/orientation-sensor", "w3c/battery", "w3c/wake-lock", "w3c/html-media-capture", "w3c/vibration"]
+            "repos": ["w3c/sensors", "w3c/ambient-light", "w3c/accelerometer", "w3c/proximity", "w3c/gyroscope", "w3c/magnetometer", "w3c/orientation-sensor", "w3c/motion-sensors", "w3c/battery", "w3c/wake-lock", "w3c/html-media-capture", "w3c/vibration"]
         }
     },
     "public-nfc@w3.org": {
