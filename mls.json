@@ -239,7 +239,7 @@
             ]
     },
     "ishida@w3.org": {
-   	"digest:saturday": [ 
+   	"digest:sunday": [ 
             { "repos": ["w3c/i18n-activity", "w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/elreq", "w3c/alreq", "w3c/unicode-xml", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/hlreq"],
             "topic": "I18n repos" },
             { "repos": ["w3c/html", "w3c/web-annotation", "w3c/csswg-drafts", "w3c/activitystreams", "w3c/webmention", "w3c/micropub", "w3c/activitypub", "w3c/ldn", "w3c/sdw", "w3c/dpub-pagination", "w3c/svgwg", "w3c/ttml2", "w3c/webvtt", "w3c/uievents", "w3c/uievents-key", "w3c/uievents-code", "w3c/browser-payment-api", "w3c/websub", "w3c/remote-playback", "w3c/data-shapes"],
