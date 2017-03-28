@@ -216,9 +216,6 @@
     "www-dom@w3.org": {
         "whatwg/dom": {
             "events": ["issues.opened", "pull_request.opened"]
-        },
-        "digest:tuesday": {
-            "repos": ["w3c/DOM-Parsing", "w3c/uievents", "w3c/uievents-code", "w3c/uievents-key", "w3c/dom"]
         }
     },
     "public-web-bluetooth-log@w3.org": {
