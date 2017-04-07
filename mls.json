@@ -323,8 +323,10 @@
   	    }
         },
    "public-i18n-mongolian@w3.org": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-        "branches": { "gh-pages": ["push"] }
+       "w3c/mlreq": {
+           "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+           "branches": { "gh-pages": ["push"] }
+           }
        },
     "public-i18n-archive@w3.org": {
        "w3c/bp-i18n-specdev": {
