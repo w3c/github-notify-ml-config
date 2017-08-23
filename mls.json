@@ -577,7 +577,8 @@
     },
     "public-web-perf@w3.org": {
         "digest:tuesday": {
-            "repos": ["w3c/hr-time", "w3c/performance-timeline", "w3c/resource-timing", "w3c/navigation-timing", "w3c/user-timing", "w3c/beacon", "w3c/page-visibility", "w3c/preload", "w3c/resource-hints", "w3c/requestidlecallback"]
+            "repos": ["w3c/hr-time", "w3c/performance-timeline", "w3c/resource-timing", "w3c/navigation-timing", "w3c/user-timing", "w3c/beacon", "w3c/page-visibility", "w3c/preload", "w3c/resource-hints", "w3c/requestidlecallback", "w3c/device-memory", "w3c/paint-timing", "w3c/longtasks", "w3c/server-timing"],
+            "topic": "Web Performance WG specs"
         }
     },
     "public-webapps-github-weekly@w3.org": {
