@@ -594,7 +594,7 @@
         }
     },
     "public-html@w3.org": {
-        "digest:tuesday": {
+        "digest:monday": {
             "repos": ["w3c/html", "w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/html-landscape", "w3c/html-reference", "w3c/aria-in-html"],
             "topic": "HTML specs"
         }
