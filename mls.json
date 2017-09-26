@@ -583,8 +583,20 @@
     },
     "public-webapps-github-weekly@w3.org": {
         "digest:tuesday": {
-            "repos": ["w3c/webcomponents", "w3c/FileAPI", "w3c/ServiceWorker", "w3c/filesystem-api", "w3c/gamepad", "w3c/manifest", "w3c/manifest-csp", "w3c/pointerlock", "w3c/push-api", "w3c/screen-orientation", "w3c/workers", "w3c/websockets", "w3c/webmessaging", "w3c/webstorage", "w3c/eventsource", "w3c/ime-api", "w3c/uievents", "w3c/uievents-code", "w3c/uievents-key", "w3c/clipboard-apis", "w3c/editing", "w3c/selection-api", "w3c/input-events", "w3c/html", "w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/html-landscape", "w3c/html-reference", "w3c/aria-in-html", "w3c/microdata", "w3c/2dcontext", "w3c/DOM-Parsing", "w3c/dom"],
+            "repos": ["w3c/webcomponents", "w3c/FileAPI", "w3c/filesystem-api", "w3c/gamepad", "w3c/manifest", "w3c/manifest-csp", "w3c/pointerlock", "w3c/push-api", "w3c/screen-orientation", "w3c/workers", "w3c/websockets", "w3c/webmessaging", "w3c/webstorage", "w3c/eventsource", "w3c/ime-api", "w3c/uievents", "w3c/uievents-code", "w3c/uievents-key", "w3c/clipboard-apis", "w3c/editing", "w3c/selection-api", "w3c/input-events", "w3c/microdata", "w3c/2dcontext", "w3c/DOM-Parsing", "w3c/dom"],
             "topic": "Web Platform WG specs"
+        }
+    },
+    "public-webapps-github-weekly@w3.org": {
+        "digest:monday": {
+            "repos": ["w3c/ServiceWorker"],
+            "topic": "Service Worker WG specs"
+        }
+    },
+    "public-html@w3.org": {
+        "digest:tuesday": {
+            "repos": ["w3c/html", "w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/html-landscape", "w3c/html-reference", "w3c/aria-in-html"],
+            "topic": "HTML specs"
         }
     }
 }
