@@ -609,6 +609,12 @@
                 "gh-pages": ["push"]
             }
         },
+        "shexSpec/shexTest": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        },
         "shexSpec/primer": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
             "branches": {
