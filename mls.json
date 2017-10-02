@@ -595,5 +595,25 @@
             "repos": ["w3c/html", "w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/html-landscape", "w3c/html-reference", "w3c/aria-in-html"],
             "topic": "HTML specs"
         }
+    },
+    "public-shex-dev@w3.org": {
+        "shexSpec/spec": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        },
+        "shexSpec/shape-map": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        },
+        "shexSpec/primer": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+        }
     }
 }
