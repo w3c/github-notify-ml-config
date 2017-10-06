@@ -609,16 +609,22 @@
                 "gh-pages": ["push"]
             }
         },
-        "shexSpec/shexTest": {
+        "shexSpec/primer": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
             "branches": {
                 "gh-pages": ["push"]
             }
         },
-        "shexSpec/primer": {
+        "shexSpec/shex": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
             "branches": {
-                "gh-pages": ["push"]
+                "master": ["push"]
+            }
+        },
+        "shexSpec/shexTest": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
+            "branches": {
+                "master": ["push"]
             }
         }
     }
