@@ -80,7 +80,7 @@
     },
     "public-webrtc@w3.org": {
         "digest:tuesday": {
-            "repos": ["w3c/webrtc-pc", "w3c/webrtc-stats"],
+            "repos": ["w3c/webrtc-pc", "w3c/webrtc-stats", "w3c/webrtc-charter"],
             "topic": "WebRTC WG specifications"
         },
         "w3c/webrtc-pc": {
@@ -92,6 +92,12 @@
     },
     "public-webrtc-logs@w3.org": {
         "w3c/webrtc-pc": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/webrtc-charter": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
                 "master": ["push"]
