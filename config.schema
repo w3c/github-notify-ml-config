@@ -53,7 +53,7 @@
                 "^http://www.w3.org/TR/": {
                     "type": "object"
                 },
-                "^digest:(daily|monday|tuesday|wednesday|thursday|friday|saturday|sunday)$": {
+                "^(digest|summary):(daily|monday|tuesday|wednesday|thursday|friday|saturday|sunday|quarterly)$": {
                     "anyOf": [
                         { "$ref": "#/definitions/digest" },
                         { "type": "array", "items": { "$ref": "#/definitions/digest" } }
