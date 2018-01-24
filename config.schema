@@ -4,7 +4,7 @@
         "digest": {
             "type": "object",
             "properties": {
-                "repos": {"type": "array", "items": { "$ref": "#/definitions/repo" } },
+                "repos": {"type": "array", "items": { "$ref": "#/definitions/repo" }, "uniqueItems": true },
                 "topic": {"type": "string"},
                 "eventFilter": {
                     "$ref": "#/definitions/eventfilter"
