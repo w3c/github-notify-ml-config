@@ -1,7 +1,7 @@
 {
   "dom+maintenance@w3.org": {
     "summary:quarterly": {
-      "repos": ["w3c/websub", "w3c/activitypub", "w3c/sdw", "w3c/sdw", "w3c/encrypted-media/", "w3c/data-shapes", "w3c/qtspecs", "w3c/activitystreams", "w3c/micropub", "w3c/ldn", "w3c/qtspecs", "w3c/qtspecs", "w3c/qtspecs", "w3c/qtspecs", "w3c/qtspecs", "w3c/web-annotation", "w3c/web-annotation", "w3c/web-annotation", "w3c/dwbp", "w3c/webcrypto", "w3c/webmention", "w3c/media-source/", "w3c/geolocation-api/", "w3c/csvw", "w3c/csvw", "w3c/csvw", "w3c/csvw", "w3c/qtspecs"],
+      "repos": ["w3c/websub", "w3c/activitypub", "w3c/sdw", "w3c/sdw", "w3c/encrypted-media/", "w3c/data-shapes", "w3c/qtspecs", "w3c/activitystreams", "w3c/micropub", "w3c/ldn", "w3c/qtspecs", "w3c/qtspecs", "w3c/qtspecs", "w3c/qtspecs", "w3c/qtspecs", "w3c/web-annotation", "w3c/web-annotation", "w3c/web-annotation", "w3c/dwbp", "w3c/webcrypto", "w3c/webmention", "w3c/media-source/", "w3c/geolocation-api", "w3c/csvw", "w3c/csvw", "w3c/csvw", "w3c/csvw", "w3c/qtspecs"],
       "topic": "Activity on repos of W3C Recommendation not under an active Working Group"
     }
   },
