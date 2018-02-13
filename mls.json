@@ -561,6 +561,14 @@
             }
        }
     },
+    "public-dxwg-wg@w3.org": {
+       "w3c/dxwg": {
+	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
+            "branches": {
+                "gh-pages": ["push"]
+            }
+       }
+    },
     "public-fxtf-archive@w3.org": {
        "w3c/fxtf-drafts": {
 	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
