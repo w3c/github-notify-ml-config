@@ -531,13 +531,32 @@
         }
     },
     "www-svg@w3.org": {
-         "digest:tuesday": {
-            "repos": ["w3c/svgwg", "w3c/fxtf-drafts"]
-        }
+         "digest:tuesday": [
+		{
+            "repos": ["w3c/svgwg", "w3c/svg-aam", "w3c/fxtf-drafts", "w3c/graphics-aam", "w3c/graphics-aria"]
+        },
+	 	{
+			"repos": ["w3c/web-platform-tests"],
+       		"eventFilter": {"label": ["svg", "svg-aam", "wg-svg", "graphics-aam", "css-transforms", "css-masking", "filter-effects", "geometry", "compositing", "motion", "web-animations"]}
+	 	},
+		{
+			"repos": ["w3c/csswg-drafts"],
+			"eventFilter": {"label": ["SVG", "css-transforms-1", "css-transforms-2", "fx-filter-effects-1", "web-animations-1", "web-animations-2", "css-fill-and-stroke-3", "css-shapes-1", "css-shapes-2"]}
+		}
+		]
     },
     "public-svg-issues@w3.org": {
         "w3c/svgwg": {
-            "events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"]
+            "events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled", "pull_request.closed"],
+			"branches": {
+    	    	"master": ["push"]
+    	    }
+        },
+		"w3c/svg-aam": {
+            "events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled", "pull_request.closed"],
+			"branches": {
+    	    	"master": ["push"]
+    	    }
         }
     },
     "public-webauthn@w3.org": {
