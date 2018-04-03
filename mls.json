@@ -20,6 +20,12 @@
                 "master": ["push"]
             }
         },
+        "w3c/mst-content-hint": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
         "w3c/mediacapture-record": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
@@ -59,10 +65,13 @@
     },
     "public-media-capture@w3.org": {
         "digest:tuesday": {
-            "repos": ["w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share"],
+            "repos": ["w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "mst-content-hint"],
             "topic": "Media Capture Task Force specifications"
         },
         "w3c/mediacapture-main": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mst-content-hint": {
             "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/mediacapture-record": {
