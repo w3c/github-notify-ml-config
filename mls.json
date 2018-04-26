@@ -317,12 +317,15 @@
 	    "topic": "w3c/iip+ilreq"
    	    }
    },
-   "public-i18n-sea@w3.org": {
-   	"digest:daily": {
-     	    "repos": ["w3c/sealreq"],
-	    "topic": "w3c/sealreq"
-   	    }
-   },
+    "public-i18n-sea@w3.org": {
+   	"digest:daily": [ 
+            { 
+            "repos": ["w3c/sealreq", "w3c/csswg-drafts"],
+            "eventFilter": {"label": ["i18n-sealreq","thai","lao","khmer","javanese","myanmar"]},
+            "topic": "SE Asian Layout" 
+            }
+            ]
+    },
    "public-i18n-hebrew@w3.org": {
    	"digest:daily": {
      	    "repos": ["w3c/hlreq"],
