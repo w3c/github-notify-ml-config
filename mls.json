@@ -313,12 +313,6 @@
 	    "topic": "w3c/c-j-k-lreq"
    	    }
    },
-   "public-i18n-indic@w3.org": {
-   	"digest:daily": {
-     	    "repos": ["w3c/ilreq","w3c/iip"],
-	    "topic": "w3c/iip+ilreq"
-   	    }
-   },
     "public-i18n-arabic@w3.org": {
    	"digest:daily": [ 
             { 
@@ -340,6 +334,19 @@
             "topic": "W3C specs (Arabic)",
             "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
             "eventFilter": {"label": ["i18n-alreq"]}
+            }
+            ]
+        },
+    "public-i18n-indic@w3.org": {
+   	"digest:daily": [ 
+            { 
+            "topic": "IIP+ilreq repos",
+            "repos": ["w3c/ilreq","w3c/iip"]
+            },
+            { 
+            "topic": "W3C specs (Indic)",
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "eventFilter": {"label": ["i18n-ilreq"]}
             }
             ]
         },
