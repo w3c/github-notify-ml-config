@@ -319,6 +319,30 @@
 	    "topic": "w3c/iip+ilreq"
    	    }
    },
+    "public-i18n-arabic@w3.org": {
+   	"digest:daily": [ 
+            { 
+            "topic": "alreq repo",
+            "repos": ["w3c/alreq"]
+            },
+            { 
+            "topic": "W3C specs (Arabic)",
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "eventFilter": {"label": ["i18n-alreq"]}
+            }
+            ],
+   	"digest:monday": [ 
+            { 
+            "topic": "alreq repo",
+            "repos": ["w3c/alreq"]
+            },
+            { 
+            "topic": "W3C specs (Arabic)",
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "eventFilter": {"label": ["i18n-alreq"]}
+            }
+            ]
+        },
     "public-i18n-sea@w3.org": {
    	"digest:daily": [ 
             { 
@@ -344,16 +368,6 @@
  	    "topic": "w3c/elreq"
   	    }
    },
-   "public-i18n-arabic@w3.org": {
-       "digest:daily": {
-     	    "repos": ["w3c/alreq"],
-            "topic": "w3c/alreq" 
-   	    },
-       "digest:monday": {
-     	    "repos": ["w3c/alreq"],
-            "topic": "w3c/alreq" 
-   	    }
-        },
    "public-i18n-tibetan@w3.org": {
    	"digest:daily": {
      	    "repos": ["w3c/tlreq"],
