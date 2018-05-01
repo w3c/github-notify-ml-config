@@ -378,7 +378,7 @@
             },
             { 
             "topic": "W3C specs (Ethiopic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-elreq"]}
             }
             ]
@@ -391,7 +391,7 @@
             },
             { 
             "topic": "W3C specs (Hebrew)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-hlreq"]}
             }
             ]
@@ -404,7 +404,7 @@
             },
             { 
             "topic": "W3C specs (Tibetan)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-tlreq"]}
             }
             ]
@@ -417,7 +417,7 @@
             },
             { 
             "topic": "W3C specs (Mongolian)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-mlreq"]}
             }
             ]
