@@ -254,7 +254,7 @@
     "www-international@w3.org": {
    	"digest:daily": [ 
             { 
-            "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/hlreq", "w3c/sealreq", "w3c/string-meta"],
+            "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/hlreq", "w3c/sealreq", "w3c/string-meta", "i18n-issues"],
             "topic": "I18n repos" 
 	    },
             { "repos": ["w3c/html", "w3c/web-annotation", "w3c/csswg-drafts", "w3c/activitystreams", "w3c/webmention", "w3c/micropub", "w3c/activitypub", "w3c/ldn", "w3c/sdw", "w3c/dpub-pagination", "w3c/svgwg", "w3c/ttml2", "w3c/webvtt", "w3c/uievents", "w3c/uievents-key", "w3c/uievents-code", "w3c/browser-payment-api", "w3c/websub", "w3c/remote-playback", "w3c/data-shapes", "w3c/microdata", "w3c/push-api", "w3c/wcag21", "w3c/webauthn", "w3c/IntersectionObserver", "whatwg/html", "whatwg/url", "w3c/dnt", "w3c/manifest", "w3c/payment-request", "w3c/csvw", "w3c/findtext", "w3c/IndexedDB", "w3c/input-events", "w3c/low-vision-a11y-tf", "w3c/mediacapture-main", "w3c/presentation-api", "w3c/imsc", "w3c/automotive", "w3c/webpayments-ig", "WICG/web-share"],
@@ -268,7 +268,7 @@
             "topic": "WG INTERNAL review issues" 
    	    },
    	"digest:sunday": [ 
-            { "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/hlreq", "w3c/sealreq", "w3c/string-meta"],
+            { "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/hlreq", "w3c/sealreq", "w3c/string-meta", "i18n-issues"],
             "topic": "I18n repos" },
             { "repos": ["w3c/html", "w3c/web-annotation", "w3c/csswg-drafts", "w3c/activitystreams", "w3c/webmention", "w3c/micropub", "w3c/activitypub", "w3c/ldn", "w3c/sdw", "w3c/dpub-pagination", "w3c/svgwg", "w3c/ttml2", "w3c/webvtt", "w3c/uievents", "w3c/uievents-key", "w3c/uievents-code", "w3c/browser-payment-api", "w3c/websub", "w3c/remote-playback", "w3c/data-shapes", "w3c/microdata", "w3c/imsc", "w3c/push-api", "w3c/wcag21", "w3c/webauthn", "w3c/IntersectionObserver", "whatwg/html", "whatwg/url", "w3c/dnt", "w3c/manifest", "w3c/payment-request", "w3c/csvw", "w3c/findtext", "w3c/IndexedDB", "w3c/input-events", "w3c/low-vision-a11y-tf", "w3c/mediacapture-main", "w3c/presentation-api", "w3c/automotive", "w3c/webpayments-ig", "WICG/web-share"],
             "eventFilter": {"label": ["i18n","i18n-comment","i18n-tracking","HR:i18n-comment","HR:i18n-tracking","i18n-review"]},
@@ -315,7 +315,7 @@
             },
             { 
             "topic": "W3C specs (Arabic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-alreq"]}
             }
             ],
@@ -326,7 +326,7 @@
             },
             { 
             "topic": "W3C specs (Arabic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-alreq"]}
             }
             ]
@@ -339,7 +339,7 @@
             },
             { 
             "topic": "W3C specs (CJK)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-clreq", "i18n-jlreq", "i18n-klreq"]}
             }
             ]
@@ -352,7 +352,7 @@
             },
             { 
             "topic": "W3C specs (Indic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-ilreq"]}
             }
             ]
@@ -365,7 +365,7 @@
             },
             { 
             "topic": "W3C specs (SEA)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-sealreq"]}
             }
             ]
@@ -378,7 +378,7 @@
             },
             { 
             "topic": "W3C specs (Ethiopic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-elreq"]}
             }
             ]
@@ -391,7 +391,7 @@
             },
             { 
             "topic": "W3C specs (Hebrew)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-hlreq"]}
             }
             ]
@@ -404,7 +404,7 @@
             },
             { 
             "topic": "W3C specs (Tibetan)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-tlreq"]}
             }
             ]
@@ -417,7 +417,7 @@
             },
             { 
             "topic": "W3C specs (Mongolian)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2", "i18n-issues"],
             "eventFilter": {"label": ["i18n-mlreq"]}
             }
             ]
