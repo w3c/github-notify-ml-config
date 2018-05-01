@@ -315,7 +315,7 @@
             },
             { 
             "topic": "W3C specs (Arabic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-alreq"]}
             }
             ],
@@ -326,7 +326,7 @@
             },
             { 
             "topic": "W3C specs (Arabic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-alreq"]}
             }
             ]
@@ -339,7 +339,7 @@
             },
             { 
             "topic": "W3C specs (CJK)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-clreq", "i18n-jlreq", "i18n-klreq"]}
             }
             ]
@@ -352,7 +352,7 @@
             },
             { 
             "topic": "W3C specs (Indic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-ilreq"]}
             }
             ]
@@ -365,7 +365,7 @@
             },
             { 
             "topic": "W3C specs (SEA)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml"],
+            "repos": ["w3c/csswg-drafts", "w3c/html", "w3c/ttml2"],
             "eventFilter": {"label": ["i18n-sealreq"]}
             }
             ]
