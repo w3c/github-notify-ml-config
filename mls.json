@@ -569,8 +569,27 @@
      }
  },
  "public-web-and-tv@w3.org": {
-     "w3c/Web-and-TV-IG": {
-           "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"]
+     "w3c/media-and-entertainment": {
+        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
+        "branches": {
+            "master": ["push"]
+        }
+     },
+     "w3c/me-media-timed-events": {
+        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
+        "branches": {
+            "master": ["push"]
+        }
+     },
+     "w3c/me-cloud-browser": {
+        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
+        "branches": {
+            "master": ["push"]
+        }
+     },
+     "digest:tuesday": {
+        "repos": ["w3c/media-and-entertainment", "w3c/me-media-timed-events", "w3c/me-cloud-browser"],
+        "topic": "Media & Entertainment IG repos"
      }
  },
     "public-music-notation-contrib@w3.org": {
