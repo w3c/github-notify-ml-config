@@ -775,5 +775,41 @@
                 "gh-pages": ["push"]
             }
         }
+    },
+    "team-webandtv-chairs@w3.org": {
+        "digest:monday": [
+            {
+                "repos": ["wicg/media-capabilities", "wicg/mediasession", "wicg/picture-in-picture", "wicg/shape-detection-api", "wicg/encrypted-media-encryption-scheme", "wicg/hdcp-detection"],
+                "topic": "Media related proposals in WICG"
+            },
+            {
+                "repos": ["w3c/ttml1", "w3c/ttml2", "w3c/webvtt", "w3c/ttml-webvtt-mapping", "w3c/tt-profile-registry", "w3c/imsc", "w3c/imsc-vnext-reqs", "w3c/png-hdr-pq"],
+                "topic": "Timed Text WG"
+            },
+            {
+                "repos": ["w3c/presentation-api", "w3c/remote-playback", "webscreens/openscreenprotocol"],
+                "topic": "Second Screen WG/CG"
+            },
+            {
+                "repos": ["WebAudio/web-audio-api", "WebAudio/web-midi-api"],
+                "topic": "Web Audio WG"
+            },
+            {
+                "repos": ["w3c/webmediaapi", "w3c/webmediaguidelines", "w3c/webmediaporting"],
+                "topic": "Web Media API CG"
+            },
+            {
+                "repos": ["immersive-web/webxr", "immersive-web/proposals"],
+                "topic": "Immersive Web CG"
+            },
+            {
+                "repos": ["w3c/ColorWeb-CG"],
+                "topic": "Color on the Web CG"
+            },
+            {
+                "repos": ["webtiming/timingobject"],
+                "topic": "Multi-Device Timing CG"
+            }
+        ]
     }
 }
