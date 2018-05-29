@@ -777,7 +777,7 @@
         }
     },
     "team-webandtv-chairs@w3.org": {
-        "digest:monday": [
+        "digest:wednesday": [
             {
                 "repos": ["wicg/media-capabilities", "wicg/mediasession", "wicg/picture-in-picture", "wicg/shape-detection-api", "wicg/encrypted-media-encryption-scheme", "wicg/hdcp-detection"],
                 "topic": "Media related proposals in WICG"
