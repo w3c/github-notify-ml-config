@@ -95,13 +95,16 @@
     },
     "public-webrtc@w3.org": {
         "digest:tuesday": {
-            "repos": ["w3c/webrtc-pc", "w3c/webrtc-stats", "w3c/webrtc-charter"],
+          "repos": ["w3c/webrtc-pc", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-dscp-exp", "w3c/webrtc-quic", "w3c/webrtc-ice"],
             "topic": "WebRTC WG specifications"
         },
         "w3c/webrtc-pc": {
             "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/webrtc-stats": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/webrtc-dscp-exp": {
             "events": ["issues.opened", "pull_request.opened"]
         }
     },
@@ -123,7 +126,25 @@
             "branches": {
                 "master": ["push"]
             }
+        },
+      "w3c/webrtc-dscp-exp": {
+        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+        "branches": {
+          "master": ["push"]
         }
+      },
+      "w3c/webrtc-quic": {
+        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+        "branches": {
+          "master": ["push"]
+        }
+      },
+      "w3c/webrtc-ice": {
+        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+        "branches": {
+          "master": ["push"]
+        }
+      }
     },
     "public-annotation@w3.org": {
         "w3c/web-annotation": {
