@@ -61,12 +61,6 @@
             "branches": {
                 "master": ["push"]
             }
-        },
-        "w3c/mst-content-hint": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
         }
     },
     "public-media-capture@w3.org": {
@@ -96,9 +90,6 @@
             "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/mediacapture-screen-share": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mst-content-hint": {
             "events": ["issues.opened", "pull_request.opened"]
         }
     },
