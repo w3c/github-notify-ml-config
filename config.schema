@@ -1,16 +1,30 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "definitions": {
+      "repolist": {
+        "type": "array", "items": { "$ref": "#/definitions/repo" }, "uniqueItems": true },
         "digest": {
             "type": "object",
             "properties": {
-                "repos": {"type": "array", "items": { "$ref": "#/definitions/repo" }, "uniqueItems": true },
-                "topic": {"type": "string"},
-                "eventFilter": {
-                    "$ref": "#/definitions/eventfilter"
+              "topic": {"type": "string"},
+              "repos": { "$ref": "#/definitions/repolist"},
+              "eventFilter": { "$ref": "#/definitions/eventfilter" },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "repos": { "$ref": "#/definitions/repolist" },
+                    "eventFilter": { "$ref": "#/definitions/eventfilter" }
+                  },
+                  "required": ["repos"]
                 }
+              }
             },
-            "required": ["repos"]
+          "oneOf": [
+            { "required": ["repos"] },
+            { "required": ["sources"] }
+          ]
         },
         "eventfilter": {
             "type": "object",
