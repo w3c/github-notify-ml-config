@@ -366,33 +366,39 @@
      }
    ]
   },
-"public-i18n-indic@w3.org": {
-   	"digest:daily": [ 
-            { 
-            "topic": "IIP+ilreq repos",
-            "repos": ["w3c/ilreq","w3c/iip"]
-            },
-            { 
-            "topic": "W3C specs (Indic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-            "eventFilter": {"label": ["i18n-ilreq"]}
-            }
-            ]
-        },
-    "public-i18n-sea@w3.org": {
-   	"digest:daily": [ 
-            { 
-            "topic": "SE Asian repo",
-            "repos": ["w3c/sealreq"]
-            },
-            { 
-            "topic": "W3C specs (SEA)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-            "eventFilter": {"label": ["i18n-sealreq"]}
-            }
-            ]
-        },
-    "public-i18n-ethiopic@w3.org": {
+ "public-i18n-indic@w3.org": {
+   "digest:daily": [
+     {
+       "topic": "indiclreq", 
+       "sources": [
+           {
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "eventFilter": {"label": ["i18n-ilreq"]}
+           },
+           {
+             "repos": ["w3c/ilreq", "w3c/iip"]
+           }
+         ]
+     }
+   ]
+  },
+ "public-i18n-sea@w3.org": {
+   "digest:daily": [
+     {
+       "topic": "sealreq", 
+       "sources": [
+           {
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "eventFilter": {"label": ["i18n-sealreq"]}
+           },
+           {
+             "repos": ["w3c/sealreq"]
+           }
+         ]
+     }
+   ]
+  },
+  "public-i18n-ethiopic@w3.org": {
    	"digest:daily": [ 
             { 
             "topic": "elreq repo",
