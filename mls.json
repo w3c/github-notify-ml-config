@@ -398,58 +398,70 @@
      }
    ]
   },
-  "public-i18n-ethiopic@w3.org": {
-   	"digest:daily": [ 
-            { 
-            "topic": "elreq repo",
-            "repos": ["w3c/elreq"]
-            },
-            { 
-            "topic": "W3C specs (Ethiopic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-            "eventFilter": {"label": ["i18n-elreq"]}
-            }
-            ]
-        },
-    "public-i18n-hebrew@w3.org": {
-   	"digest:daily": [ 
-            { 
-            "topic": "hlreq repo",
-            "repos": ["w3c/hlreq"]
-            },
-            { 
-            "topic": "W3C specs (Hebrew)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-            "eventFilter": {"label": ["i18n-hlreq"]}
-            }
-            ]
-        },
-    "public-i18n-tibetan@w3.org": {
-   	"digest:daily": [ 
-            { 
-            "topic": "tlreq repo",
-            "repos": ["w3c/tlreq"]
-            },
-            { 
-            "topic": "W3C specs (Tibetan)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-            "eventFilter": {"label": ["i18n-tlreq"]}
-            }
-            ]
-        },
-    "public-i18n-mongolian@w3.org": {
-   	"digest:daily": [ 
-            { 
-            "topic": "mlreq repo",
-            "repos": ["w3c/mlreq"]
-            },
-            { 
-            "topic": "W3C specs (Mongolian)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-            "eventFilter": {"label": ["i18n-mlreq"]}
-            }
-            ]
-        },
+"public-i18n-ethiopic@w3.org": {
+   "digest:daily": [
+     {
+       "topic": "elreq", 
+       "sources": [
+           {
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "eventFilter": {"label": ["i18n-elreq"]}
+           },
+           {
+             "repos": ["w3c/elreq"]
+           }
+         ]
+     }
+   ]
+  },
+"public-i18n-hebrew@w3.org": {
+   "digest:daily": [
+     {
+       "topic": "hlreq", 
+       "sources": [
+           {
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "eventFilter": {"label": ["i18n-hlreq"]}
+           },
+           {
+             "repos": ["w3c/hlreq"]
+           }
+         ]
+     }
+   ]
+  },
+"public-i18n-tibetan@w3.org": {
+   "digest:daily": [
+     {
+       "topic": "tlreq", 
+       "sources": [
+           {
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "eventFilter": {"label": ["i18n-tlreq"]}
+           },
+           {
+             "repos": ["w3c/tlreq"]
+           }
+         ]
+     }
+   ]
+  },
+"public-i18n-mongolian@w3.org": {
+   "digest:daily": [
+     {
+       "topic": "mlreq", 
+       "sources": [
+           {
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "eventFilter": {"label": ["i18n-mlreq"]}
+           },
+           {
+             "repos": ["w3c/mlreq"]
+           }
+         ]
+     }
+   ]
+  },
     "public-i18n-archive@w3.org": {
        "w3c/bp-i18n-specdev": {
 	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
