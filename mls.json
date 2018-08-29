@@ -334,30 +334,22 @@
 	   "eventFilter": {"label": ["wg-webrtc"]}
 	}
     },
-    "public-i18n-arabic@w3.org": {
-   	"digest:daily": [ 
-            { 
-            "topic": "alreq repo",
-            "repos": ["w3c/alreq"]
-            },
-            { 
-            "topic": "W3C specs (Arabic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-            "eventFilter": {"label": ["i18n-alreq"]}
-            }
-            ],
-   	"digest:monday": [ 
-            { 
-            "topic": "alreq repo",
-            "repos": ["w3c/alreq"]
-            },
-            { 
-            "topic": "W3C specs (Arabic)",
-            "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-            "eventFilter": {"label": ["i18n-alreq"]}
-            }
-            ]
-        },
+"public-i18n-arabic@w3.org": {
+   "digest:daily": [
+     {
+       "topic": "alreq", 
+       "sources": [
+           {
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "eventFilter": {"label": ["i18n-alreq"]}
+           },
+           {
+             "repos": ["w3c/alreq"]
+           }
+         ]
+     }
+   ]
+  },
 "public-i18n-cjk@w3.org": {
    "digest:daily": [
      {
