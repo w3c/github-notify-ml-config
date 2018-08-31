@@ -13,98 +13,48 @@
             }
         }
     },
-    "public-media-capture-logs@w3.org": {
-        "w3c/mediacapture-main": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mst-content-hint": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-record": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-image": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-depth": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-fromelement": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-output": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-screen-share": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        }
-    },
-    "public-media-capture@w3.org": {
-        "digest:tuesday": {
-            "repos": ["w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint"],
-            "topic": "Media Capture Task Force specifications"
-        },
-        "w3c/mediacapture-main": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mst-content-hint": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-record": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-image": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-depth": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-fromelement": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-output": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-screen-share": {
-            "events": ["issues.opened", "pull_request.opened"]
-        }
-    },
     "public-webrtc@w3.org": {
         "digest:tuesday": {
-          "repos": ["w3c/webrtc-pc", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-dscp-exp", "w3c/webrtc-quic", "w3c/webrtc-ice"],
+          "repos": ["w3c/webrtc-pc", "w3c/webrtc-identity", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-dscp-exp", "w3c/webrtc-quic", "w3c/webrtc-ice", "w3c/webrtc-nv-use-cases" ,"w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint"],
             "topic": "WebRTC WG specifications"
         },
         "w3c/webrtc-pc": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/webrtc-identity": {
             "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/webrtc-stats": {
             "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/webrtc-dscp-exp": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/webrtc-nv-use-cases": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mediacapture-main": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mst-content-hint": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mediacapture-record": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mediacapture-image": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mediacapture-depth": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mediacapture-fromelement": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mediacapture-output": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/mediacapture-screen-share": {
             "events": ["issues.opened", "pull_request.opened"]
         }
     },
@@ -115,6 +65,12 @@
                 "master": ["push"]
             }
         },
+      "w3c/webrtc-identity": {
+        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+        "branches": {
+          "master": ["push"]
+        }
+      },
         "w3c/webrtc-charter": {
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
             "branches": {
@@ -144,7 +100,55 @@
         "branches": {
           "master": ["push"]
         }
-      }
+      },
+        "w3c/mediacapture-main": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mst-content-hint": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-record": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-image": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-depth": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-fromelement": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-output": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/mediacapture-screen-share": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        }
     },
     "public-annotation@w3.org": {
         "w3c/web-annotation": {
