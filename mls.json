@@ -644,10 +644,7 @@
             }
         },
         "w3c/smufl": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created"]
         }
     },
     "webrtc-chairs@w3.org": {
