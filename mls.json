@@ -830,5 +830,13 @@
                 "topic": "Media related proposals in Community Groups"
             }
         ]
-    }
+    },
+  "trevor@trevor.smith.name": {
+    "digest:monday": [
+      {
+        "repos": ["immersive-web/webxr", "immersive-web/privacy-and-security", "immersive-web/proposals", "immersive-web/geo-alignment", "immersive-web/hit-test", "immersive-web/anchors"],
+        "topic": "Immersive Web activity"
+      }
+      ]
+  }
 }
