@@ -773,7 +773,7 @@
     },
     "public-webappsec@w3.org": {
         "digest:monday": {
-            "repos": ["w3c/webappsec", "w3c/webappsec-subresource-integrity", "w3c/webappsec-csp", "w3c/webappsec-mixed-content", "w3c/webappsec-upgrade-insecure-requests", "w3c/webappsec-credential-management", "w3c/permissions", "w3c/webappsec-referrer-policy", "w3c/webappsec-secure-contexts", "w3c/webappsec-clear-site-data", "w3c/webappsec-cowl", "w3c/webappsec-epr", "w3c/webappsec-suborigins"],
+            "repos": ["w3c/webappsec", "w3c/webappsec-subresource-integrity", "w3c/webappsec-csp", "w3c/webappsec-mixed-content", "w3c/webappsec-upgrade-insecure-requests", "w3c/webappsec-credential-management", "w3c/permissions", "w3c/webappsec-referrer-policy", "w3c/webappsec-secure-contexts", "w3c/webappsec-clear-site-data", "w3c/webappsec-cowl", "w3c/webappsec-epr", "w3c/webappsec-suborigins", "w3c/webappsec-cspee"],
             "topic": "WebAppSec specs"
          }
     },
