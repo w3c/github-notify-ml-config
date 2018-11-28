@@ -21,6 +21,7 @@
                 }
               }
             },
+          "additionalProperties": false,
           "oneOf": [
             { "required": ["repos"] },
             { "required": ["sources"] }
@@ -29,8 +30,10 @@
         "eventfilter": {
             "type": "object",
             "properties": {
-                "label": {"type": "array", "items": { "type": "string"} }
-            }
+                "label": {"type": "array", "items": { "type": "string"} },
+                "notlabel": {"type": "array", "items": { "type": "string"} }
+            },
+            "additionalProperties": false
         },
         "repo": {
             "type": "string",
