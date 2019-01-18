@@ -866,8 +866,7 @@
     ]
  },
  "public-transition-announce@w3.org": {
-    "w3c/sdw": {
-        "repos": ["w3c/transitions"],
+    "w3c/transitions": {
         "events": ["issues.opened",  "issues.closed", "issue_comment.created"],
         "eventFilter": { "label": ["Awaiting Director", "Entering FPWD", "Entering FPNote", "Entering CR", "Updating CR", "Entering PR"]  }
     }
