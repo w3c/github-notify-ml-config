@@ -347,7 +347,7 @@
        "topic": "alreq", 
        "sources": [
            {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues", "w3c/svgwg"],
              "eventFilter": {"label": ["i18n-alreq"]}
            },
            {
@@ -459,7 +459,7 @@
        "topic": "mlreq", 
        "sources": [
            {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues", "w3c/svgwg"],
              "eventFilter": {"label": ["i18n-mlreq"]}
            },
            {
