@@ -635,8 +635,14 @@
             "master": ["push"]
         }
      },
+     "w3c/me-vision": {
+        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
+        "branches": {
+            "master": ["push"]
+        }
+     },
      "digest:tuesday": {
-        "repos": ["w3c/media-and-entertainment", "w3c/me-media-timed-events", "w3c/me-cloud-browser"],
+        "repos": ["w3c/media-and-entertainment", "w3c/me-media-timed-events", "w3c/me-cloud-browser", "w3c/me-vision"],
         "topic": "Media & Entertainment IG repos"
      }
  },
