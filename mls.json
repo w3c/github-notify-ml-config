@@ -876,5 +876,10 @@
         "events": ["issues.opened", "issue_comment.created", "issues.labeled"],
         "eventFilter": { "label": ["Entering FPWD", "Entering FPNote", "Entering CR", "Updating CR", "Entering PR"]  }
     }
- }
+  },
+  "dom@w3.org": {
+    "regexp:w3c/.*": {
+      "events": ["repository.created", "repository.deleted"]
+    }
+  }
 }
