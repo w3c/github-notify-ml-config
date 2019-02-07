@@ -45,14 +45,14 @@
         "@": {
             "type": "object",
             "patternProperties": {
-                "^([^:/]*)/([^/]*)": {
+                "^(regexp:)?([^:/]*)/([^/]*)": {
                     "type": "object",
                     "properties": {
                         "events": {
                             "type": "array",
                             "items": {
                                 "type": "string",
-                                "pattern": "^issues\\.opened|issues\\.closed|issue_comment\\.created|pull_request\\.opened|pull_request\\.closed|pull_request\\.labeled|issues\\.labeled|push$"
+                                "pattern": "^issues\\.opened|issues\\.closed|issue_comment\\.created|pull_request\\.opened|pull_request\\.closed|pull_request\\.labeled|issues\\.labeled|push|repository\\.created|repository\\.deleted$"
                             }
                         },
                         "branches": {
