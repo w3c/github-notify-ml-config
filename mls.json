@@ -877,7 +877,7 @@
         "eventFilter": { "label": ["Entering FPWD", "Entering FPNote", "Entering CR", "Updating CR", "Entering PR"]  }
     }
   },
-  "dom@w3.org": {
+  "plh@w3.org, w3t-archive@w3.org": {
     "regexp:w3c/.*": {
       "events": ["repository.created", "repository.deleted"]
     }
