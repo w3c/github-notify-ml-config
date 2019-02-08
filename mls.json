@@ -864,16 +864,14 @@
     ]
   },
   "chairs@w3.org": {
-    "digest:daily": [
-         {
-          "repos": ["w3c/transitions"],
-          "eventFilter": { "label": ["Entering FPWD", "Entering FPNote", "Entering CR", "Updating CR", "Entering PR"]  }
-        }
-    ]
+    "w3c/transitions": {
+        "events": ["issues.opened"],
+        "eventFilter": { "label": ["Entering FPWD", "Entering FPNote", "Entering CR", "Updating CR", "Entering PR"]  }
+    }
   },
   "public-transition-announce@w3.org": {
     "w3c/transitions": {
-        "events": ["issues.opened", "issue_comment.created", "issues.labeled"],
+        "events": ["issues.opened"],
         "eventFilter": { "label": ["Entering FPWD", "Entering FPNote", "Entering CR", "Updating CR", "Entering PR"]  }
     }
   },
