@@ -16,7 +16,7 @@
     },
     "public-webrtc@w3.org": {
         "digest:tuesday": {
-          "repos": ["w3c/webrtc-pc", "w3c/webrtc-identity", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-dscp-exp", "w3c/webrtc-quic", "w3c/webrtc-ice", "w3c/webrtc-nv-use-cases" ,"w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint"],
+          "repos": ["w3c/webrtc-pc", "w3c/webrtc-identity", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-dscp-exp", "w3c/webrtc-ice", "w3c/webrtc-nv-use-cases" ,"w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint"],
             "topic": "WebRTC WG specifications"
         },
         "w3c/webrtc-pc": {
@@ -90,12 +90,6 @@
           "master": ["push"]
         }
       },
-      "w3c/webrtc-quic": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-        "branches": {
-          "master": ["push"]
-        }
-      },
       "w3c/webrtc-ice": {
         "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
         "branches": {
@@ -162,7 +156,10 @@
     "public-ortc@w3.org": {
         "w3c/ortc": {
             "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
-        }
+        },
+      "w3c/webrtc-quic": {
+        "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+      }
     },
     "public-html-media@w3.org": {
         "w3c/media-source": {
