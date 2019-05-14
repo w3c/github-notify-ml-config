@@ -908,5 +908,15 @@
     "regexp:w3c/.*": {
       "events": ["repository.created", "repository.deleted"]
     }
+  },
+  "team-horizontal@w3.org": {
+    "w3c/strat": {
+      "events": ["issues.labeled"],
+      "eventFilter": { "label": ["Horizontal review requested", "Accessibility review completed", "Internationalization review completed", "Security review completed", "Privacy review completed", "Device independence review completed", "Architecture review completed"]}
+    },
+    "w3c/team-strat": {
+      "events": ["issues.labeled"],
+      "eventFilter": { "label": ["Horizontal review requested", "Accessibility review completed", "Internationalization review completed", "Security review completed", "Privacy review completed", "Device independence review completed", "Architecture review completed"]}
+    }
   }
 }
