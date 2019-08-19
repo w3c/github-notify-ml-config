@@ -918,5 +918,13 @@
       "events": ["issues.labeled"],
       "eventFilter": { "label": ["Horizontal review requested", "Accessibility review completed", "Internationalization review completed", "Security review completed", "Privacy review completed", "Device independence review completed", "Architecture review completed"]}
     }
+  },
+  "public-design-tokens-log@w3.org": {
+    "design-tokens/community-group": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
+            "branches": {
+              "master": ["push"]
+            }
+    }
   }
 }
