@@ -928,7 +928,7 @@
     }
   },
   "member-ab-issue-archive@w3.org": {
-    "w3c/ab-memberonly": {
+    "w3c/AB-memberonly": {
       "events": ["issues.opened", "issues.closed", "issue_comment.created"]
     }
   }
