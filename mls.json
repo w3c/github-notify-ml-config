@@ -333,12 +333,6 @@
             "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"]
         }
     },
-    "public-webrtc-testsuite@w3.org": {
-       "w3c/web-platform-tests": {
-	   "events": ["pull_request.opened", "pull_request.labeled"],
-	   "eventFilter": {"label": ["wg-webrtc"]}
-	}
-    },
 "public-i18n-arabic@w3.org": {
    "digest:daily": [
      {
