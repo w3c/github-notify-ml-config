@@ -670,14 +670,20 @@
      }
  },
     "public-music-notation-contrib@w3.org": {
-        "w3c/musicxml": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+        "w3c/mnx": {
+            "branches": {
+                "master": ["push"]
+            }
+        },
+       "w3c/musicxml": {
             "branches": {
                 "gh-pages": ["push"]
             }
         },
         "w3c/smufl": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created"]
+            "branches": {
+                "gh-pages": ["push"]
+            }
         }
     },
     "webrtc-chairs@w3.org": {
