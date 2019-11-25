@@ -645,6 +645,9 @@
      },
      "w3c/tt-profile-registry": {
 	   "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
+     },
+     "w3c/adpt": {
+	   "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
      }
  },
  "public-web-and-tv@w3.org": {
