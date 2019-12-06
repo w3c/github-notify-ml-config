@@ -8,6 +8,7 @@
             "properties": {
               "topic": {"type": "string"},
               "repos": { "$ref": "#/definitions/repolist"},
+              "repoList": { "type": "string", "format": "uri"},
               "eventFilter": { "$ref": "#/definitions/eventfilter" },
               "sources": {
                 "type": "array",
@@ -23,7 +24,7 @@
             },
           "additionalProperties": false,
           "oneOf": [
-            { "required": ["repos"] },
+            { "anyOf": [ { "required": ["repos"] }, { "required": ["repoList"] } ] },
             { "required": ["sources"] }
           ]
         },
