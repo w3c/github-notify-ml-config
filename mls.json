@@ -15,11 +15,22 @@
         }
     },
     "public-webrtc@w3.org": {
-        "digest:tuesday": {
-          "repos": ["w3c/webrtc-pc", "w3c/webrtc-identity", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-dscp-exp", "w3c/webrtc-ice", "w3c/webrtc-nv-use-cases" ,"w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint"],
-            "topic": "WebRTC WG specifications"
-        },
+      "digest:tuesday": {
+        "topic": "WebRTC WG specifications",
+        "sources": [
+          {
+            "repos": ["w3c/webrtc-pc", "w3c/webrtc-identity", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-priority", "w3c/webrtc-ice", "w3c/webrtc-nv-use-cases" ,"w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint", "w3c/webrtc-svc", "w3c/webrtc-extensions", "w3c/webrtc-provisional-stats"]
+          },
+          {
+            "repos": ["web-platform-tests/wpt"],
+            "eventFilter": {"label": ["wg-webrtc"]}
+          }
+        ]
+      },
         "w3c/webrtc-pc": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/webrtc-extensions": {
             "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/webrtc-identity": {
@@ -28,7 +39,13 @@
         "w3c/webrtc-stats": {
             "events": ["issues.opened", "pull_request.opened"]
         },
-        "w3c/webrtc-dscp-exp": {
+        "w3c/webrtc-provisional-stats": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/webrtc-priority": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
+        "w3c/webrtc-svc": {
             "events": ["issues.opened", "pull_request.opened"]
         },
         "w3c/webrtc-nv-use-cases": {
@@ -66,6 +83,18 @@
                 "master": ["push"]
             }
         },
+        "w3c/webrtc-extensions": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+        "w3c/webrtc-svc": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
       "w3c/webrtc-identity": {
         "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
         "branches": {
@@ -84,7 +113,13 @@
                 "master": ["push"]
             }
         },
-      "w3c/webrtc-dscp-exp": {
+        "w3c/webrtc-provisional-stats": {
+            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
+            "branches": {
+                "master": ["push"]
+            }
+        },
+      "w3c/webrtc-priority": {
         "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
         "branches": {
           "master": ["push"]
