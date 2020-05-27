@@ -985,5 +985,10 @@
     "w3c/AB-memberonly": {
       "events": ["issues.opened", "issues.closed", "issue_comment.created"]
     }
+  },
+  "dom@w3.org": {
+    "regexp:w3c/.*": {
+      "events": ["repository.transferred"]
+    }
   }
 }
