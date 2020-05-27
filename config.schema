@@ -53,7 +53,7 @@
                             "type": "array",
                             "items": {
                                 "type": "string",
-                                "pattern": "^issues\\.opened|issues\\.closed|issue_comment\\.created|pull_request\\.opened|pull_request\\.closed|pull_request\\.labeled|issues\\.labeled|push|repository\\.created|repository\\.deleted$"
+                                "pattern": "^issues\\.opened|issues\\.closed|issue_comment\\.created|pull_request\\.opened|pull_request\\.closed|pull_request\\.labeled|issues\\.labeled|push|repository\\.created|repository\\.transferred|repository\\.deleted$"
                             }
                         },
                         "branches": {
