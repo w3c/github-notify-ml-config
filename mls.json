@@ -986,7 +986,7 @@
       "events": ["issues.opened", "issues.closed", "issue_comment.created"]
     }
   },
-  "psnyder@brave.com": {
+  "public-review-announce@w3.org": {
     "regexp:WICG/.*": {
       "events": ["repository.transferred", "repository.created"]
     }
