@@ -820,7 +820,12 @@
     "public-webauthn@w3.org": {
     	"w3c/webauthn": {
     		"events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened",  "pull_request.closed", "push"]
-    	}
+    	},
+        "digest:tuesday": {
+            "repos": ["w3c/webauthn" ],
+            "topic": "WebAuthn digest"
+         }
+
     },
     "public-css-archive@w3.org": {
        "w3c/csswg-drafts": {
