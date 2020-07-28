@@ -823,7 +823,7 @@
     	},
         "digest:tuesday": {
             "repos": ["w3c/webauthn" ],
-            "topic": "WebAuthn digest"
+            "topic": "WebAuthn"
          }
 
     },
