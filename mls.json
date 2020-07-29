@@ -898,7 +898,7 @@
     },
     "public-html@w3.org": {
         "digest:monday": {
-            "repos": ["w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/htmlwg", "w3c/webcomponents"],
+            "repos": ["w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/htmlwg", "w3c/webcomponents", "whatwg/html"],
             "topic": "HTML specs"
         }
     },
