@@ -30,6 +30,9 @@
         "w3c/webrtc-pc": {
             "events": ["issues.opened", "pull_request.opened"]
         },
+        "w3c/webrtc-ice": {
+            "events": ["issues.opened", "pull_request.opened"]
+        },
         "w3c/webrtc-extensions": {
             "events": ["issues.opened", "pull_request.opened"]
         },
