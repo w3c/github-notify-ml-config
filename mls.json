@@ -218,6 +218,24 @@
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         }
     },
+    "public-apa@w3.org": {
+        "w3c/a11y-request": {
+            "events": ["issues.opened", "issues.labeled"],
+            "eventFilter": {"label": ["REVIEW REQUESTED"]}
+        }
+    },
+    "public-web-security@w3.org": {
+        "w3c/security-request": {
+            "events": ["issues.opened", "issues.labeled"],
+            "eventFilter": {"label": ["REVIEW REQUESTED"]}
+        }
+    },
+    "public-privacy@w3.org": {
+        "w3cping/privacy-request": {
+            "events": ["issues.opened", "issues.labeled"],
+            "eventFilter": {"label": ["REVIEW REQUESTED"]}
+        }
+    },
     "public-ortc@w3.org": {
         "w3c/ortc": {
             "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
