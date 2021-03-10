@@ -321,6 +321,9 @@
         "w3c/system-wake-lock": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         },
+        "w3c/device-posture": {
+            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+        },
         "w3c/html-media-capture": {
             "events": ["issues.opened", "issues.closed", "issue_comment.created"]
         },
