@@ -469,6 +469,22 @@
      }
    ]
   },
+"public-i18n-chinese@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "clreq",
+        "sources": [
+            {
+              "repos": ["w3c/csswg-drafts", "whatwg/html", "w3c/i18n-issues"],
+              "eventFilter": {"label": ["i18n-clreq"]}
+            },
+            {
+              "repos": ["w3c/clreq"]
+            }
+          ]
+      }
+    ]
+   },
 "public-i18n-japanese@w3.org": {
    "digest:daily": [
      {
