@@ -469,6 +469,22 @@
      }
    ]
   },
+"public-i18n-chinese@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "clreq",
+        "sources": [
+            {
+              "repos": ["w3c/csswg-drafts", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+              "eventFilter": {"label": ["i18n-clreq"]}
+            },
+            {
+              "repos": ["w3c/clreq"]
+            }
+          ]
+      }
+    ]
+   },
 "public-i18n-japanese@w3.org": {
    "digest:daily": [
      {
@@ -485,6 +501,22 @@
      }
    ]
   },
+  "public-i18n-korean@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "klreq",
+        "sources": [
+            {
+              "repos": ["w3c/csswg-drafts", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
+              "eventFilter": {"label": ["i18n-klreq"]}
+            },
+            {
+              "repos": ["w3c/klreq"]
+            }
+          ]
+      }
+    ]
+   },
  "public-i18n-indic@w3.org": {
    "digest:daily": [
      {
