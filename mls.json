@@ -23,7 +23,7 @@
           },
           {
             "repos": ["web-platform-tests/wpt"],
-            "eventFilter": {"label": ["wg-webrtc"]}
+            "eventFilter": {"label": ["wg-s_webrtc"]}
           }
         ]
       },
