@@ -220,19 +220,19 @@
     },
     "public-apa@w3.org": {
         "w3c/a11y-request": {
-            "events": ["issues.opened", "issues.labeled"],
+            "events": ["issues.labeled"],
             "eventFilter": {"label": ["REVIEW REQUESTED"]}
         }
     },
     "public-web-security@w3.org": {
         "w3c/security-request": {
-            "events": ["issues.opened", "issues.labeled"],
+            "events": ["issues.labeled"],
             "eventFilter": {"label": ["REVIEW REQUESTED"]}
         }
     },
     "public-privacy@w3.org": {
         "w3cping/privacy-request": {
-            "events": ["issues.opened", "issues.labeled"],
+            "events": ["issues.labeled"],
             "eventFilter": {"label": ["REVIEW REQUESTED"]}
         }
     },
