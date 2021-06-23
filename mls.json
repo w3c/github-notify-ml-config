@@ -819,8 +819,14 @@
             "master": ["push"]
         }
      },
+     "w3c/me-media-integration-guidelines": {
+       "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
+        "branches": {
+            "master": ["push"]
+        }
+     },
      "digest:tuesday": {
-        "repos": ["w3c/media-and-entertainment", "w3c/me-media-timed-events", "w3c/me-cloud-browser", "w3c/me-vision"],
+        "repos": ["w3c/media-and-entertainment", "w3c/me-media-timed-events", "w3c/me-cloud-browser", "w3c/me-vision", "w3c/me-media-integration-guidelines"],
         "topic": "Media & Entertainment IG repos"
      }
  },
@@ -1020,16 +1026,92 @@
         }
     },
     "team-entertainment@w3.org": {
-        "digest:wednesday": [
+        "digest:monday": [
             {
                 "repos": [
-                    "wicg/media-capabilities", "wicg/mediasession", "wicg/media-source", "wicg/picture-in-picture", "wicg/shape-detection-api", "wicg/encrypted-media-encryption-scheme", "wicg/hdcp-detection", "wicg/spatial-navigation",
-                    "w3c/webmediaapi", "w3c/webmediaguidelines", "w3c/webmediaporting",
+                    "w3c/media-wg",
+                    "w3c/autoplay",
+                    "w3c/encrypted-media",
+                    "w3c/media-capabilities",
+                    "w3c/media-playback-quality",
+                    "w3c/mediasession",
+                    "w3c/media-source",
+                    "w3c/picture-in-picture",
+                    "w3c/webcodecs",
+                    "w3c/mse-byte-stream-format-registry",
+                    "w3c/mse-byte-stream-format-webm",
+                    "w3c/mse-byte-stream-format-isobmff",
+                    "w3c/mse-byte-stream-format-mp2t",
+                    "w3c/mse-byte-stream-format-mpeg-audio",
+
+                    "w3c/media-and-entertainment",
+                    "w3c/me-media-timed-events",
+                    "w3c/me-cloud-browser",
+                    "w3c/me-vision",
+                    "w3c/me-media-integration-guidelines",
+
+                    "w3c/imsc",
+                    "w3c/ttml1",
+                    "w3c/ttml2",
+                    "w3c/ttml-webvtt-mapping",
+                    "w3c/tt-profile-registry",
+                    "w3c/adpt",
+
+                    "immersive-web/webxr",
+                    "immersive-web/webxr-gamepads-module",
+                    "immersive-web/webxr-ar-module",
+                    "immersive-web/dom-overlays",
+                    "immersive-web/hit-test",
+                    "immersive-web/layers",
+                    "immersive-web/webxr-hand-input",
+                    "immersive-web/proposals",
+
+                    "w3c/presentation-api",
+                    "w3c/remote-playback",
+                    "w3c/openscreenprotocol",
+
+                    "webscreens/window-placement",
+                    "webscreens/window-segments",
+
+                    "w3c/mediacapture-automation",
+                    "w3c/mediacapture-depth",
+                    "w3c/mediacapture-extensions",
+                    "w3c/mediacapture-fromelement",
+                    "w3c/mediacapture-image",
+                    "w3c/mediacapture-main",
+                    "w3c/mediacapture-output",
+                    "w3c/mediacapture-record",
+                    "w3c/mediacapture-screen-share",
+                    "w3c/mediacapture-transform",
+                    "w3c/mst-content-hint",
+                    "w3c/webrtc-encoded-transform",
+                    "w3c/webrtc-pc",
+                    "w3c/webrtc-svc",
+                    "w3c/mediacapture-scenarios",
+                    "w3c/webrtc-nv-use-cases",
+
+                    "w3c/webtransport",
+
+                    "w3c/audiobooks",
+                    "w3c/sync-media-pub",
+
+                    "WebAudio/web-audio-api",
+                    "gpuweb/gpuweb",
+                    "w3c/webmediaapi",
+                    "w3c/webmediaguidelines",
+                    "w3c/webmediaporting",
                     "w3c/ColorWeb-CG",
-                    "immersive-web/webxr", "immersive-web/proposals",
-                    "webtiming/timingobject"
+                    "webtiming/timingobject",
+                    "w3c/multicast-cg",
+                    "w3c/danmaku",
+
+                    "WICG/datacue",
+                    "WICG/media-feeds",
+                    "WICG/video-rvfc",
+                    "WICG/canvas-color-space",
+                    "WICG/shape-detection-api"
                 ],
-                "topic": "Media related proposals in Community Groups"
+                "topic": "Media related repositories"
             }
         ]
     },
