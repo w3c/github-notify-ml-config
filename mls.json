@@ -376,7 +376,7 @@
    	"digest:daily": [
             {
             "topic": "I18n repos",
-            "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/amlreq", "w3c/hlreq", "w3c/sealreq", "w3c/eurlreq", "w3c/afrlreq", "w3c/string-meta", "w3c/i18n-issues"],
+            "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/amlreq", "w3c/hlreq", "w3c/sealreq", "w3c/eurlreq", "w3c/afrlreq", "w3c/string-meta", "w3c/i18n-issues", "w3c/localizable-manifests"],
             "eventFilter": { "notlabel": ["dontnotify"] }
 	    },
 	    {
@@ -394,7 +394,7 @@
             "topic": "WG INTERNAL review issues"
    	    },
    	"digest:wednesday": [
-            { "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/amlreq", "w3c/hlreq", "w3c/sealreq", "w3c/string-meta", "w3c/eurlreq", "w3c/afrlreq", "w3c/i18n-issues"],
+            { "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/amlreq", "w3c/hlreq", "w3c/sealreq", "w3c/string-meta", "w3c/eurlreq", "w3c/afrlreq", "w3c/i18n-issues", "w3c/localizable-manifests"],
             "topic": "I18n repos" },
             { "repos": ["w3c/i18n-activity"],
             "topic": "Tracker items" },
