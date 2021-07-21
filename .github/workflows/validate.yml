@@ -1,0 +1,13 @@
+name: validate mls.json
+on:
+  workflow_dispatch: {}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: pip install demjson jsonschema
+      - run: python -mjson.tool mls.json > /dev/null
+      - run: jsonlint mls.json
+      - run: jsonschema -i mls.json config.schema
