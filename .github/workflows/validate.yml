@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-        pip install demjson jsonschema
-        python -mjson.tool mls.json > /dev/null
-        jsonlint mls.json
-        jsonschema -i mls.json config.schema
+             pip install demjson jsonschema
+             python -mjson.tool mls.json > /dev/null
+             jsonlint mls.json
+             jsonschema -i mls.json config.schema
+  
