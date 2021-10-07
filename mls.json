@@ -387,7 +387,7 @@
 	    },
 	    {
               "topic": "Review comments",
-              "repos": ["whatwg/encoding", "whatwg/html", "whatwg/url"],
+              "repos": ["whatwg/encoding", "whatwg/html", "whatwg/url", "whatwg/webidl"],
               "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
 
               "eventFilter": { "label": ["i18n","i18n-comment","i18n-tracking","HR:i18n-comment","HR:i18n-tracking","i18n-review","i18n-needs-resolution","i18n-tracker"]}
@@ -405,7 +405,7 @@
             { "repos": ["w3c/i18n-activity"],
             "topic": "Tracker items" },
           {
-            "repos": ["whatwg/encoding", "whatwg/html", "whatwg/url"],
+            "repos": ["whatwg/encoding", "whatwg/html", "whatwg/url", "whatwg/webidl"],
             "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
             "eventFilter": {"label": ["i18n","i18n-comment","i18n-tracking","HR:i18n-comment","HR:i18n-tracking","i18n-review","i18n-needs-resolution","i18n-tracker"]},
             "topic": "Review comments" }
