@@ -1,8 +1,8 @@
 {
   "spec-prod@w3.org": {
     "digest:monday": [{
-      "repos": ["w3c/respec", "tabatkins/bikeshed"],
-      "topic": "Latest changes to ReSpec and Bikeshed"
+      "repos": ["w3c/respec", "tabatkins/bikeshed", "w3c/tr-design"],
+      "topic": "Latest changes to ReSpec, Bikeshed, and TR styles"
     }]
   },
   "public-maintenance@w3.org": {
