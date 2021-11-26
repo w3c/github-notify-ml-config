@@ -1169,5 +1169,11 @@
     "regexp:WICG/.*": {
       "events": ["repository.transferred", "repository.created"]
     }
+  },
+  "public-credentials@w3.org": {
+    "digest:monday": [{
+      "repos": ["w3c/vc-data-model", "w3c/vc-test-suite", "w3c/vc-imp-guide", "w3c/vc-use-cases", "w3c/vc-wg-charter"],
+      "topic": "Weekly update on Verifiable Credentials WG activity"
+    }]
   }
 }
