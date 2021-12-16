@@ -39,7 +39,7 @@
 		"patcg/patcg.github.io": {
 		    "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"]
 		},
-	}
+	},
     "public-webrtc@w3.org": {
       "digest:tuesday": {
         "topic": "WebRTC WG specifications",
