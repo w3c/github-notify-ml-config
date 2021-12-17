@@ -33,7 +33,7 @@
 		"patcg/admin": {
 		    "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
 		    "branches": {
-			"master": ["push"]
+			"main": ["push"]
 		    }
 		},
 		"patcg/patcg.github.io": {
