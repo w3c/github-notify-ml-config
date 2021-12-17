@@ -45,6 +45,51 @@
       }
     }
   },
+  "public-patcg@w3.org": {
+    "patcg/meetings": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed",
+        "pull_request.labeled"
+      ]
+    },
+    "patcg/proposals": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "main": ["push"]
+      }
+    },
+    "patcg/admin": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "main": ["push"]
+      }
+    },
+    "patcg/patcg.github.io": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ]
+    }
+  },
   "public-webrtc@w3.org": {
     "digest:tuesday": {
       "topic": "WebRTC WG specifications",
