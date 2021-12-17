@@ -1,1130 +1,1920 @@
 {
   "spec-prod@w3.org": {
-    "digest:monday": [{
-      "repos": ["w3c/respec", "tabatkins/bikeshed", "w3c/tr-design"],
-      "topic": "Latest changes to ReSpec, Bikeshed, and TR styles"
-    }]
+    "digest:monday": [
+      {
+        "repos": ["w3c/respec", "tabatkins/bikeshed", "w3c/tr-design"],
+        "topic": "Latest changes to ReSpec, Bikeshed, and TR styles"
+      }
+    ]
   },
   "public-maintenance@w3.org": {
     "summary:quarterly": {
-      "repos": ["w3c/websub", "w3c/activitypub", "w3c/sdw", "w3c/encrypted-media", "w3c/data-shapes", "w3c/activitystreams", "w3c/micropub", "w3c/ldn", "w3c/web-annotation", "w3c/dwbp", "w3c/webcrypto", "w3c/webmention", "w3c/media-source", "w3c/geolocation-api", "w3c/csvw",
-                "w3c/exi-specs", "w3c/poe" ],
+      "repos": [
+        "w3c/websub",
+        "w3c/activitypub",
+        "w3c/sdw",
+        "w3c/encrypted-media",
+        "w3c/data-shapes",
+        "w3c/activitystreams",
+        "w3c/micropub",
+        "w3c/ldn",
+        "w3c/web-annotation",
+        "w3c/dwbp",
+        "w3c/webcrypto",
+        "w3c/webmention",
+        "w3c/media-source",
+        "w3c/geolocation-api",
+        "w3c/csvw",
+        "w3c/exi-specs",
+        "w3c/poe"
+      ],
       "topic": "Activity on repos of W3C Recommendation not under an active Working Group"
     }
   },
-    "public-hydra-logs@w3.org": {
-        "HydraCG/Specifications": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
-            "branches": {
-                "master": ["push"]
-            }
+  "public-hydra-logs@w3.org": {
+    "HydraCG/Specifications": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    }
+  },
+  "public-webrtc@w3.org": {
+    "digest:tuesday": {
+      "topic": "WebRTC WG specifications",
+      "sources": [
+        {
+          "repos": [
+            "w3c/webrtc-pc",
+            "w3c/webrtc-identity",
+            "w3c/webrtc-stats",
+            "w3c/webrtc-charter",
+            "w3c/webrtc-priority",
+            "w3c/webrtc-ice",
+            "w3c/webrtc-nv-use-cases",
+            "w3c/mediacapture-main",
+            "w3c/mediacapture-record",
+            "w3c/mediacapture-image",
+            "w3c/mediacapture-depth",
+            "w3c/mediacapture-fromelement",
+            "w3c/mediacapture-output",
+            "w3c/mediacapture-screen-share",
+            "w3c/mst-content-hint",
+            "w3c/webrtc-svc",
+            "w3c/webrtc-extensions",
+            "w3c/webrtc-provisional-stats",
+            "w3c/webrtc-encoded-transform",
+            "w3c/mediacapture-automation",
+            "w3c/mediacapture-transform"
+          ]
+        },
+        {
+          "repos": ["web-platform-tests/wpt"],
+          "eventFilter": { "label": ["wg-s_webrtc"] }
         }
+      ]
     },
-    "public-webrtc@w3.org": {
-      "digest:tuesday": {
-        "topic": "WebRTC WG specifications",
-        "sources": [
-          {
-            "repos": ["w3c/webrtc-pc", "w3c/webrtc-identity", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-priority", "w3c/webrtc-ice", "w3c/webrtc-nv-use-cases" ,"w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint", "w3c/webrtc-svc", "w3c/webrtc-extensions", "w3c/webrtc-provisional-stats", "w3c/webrtc-encoded-transform", "w3c/mediacapture-automation", "w3c/mediacapture-transform"]
-          },
-          {
-            "repos": ["web-platform-tests/wpt"],
-            "eventFilter": {"label": ["wg-s_webrtc"]}
-          }
-        ]
-      },
-        "w3c/webrtc-pc": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-ice": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-extensions": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-encoded-transform": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-transform": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-identity": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-stats": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-provisional-stats": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-priority": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-svc": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/webrtc-nv-use-cases": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-main": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mst-content-hint": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-record": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-image": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-depth": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-fromelement": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-output": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-screen-share": {
-            "events": ["issues.opened", "pull_request.opened"]
-        },
-        "w3c/mediacapture-automation": {
-            "events": ["issues.opened", "pull_request.opened"]
-        }
+    "w3c/webrtc-pc": {
+      "events": ["issues.opened", "pull_request.opened"]
     },
-    "public-webrtc-logs@w3.org": {
-        "w3c/webrtc-pc": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/webrtc-encoded-transform": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-transform": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/webrtc-extensions": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/webrtc-svc": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-      "w3c/webrtc-identity": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-        "branches": {
-          "master": ["push"]
-        }
-      },
-        "w3c/webrtc-charter": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/webrtc-stats": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/webrtc-provisional-stats": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-      "w3c/webrtc-priority": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-        "branches": {
-          "master": ["push"]
-        }
-      },
-      "w3c/webrtc-ice": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-        "branches": {
-          "master": ["push"]
-        }
-      },
-        "w3c/mediacapture-main": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mst-content-hint": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-record": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-image": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-depth": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-fromelement": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-output": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-screen-share": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "w3c/mediacapture-automation": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "master": ["push"]
-            }
-        }
+    "w3c/webrtc-ice": {
+      "events": ["issues.opened", "pull_request.opened"]
     },
-    "public-annotation@w3.org": {
-        "w3c/web-annotation": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/findtext": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        }
+    "w3c/webrtc-extensions": {
+      "events": ["issues.opened", "pull_request.opened"]
     },
-    "public-apa@w3.org": {
-        "w3c/a11y-request": {
-            "events": ["issues.labeled"],
-            "eventFilter": {"label": ["REVIEW REQUESTED"]}
-        }
+    "w3c/webrtc-encoded-transform": {
+      "events": ["issues.opened", "pull_request.opened"]
     },
-    "public-web-security@w3.org": {
-        "w3c/security-request": {
-            "events": ["issues.labeled"],
-            "eventFilter": {"label": ["REVIEW REQUESTED"]}
-        }
+    "w3c/mediacapture-transform": {
+      "events": ["issues.opened", "pull_request.opened"]
     },
-    "public-privacy@w3.org": {
-        "w3cping/privacy-request": {
-            "events": ["issues.labeled"],
-            "eventFilter": {"label": ["REVIEW REQUESTED"]}
-        }
+    "w3c/webrtc-identity": {
+      "events": ["issues.opened", "pull_request.opened"]
     },
-    "public-ortc@w3.org": {
-        "w3c/ortc": {
-            "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
-        },
-      "w3c/webrtc-quic": {
-        "events": ["issues.opened",  "issues.closed", "pull_request.opened", "pull_request.closed"]
+    "w3c/webrtc-stats": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/webrtc-provisional-stats": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/webrtc-priority": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/webrtc-svc": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/webrtc-nv-use-cases": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mediacapture-main": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mst-content-hint": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mediacapture-record": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mediacapture-image": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mediacapture-depth": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mediacapture-fromelement": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mediacapture-output": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mediacapture-screen-share": {
+      "events": ["issues.opened", "pull_request.opened"]
+    },
+    "w3c/mediacapture-automation": {
+      "events": ["issues.opened", "pull_request.opened"]
+    }
+  },
+  "public-webrtc-logs@w3.org": {
+    "w3c/webrtc-pc": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
       }
     },
-    "public-html-media@w3.org": {
-        "w3c/media-source": {
-            "events": ["issues.opened"]
-        },
-        "w3c/encrypted-media": {
-            "events": ["issues.opened"]
-        }
+    "w3c/webrtc-encoded-transform": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-audio@w3.org": {
-        "WebAudio/web-audio-api": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "WebAudio/web-midi-api": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        }
+    "w3c/mediacapture-transform": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-secondscreen@w3.org": {
-        "digest:tuesday": {
-            "repos": ["w3c/presentation-api", "w3c/remote-playback", "w3c/openscreenprotocol", "webscreens/screen-enumeration", "webscreens/window-placement", "webscreens/window-segments", "webscreens/form-factors"],
-            "topic": "Second Screen WG/CG repos"
-        },
-        "w3c/presentation-api": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        },
-        "w3c/remote-playback": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        }
+    "w3c/webrtc-extensions": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-device-apis-log@w3.org": {
-        "w3c/sensors": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/ambient-light": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/accelerometer": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/proximity": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/gyroscope": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/magnetometer": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/orientation-sensor": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/deviceorientation": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/geolocation-sensor": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/geolocation-api": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/motion-sensors": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/battery": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/screen-wake-lock": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/system-wake-lock": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/device-posture": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/html-media-capture": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/vibration": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        },
-        "w3c/dap-charter": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-        }
+    "w3c/webrtc-svc": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-device-apis@w3.org": {
-        "http://www.w3.org/TR/wake-lock/": {
-            "events": ["tr.published"]
-        },
-        "digest:tuesday": {
-            "repos": ["w3c/sensors", "w3c/ambient-light", "w3c/accelerometer", "w3c/proximity", "w3c/gyroscope", "w3c/magnetometer", "w3c/orientation-sensor", "w3c/deviceorientation", "w3c/geolocation-sensor", "w3c/geolocation-api", "w3c/motion-sensors", "w3c/battery", "w3c/screen-wake-lock", "w3c/system-wake-lock", "w3c/html-media-capture", "w3c/vibration", "w3c/dap-charter"],
-            "topic": "Devices and Sensors WG specifications"
-        }
+    "w3c/webrtc-identity": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-nfc@w3.org": {
-        "w3c/nfc": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        }
+    "w3c/webrtc-charter": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-web-nfc@w3.org": {
-        "w3c/web-nfc": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        }
+    "w3c/webrtc-stats": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "www-dom@w3.org": {
-        "whatwg/dom": {
-            "events": ["issues.opened", "pull_request.opened"]
-        }
+    "w3c/webrtc-provisional-stats": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-web-bluetooth-log@w3.org": {
-        "WebBluetoothCG/web-bluetooth": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        }
+    "w3c/webrtc-priority": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "www-international@w3.org": {
-   	"digest:daily": [
-            {
-            "topic": "I18n repos",
-            "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/amlreq", "w3c/hlreq", "w3c/sealreq", "w3c/eurlreq", "w3c/afrlreq", "w3c/string-meta", "w3c/i18n-issues", "w3c/localizable-manifests"],
-            "eventFilter": { "notlabel": ["dontnotify"] }
-	    },
-	    {
-              "topic": "Review comments",
-              "repos": ["whatwg/encoding", "whatwg/html", "whatwg/url", "whatwg/webidl"],
-              "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
+    "w3c/webrtc-ice": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mediacapture-main": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mst-content-hint": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mediacapture-record": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mediacapture-image": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mediacapture-depth": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mediacapture-fromelement": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mediacapture-output": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mediacapture-screen-share": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "w3c/mediacapture-automation": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    }
+  },
+  "public-annotation@w3.org": {
+    "w3c/web-annotation": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/findtext": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    }
+  },
+  "public-apa@w3.org": {
+    "w3c/a11y-request": {
+      "events": ["issues.labeled"],
+      "eventFilter": { "label": ["REVIEW REQUESTED"] }
+    }
+  },
+  "public-web-security@w3.org": {
+    "w3c/security-request": {
+      "events": ["issues.labeled"],
+      "eventFilter": { "label": ["REVIEW REQUESTED"] }
+    }
+  },
+  "public-privacy@w3.org": {
+    "w3cping/privacy-request": {
+      "events": ["issues.labeled"],
+      "eventFilter": { "label": ["REVIEW REQUESTED"] }
+    }
+  },
+  "public-ortc@w3.org": {
+    "w3c/ortc": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "pull_request.opened",
+        "pull_request.closed"
+      ]
+    },
+    "w3c/webrtc-quic": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "pull_request.opened",
+        "pull_request.closed"
+      ]
+    }
+  },
+  "public-html-media@w3.org": {
+    "w3c/media-source": {
+      "events": ["issues.opened"]
+    },
+    "w3c/encrypted-media": {
+      "events": ["issues.opened"]
+    }
+  },
+  "public-audio@w3.org": {
+    "WebAudio/web-audio-api": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "WebAudio/web-midi-api": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    }
+  },
+  "public-secondscreen@w3.org": {
+    "digest:tuesday": {
+      "repos": [
+        "w3c/presentation-api",
+        "w3c/remote-playback",
+        "w3c/openscreenprotocol",
+        "webscreens/screen-enumeration",
+        "webscreens/window-placement",
+        "webscreens/window-segments",
+        "webscreens/form-factors"
+      ],
+      "topic": "Second Screen WG/CG repos"
+    },
+    "w3c/presentation-api": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/remote-playback": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-device-apis-log@w3.org": {
+    "w3c/sensors": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/ambient-light": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/accelerometer": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/proximity": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/gyroscope": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/magnetometer": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/orientation-sensor": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/deviceorientation": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/geolocation-sensor": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/geolocation-api": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/motion-sensors": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/battery": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/screen-wake-lock": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/system-wake-lock": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/device-posture": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/html-media-capture": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/vibration": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/dap-charter": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    }
+  },
+  "public-device-apis@w3.org": {
+    "http://www.w3.org/TR/wake-lock/": {
+      "events": ["tr.published"]
+    },
+    "digest:tuesday": {
+      "repos": [
+        "w3c/sensors",
+        "w3c/ambient-light",
+        "w3c/accelerometer",
+        "w3c/proximity",
+        "w3c/gyroscope",
+        "w3c/magnetometer",
+        "w3c/orientation-sensor",
+        "w3c/deviceorientation",
+        "w3c/geolocation-sensor",
+        "w3c/geolocation-api",
+        "w3c/motion-sensors",
+        "w3c/battery",
+        "w3c/screen-wake-lock",
+        "w3c/system-wake-lock",
+        "w3c/html-media-capture",
+        "w3c/vibration",
+        "w3c/dap-charter"
+      ],
+      "topic": "Devices and Sensors WG specifications"
+    }
+  },
+  "public-nfc@w3.org": {
+    "w3c/nfc": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-web-nfc@w3.org": {
+    "w3c/web-nfc": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "www-dom@w3.org": {
+    "whatwg/dom": {
+      "events": ["issues.opened", "pull_request.opened"]
+    }
+  },
+  "public-web-bluetooth-log@w3.org": {
+    "WebBluetoothCG/web-bluetooth": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "www-international@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "I18n repos",
+        "repos": [
+          "w3c/typography",
+          "w3c/predefined-counter-styles",
+          "w3c/bp-i18n-specdev",
+          "w3c/unicode-xml",
+          "w3c/i18n-discuss",
+          "w3c/i18n-drafts",
+          "w3c/i18n-checker",
+          "w3c/charmod-norm",
+          "w3c/string-search",
+          "w3c/ltli",
+          "w3c/klreq",
+          "w3c/ilreq",
+          "w3c/iip",
+          "w3c/elreq",
+          "w3c/alreq",
+          "w3c/clreq",
+          "w3c/jlreq",
+          "w3c/tlreq",
+          "w3c/its2req",
+          "w3c/mlw-metadata-us-impl",
+          "w3c/mlreq",
+          "w3c/amlreq",
+          "w3c/hlreq",
+          "w3c/sealreq",
+          "w3c/eurlreq",
+          "w3c/afrlreq",
+          "w3c/string-meta",
+          "w3c/i18n-issues",
+          "w3c/localizable-manifests"
+        ],
+        "eventFilter": { "notlabel": ["dontnotify"] }
+      },
+      {
+        "topic": "Review comments",
+        "repos": [
+          "whatwg/encoding",
+          "whatwg/html",
+          "whatwg/url",
+          "whatwg/webidl"
+        ],
+        "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
 
-              "eventFilter": { "label": ["i18n","i18n-comment","i18n-tracking","HR:i18n-comment","HR:i18n-tracking","i18n-review","i18n-needs-resolution","i18n-tracker"]}
-	    }
-        ]
+        "eventFilter": {
+          "label": [
+            "i18n",
+            "i18n-comment",
+            "i18n-tracking",
+            "HR:i18n-comment",
+            "HR:i18n-tracking",
+            "i18n-review",
+            "i18n-needs-resolution",
+            "i18n-tracker"
+          ]
+        }
+      }
+    ]
+  },
+  "public-i18n-core@w3.org": {
+    "digest:daily": {
+      "repos": ["w3c/i18n-activity"],
+      "topic": "WG INTERNAL review issues"
     },
-    "public-i18n-core@w3.org": {
-   	"digest:daily": {
-     	    "repos": ["w3c/i18n-activity"],
-            "topic": "WG INTERNAL review issues"
-   	    },
-   	"digest:wednesday": [
-            { "repos": ["w3c/typography", "w3c/predefined-counter-styles", "w3c/bp-i18n-specdev", "w3c/unicode-xml", "w3c/i18n-discuss", "w3c/i18n-drafts", "w3c/i18n-checker", "w3c/charmod-norm", "w3c/string-search", "w3c/ltli", "w3c/klreq", "w3c/ilreq", "w3c/iip", "w3c/elreq", "w3c/alreq", "w3c/clreq", "w3c/jlreq", "w3c/tlreq", "w3c/its2req", "w3c/mlw-metadata-us-impl", "w3c/mlreq", "w3c/amlreq", "w3c/hlreq", "w3c/sealreq", "w3c/string-meta", "w3c/eurlreq", "w3c/afrlreq", "w3c/i18n-issues", "w3c/localizable-manifests"],
-            "topic": "I18n repos" },
-            { "repos": ["w3c/i18n-activity"],
-            "topic": "Tracker items" },
+    "digest:wednesday": [
+      {
+        "repos": [
+          "w3c/typography",
+          "w3c/predefined-counter-styles",
+          "w3c/bp-i18n-specdev",
+          "w3c/unicode-xml",
+          "w3c/i18n-discuss",
+          "w3c/i18n-drafts",
+          "w3c/i18n-checker",
+          "w3c/charmod-norm",
+          "w3c/string-search",
+          "w3c/ltli",
+          "w3c/klreq",
+          "w3c/ilreq",
+          "w3c/iip",
+          "w3c/elreq",
+          "w3c/alreq",
+          "w3c/clreq",
+          "w3c/jlreq",
+          "w3c/tlreq",
+          "w3c/its2req",
+          "w3c/mlw-metadata-us-impl",
+          "w3c/mlreq",
+          "w3c/amlreq",
+          "w3c/hlreq",
+          "w3c/sealreq",
+          "w3c/string-meta",
+          "w3c/eurlreq",
+          "w3c/afrlreq",
+          "w3c/i18n-issues",
+          "w3c/localizable-manifests"
+        ],
+        "topic": "I18n repos"
+      },
+      { "repos": ["w3c/i18n-activity"], "topic": "Tracker items" },
+      {
+        "repos": [
+          "whatwg/encoding",
+          "whatwg/html",
+          "whatwg/url",
+          "whatwg/webidl"
+        ],
+        "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
+        "eventFilter": {
+          "label": [
+            "i18n",
+            "i18n-comment",
+            "i18n-tracking",
+            "HR:i18n-comment",
+            "HR:i18n-tracking",
+            "i18n-review",
+            "i18n-needs-resolution",
+            "i18n-tracker"
+          ]
+        },
+        "topic": "Review comments"
+      }
+    ]
+  },
+  "ishida@w3.org": {
+    "w3c/i18n-activity": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "issues.labeled"
+      ],
+      "eventFilter": { "label": ["REVIEW REQUESTED"] }
+    }
+  },
+  "weiler@w3.org": {
+    "digest:daily": [
+      {
+        "repos": [
+          "w3c/html",
+          "w3c/sensors",
+          "w3c/web-annotation",
+          "w3c/csswg-drafts",
+          "w3c/activitystreams",
+          "w3c/webmention",
+          "w3c/micropub",
+          "w3c/activitypub",
+          "w3c/ldn",
+          "w3c/sdw",
+          "w3c/dpub-pagination",
+          "w3c/svgwg",
+          "w3c/ttml2",
+          "w3c/webvtt",
+          "w3c/uievents",
+          "w3c/uievents-key",
+          "w3c/uievents-code",
+          "w3c/browser-payment-api",
+          "w3c/websub",
+          "w3c/remote-playback",
+          "w3c/data-shapes",
+          "w3c/microdata",
+          "w3c/imsc",
+          "w3c/push-api",
+          "w3c/wcag21",
+          "w3c/webauthn",
+          "w3c/IntersectionObserver",
+          "whatwg/html",
+          "whatwg/url",
+          "w3c/dnt",
+          "w3c/manifest",
+          "w3c/payment-request",
+          "w3c/csvw",
+          "w3c/findtext",
+          "w3c/IndexedDB",
+          "w3c/input-events",
+          "w3c/low-vision-a11y-tf",
+          "w3c/mediacapture-main",
+          "w3c/presentation-api",
+          "w3c/automotive",
+          "w3c/webpayments-ig",
+          "WICG/web-share"
+        ],
+        "eventFilter": { "label": ["privacy", "privacy-cons"] },
+        "topic": "Review comments"
+      }
+    ]
+  },
+  "public-digipub-ig@w3.org": {
+    "w3c/i18n-discuss": {
+      "events": ["issues.labeled", "issues.closed"],
+      "eventFilter": { "label": ["digipub"] }
+    }
+  },
+  "public-pointer-events@w3.org": {
+    "w3c/pointerevents": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-touchevents@w3.org": {
+    "w3c/touch-events": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ]
+    }
+  },
+  "public-i18n-arabic@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "alreq",
+        "sources": [
           {
-            "repos": ["whatwg/encoding", "whatwg/html", "whatwg/url", "whatwg/webidl"],
-            "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
-            "eventFilter": {"label": ["i18n","i18n-comment","i18n-tracking","HR:i18n-comment","HR:i18n-tracking","i18n-review","i18n-needs-resolution","i18n-tracker"]},
-            "topic": "Review comments" }
-            ]
-    },
-    "ishida@w3.org": {
-        "w3c/i18n-activity": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "issues.labeled"],
-            "eventFilter": {"label": ["REVIEW REQUESTED"]}
-        }
-    },
-    "weiler@w3.org": {
-   	"digest:daily": [
-            { "repos": ["w3c/html", "w3c/sensors", "w3c/web-annotation", "w3c/csswg-drafts", "w3c/activitystreams", "w3c/webmention", "w3c/micropub", "w3c/activitypub", "w3c/ldn", "w3c/sdw", "w3c/dpub-pagination", "w3c/svgwg", "w3c/ttml2", "w3c/webvtt", "w3c/uievents", "w3c/uievents-key", "w3c/uievents-code", "w3c/browser-payment-api", "w3c/websub", "w3c/remote-playback", "w3c/data-shapes", "w3c/microdata", "w3c/imsc", "w3c/push-api", "w3c/wcag21", "w3c/webauthn", "w3c/IntersectionObserver", "whatwg/html", "whatwg/url", "w3c/dnt", "w3c/manifest", "w3c/payment-request", "w3c/csvw", "w3c/findtext", "w3c/IndexedDB", "w3c/input-events", "w3c/low-vision-a11y-tf", "w3c/mediacapture-main", "w3c/presentation-api", "w3c/automotive", "w3c/webpayments-ig", "WICG/web-share"],
-            "eventFilter": {"label": ["privacy","privacy-cons"]},
-            "topic": "Review comments" }
-            ]
-    },
-    "public-digipub-ig@w3.org": {
-        "w3c/i18n-discuss": {
-            "events": ["issues.labeled", "issues.closed"],
-            "eventFilter": {"label":["digipub"]}
-        }
-    },
-    "public-pointer-events@w3.org": {
-        "w3c/pointerevents": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues",
+              "w3c/svgwg"
+            ],
+            "eventFilter": { "label": ["i18n-alreq"] }
+          },
+          {
+            "repos": ["w3c/alreq"]
+          }
+        ]
+      }
+    ]
+  },
+  "public-i18n-cjk@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "cjklreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues",
+              "w3c/tt-module-cjk-ext-1"
+            ],
+            "eventFilter": {
+              "label": ["i18n-clreq", "i18n-jlreq", "i18n-klreq"]
             }
-        }
-    },
-    "public-touchevents@w3.org": {
-        "w3c/touch-events": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"]
-        }
-    },
-"public-i18n-arabic@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "alreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues", "w3c/svgwg"],
-             "eventFilter": {"label": ["i18n-alreq"]}
-           },
-           {
-             "repos": ["w3c/alreq"]
-           }
-         ]
-     }
-   ]
+          },
+          {
+            "repos": ["w3c/clreq", "w3c/jlreq", "w3c/klreq"]
+          }
+        ]
+      }
+    ]
   },
-"public-i18n-cjk@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "cjklreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues", "w3c/tt-module-cjk-ext-1"],
-             "eventFilter": {"label": ["i18n-clreq", "i18n-jlreq", "i18n-klreq"]}
-           },
-           {
-             "repos": ["w3c/clreq","w3c/jlreq","w3c/klreq"]
-           }
-         ]
-     }
-   ]
-  },
-"public-i18n-chinese@w3.org": {
+  "public-i18n-chinese@w3.org": {
     "digest:daily": [
       {
         "topic": "clreq",
         "sources": [
-            {
-              "repos": ["w3c/csswg-drafts", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-              "eventFilter": {"label": ["i18n-clreq"]}
-            },
-            {
-              "repos": ["w3c/clreq"]
-            }
-          ]
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-clreq"] }
+          },
+          {
+            "repos": ["w3c/clreq"]
+          }
+        ]
       }
     ]
-   },
-"public-i18n-japanese@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "jlreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues", "w3c/tt-module-cjk-ext-1"],
-             "eventFilter": {"label": ["i18n-jlreq"]}
-           },
-           {
-             "repos": ["w3c/jlreq","w3c/simple-ruby"]
-           }
-         ]
-     }
-   ]
+  },
+  "public-i18n-japanese@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "jlreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues",
+              "w3c/tt-module-cjk-ext-1"
+            ],
+            "eventFilter": { "label": ["i18n-jlreq"] }
+          },
+          {
+            "repos": ["w3c/jlreq", "w3c/simple-ruby"]
+          }
+        ]
+      }
+    ]
   },
   "public-i18n-korean@w3.org": {
     "digest:daily": [
       {
         "topic": "klreq",
         "sources": [
-            {
-              "repos": ["w3c/csswg-drafts", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-              "eventFilter": {"label": ["i18n-klreq"]}
-            },
-            {
-              "repos": ["w3c/klreq"]
-            }
-          ]
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-klreq"] }
+          },
+          {
+            "repos": ["w3c/klreq"]
+          }
+        ]
       }
     ]
-   },
- "public-i18n-indic@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "indiclreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-             "eventFilter": {"label": ["i18n-ilreq"]}
-           },
-           {
-             "repos": ["w3c/ilreq", "w3c/iip"]
-           }
-         ]
-     }
-   ]
   },
- "public-i18n-sea@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "sealreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-             "eventFilter": {"label": ["i18n-sealreq"]}
-           },
-           {
-             "repos": ["w3c/sealreq"]
-           }
-         ]
-     }
-   ]
+  "public-i18n-indic@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "indiclreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-ilreq"] }
+          },
+          {
+            "repos": ["w3c/ilreq", "w3c/iip"]
+          }
+        ]
+      }
+    ]
   },
- "public-i18n-europe@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "eurlreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-             "eventFilter": {"label": ["i18n-eurlreq"]}
-           },
-           {
-             "repos": ["w3c/eurlreq"]
-           }
-         ]
-     }
-   ]
+  "public-i18n-sea@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "sealreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-sealreq"] }
+          },
+          {
+            "repos": ["w3c/sealreq"]
+          }
+        ]
+      }
+    ]
   },
- "public-i18n-africa@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "afrlreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-             "eventFilter": {"label": ["i18n-afrlreq"]}
-           },
-           {
-             "repos": ["w3c/afrlreq"]
-           }
-         ]
-     }
-   ]
+  "public-i18n-europe@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "eurlreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-eurlreq"] }
+          },
+          {
+            "repos": ["w3c/eurlreq"]
+          }
+        ]
+      }
+    ]
   },
-"public-i18n-ethiopic@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "elreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-             "eventFilter": {"label": ["i18n-elreq"]}
-           },
-           {
-             "repos": ["w3c/elreq"]
-           }
-         ]
-     }
-   ]
+  "public-i18n-africa@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "afrlreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-afrlreq"] }
+          },
+          {
+            "repos": ["w3c/afrlreq"]
+          }
+        ]
+      }
+    ]
   },
-"public-i18n-hebrew@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "hlreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-             "eventFilter": {"label": ["i18n-hlreq"]}
-           },
-           {
-             "repos": ["w3c/hlreq"]
-           }
-         ]
-     }
-   ]
+  "public-i18n-ethiopic@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "elreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-elreq"] }
+          },
+          {
+            "repos": ["w3c/elreq"]
+          }
+        ]
+      }
+    ]
   },
-"public-i18n-tibetan@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "tlreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues"],
-             "eventFilter": {"label": ["i18n-tlreq"]}
-           },
-           {
-             "repos": ["w3c/tlreq"]
-           }
-         ]
-     }
-   ]
+  "public-i18n-hebrew@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "hlreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-hlreq"] }
+          },
+          {
+            "repos": ["w3c/hlreq"]
+          }
+        ]
+      }
+    ]
   },
-"public-i18n-mongolian@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "mlreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues", "w3c/svgwg"],
-             "eventFilter": {"label": ["i18n-mlreq"]}
-           },
-           {
-             "repos": ["w3c/mlreq"]
-           }
-         ]
-     }
-   ]
+  "public-i18n-tibetan@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "tlreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-tlreq"] }
+          },
+          {
+            "repos": ["w3c/tlreq"]
+          }
+        ]
+      }
+    ]
   },
-    "public-i18n-archive@w3.org": {
-       "w3c/bp-i18n-specdev": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/charmod-norm": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/unicode-xml": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/string-search": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/clreq": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/elreq": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/jlreq": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-      "w3c/klreq": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/ilreq": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/tlreq": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-     },
-       "w3c/alreq": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/iip": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/ltli": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/predefined-counter-styles": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/i18n-activity": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/i18n-checker": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/i18n-drafts": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/i18n-discuss": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-      },
-       "w3c/typography": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
+  "public-i18n-mongolian@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "mlreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues",
+              "w3c/svgwg"
+            ],
+            "eventFilter": { "label": ["i18n-mlreq"] }
+          },
+          {
+            "repos": ["w3c/mlreq"]
+          }
+        ]
+      }
+    ]
+  },
+  "public-i18n-archive@w3.org": {
+    "w3c/bp-i18n-specdev": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
       }
     },
- "public-webtiming@w3.org": {
-    "webtiming/timingobject": {
-           "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
+    "w3c/charmod-norm": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/unicode-xml": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/string-search": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/clreq": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/elreq": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/jlreq": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/klreq": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/ilreq": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/tlreq": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/alreq": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/iip": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/ltli": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/predefined-counter-styles": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/i18n-activity": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/i18n-checker": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/i18n-drafts": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/i18n-discuss": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/typography": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
     }
   },
- "public-texttracks@w3.org": {
-     "w3c/webvtt": {
-           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
-     }
- },
- "public-tt@w3.org": {
-     "w3c/imsc": {
-           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
-     },
-     "w3c/ttml1": {
-           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
-     },
-     "w3c/ttml2": {
-           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
-     },
-     "w3c/ttml-webvtt-mapping": {
-           "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
-     },
-     "w3c/tt-profile-registry": {
-	   "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
-     },
-     "w3c/adpt": {
-	   "events": ["issues.opened",  "issues.closed", "pull_request.opened"]
-     }
- },
- "public-web-and-tv@w3.org": {
-     "w3c/media-and-entertainment": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
-        "branches": {
-            "master": ["push"]
-        }
-     },
-     "w3c/me-media-timed-events": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
-        "branches": {
-            "master": ["push"]
-        }
-     },
-     "w3c/me-cloud-browser": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
-        "branches": {
-            "master": ["push"]
-        }
-     },
-     "w3c/me-vision": {
-        "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
-        "branches": {
-            "master": ["push"]
-        }
-     },
-     "w3c/me-media-integration-guidelines": {
-       "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
-        "branches": {
-            "master": ["push"]
-        }
-     },
-     "digest:tuesday": {
-        "repos": ["w3c/media-and-entertainment", "w3c/me-media-timed-events", "w3c/me-cloud-browser", "w3c/me-vision", "w3c/me-media-integration-guidelines"],
-        "topic": "Media & Entertainment IG repos"
-     }
- },
-    "public-music-notation-contrib@w3.org": {
-        "w3c/mnx": {
-            "branches": {
-                "master": ["push"]
-            }
-        },
-       "w3c/musicxml": {
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        },
-        "w3c/smufl": {
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        }
+  "public-webtiming@w3.org": {
+    "webtiming/timingobject": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-texttracks@w3.org": {
+    "w3c/webvtt": {
+      "events": ["issues.opened", "issues.closed", "pull_request.opened"]
+    }
+  },
+  "public-tt@w3.org": {
+    "w3c/imsc": {
+      "events": ["issues.opened", "issues.closed", "pull_request.opened"]
     },
-    "webrtc-chairs@w3.org": {
-        "w3c/webrtc-pc": {
-	    "events": ["pull_request.labeled", "issues.labeled"],
-	    "eventFilter": {"label": ["Chair decision needed"]}
-	},
-        "w3c/mediacapture-main": {
-	    "events": ["pull_request.labeled", "issues.labeled"],
-	    "eventFilter": {"label": ["Chair decision needed"]}
-	}
+    "w3c/ttml1": {
+      "events": ["issues.opened", "issues.closed", "pull_request.opened"]
     },
-    "public-geolocation@w3.org": {
-        "w3c/geolocation-api": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
-        },
-        "w3c/deviceorientation": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
-        },
-        "w3c/geofencing-api": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"]
-        }
+    "w3c/ttml2": {
+      "events": ["issues.opened", "issues.closed", "pull_request.opened"]
     },
-    "www-svg@w3.org": {
-         "digest:tuesday": [
-		{
-            "repos": ["w3c/svgwg", "w3c/svg-aam", "w3c/fxtf-drafts", "w3c/graphics-aam", "w3c/graphics-aria"]
-        },
-	 	{
-			"repos": ["w3c/web-platform-tests"],
-       		"eventFilter": {"label": ["svg", "svg-aam", "wg-svg", "graphics-aam", "css-transforms", "css-masking", "filter-effects", "geometry", "compositing", "motion", "web-animations"]}
-	 	},
-		{
-			"repos": ["w3c/csswg-drafts"],
-			"eventFilter": {"label": ["SVG", "css-transforms-1", "css-transforms-2", "fx-filter-effects-1", "web-animations-1", "web-animations-2", "css-fill-and-stroke-3", "css-shapes-1", "css-shapes-2"]}
-		}
-		]
+    "w3c/ttml-webvtt-mapping": {
+      "events": ["issues.opened", "issues.closed", "pull_request.opened"]
     },
-    "public-svg-issues@w3.org": {
-        "w3c/svgwg": {
-            "events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled", "pull_request.closed"],
-			"branches": {
-    	    	"master": ["push"]
-    	    }
-        },
-		"w3c/svg-aam": {
-            "events": ["issues.opened", "issues.labeled", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled", "pull_request.closed"],
-			"branches": {
-    	    	"master": ["push"]
-    	    }
-        }
+    "w3c/tt-profile-registry": {
+      "events": ["issues.opened", "issues.closed", "pull_request.opened"]
     },
-    "public-webauthn@w3.org": {
-    	"w3c/webauthn": {
-    		"events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened",  "pull_request.closed", "push"]
-    	},
-        "digest:tuesday": {
-            "repos": ["w3c/webauthn" ],
-            "topic": "WebAuthn"
-         }
-
+    "w3c/adpt": {
+      "events": ["issues.opened", "issues.closed", "pull_request.opened"]
+    }
+  },
+  "public-web-and-tv@w3.org": {
+    "w3c/media-and-entertainment": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-css-archive@w3.org": {
-       "w3c/csswg-drafts": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-       }
+    "w3c/me-media-timed-events": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-houdini-archive@w3.org": {
-       "w3c/css-houdini-drafts": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-       }
+    "w3c/me-cloud-browser": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-dxwg-wg@w3.org": {
-       "w3c/dxwg": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-       }
+    "w3c/me-vision": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-fxtf-archive@w3.org": {
-       "w3c/fxtf-drafts": {
-	    "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-       }
+    "w3c/me-media-integration-guidelines": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-tvcontrol@w3.org": {
-        "w3c/tvcontrol-api": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        }
+    "digest:tuesday": {
+      "repos": [
+        "w3c/media-and-entertainment",
+        "w3c/me-media-timed-events",
+        "w3c/me-cloud-browser",
+        "w3c/me-vision",
+        "w3c/me-media-integration-guidelines"
+      ],
+      "topic": "Media & Entertainment IG repos"
+    }
+  },
+  "public-music-notation-contrib@w3.org": {
+    "w3c/mnx": {
+      "branches": {
+        "master": ["push"]
+      }
     },
-    "public-webscreens@w3.org": {
-        "webscreens/openscreenprotocol": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        }
+    "w3c/musicxml": {
+      "branches": {
+        "gh-pages": ["push"]
+      }
     },
-    "public-web-perf@w3.org": {
-        "digest:tuesday": {
-            "repos": ["w3c/hr-time", "w3c/performance-timeline", "w3c/resource-timing", "w3c/navigation-timing", "w3c/user-timing", "w3c/beacon", "w3c/page-visibility", "w3c/preload", "w3c/resource-hints", "w3c/requestidlecallback", "w3c/device-memory", "w3c/paint-timing", "w3c/longtasks", "w3c/server-timing"],
-            "topic": "Web Performance WG specs"
-        }
+    "w3c/smufl": {
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "webrtc-chairs@w3.org": {
+    "w3c/webrtc-pc": {
+      "events": ["pull_request.labeled", "issues.labeled"],
+      "eventFilter": { "label": ["Chair decision needed"] }
     },
-    "public-trace-context@w3.org": {
-        "digest:tuesday": {
-            "repos": ["w3c/trace-context", "w3c/correlation-context", "w3c/distributed-tracing-wg"],
-            "topic": "Distributed Tracing WG specs"
-        }
+    "w3c/mediacapture-main": {
+      "events": ["pull_request.labeled", "issues.labeled"],
+      "eventFilter": { "label": ["Chair decision needed"] }
+    }
+  },
+  "public-geolocation@w3.org": {
+    "w3c/geolocation-api": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ]
     },
-    "public-webapps@w3.org": {
-        "digest:monday": [{
-            "repos": ["w3c/badging", "w3c/FileAPI", "w3c/gamepad", "w3c/image-resource", "w3c/IntersectionObserver", "w3c/manifest", "w3c/pointerlock", "w3c/push-api", "w3c/screen-orientation", "w3c/uievents", "w3c/web-share", "whatwg/dom", "whatwg/infra", "whatwg/webidl"],
-            "topic": "WebApps WG specs"
-        }]
+    "w3c/deviceorientation": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ]
     },
-    "public-html@w3.org": {
-        "digest:monday": {
-            "repos": ["w3c/html-aam", "w3c/html-aria", "w3c/html-extensions", "w3c/htmlwg", "w3c/webcomponents", "whatwg/html", "whatwg/dom"],
-            "topic": "HTML specs"
-        }
-    },
-    "public-webappsec@w3.org": {
-        "digest:monday": {
-            "repos": ["w3c/webappsec", "w3c/webappsec-subresource-integrity", "w3c/webappsec-csp", "w3c/webappsec-mixed-content", "w3c/webappsec-upgrade-insecure-requests", "w3c/webappsec-credential-management", "w3c/permissions", "w3c/webappsec-referrer-policy", "w3c/webappsec-secure-contexts", "w3c/webappsec-clear-site-data", "w3c/webappsec-cowl", "w3c/webappsec-epr", "w3c/webappsec-suborigins", "w3c/webappsec-cspee", "w3c/webappsec-permissions-policy", "w3c/webappsec-fetch-metadata", "w3c/webappsec-trusted-types", "w3c/webappsec-change-password-url", "w3c/webappsec-post-spectre-webdev"],
-            "topic": "WebAppSec specs"
-         }
-    },
-    "public-shex-dev@w3.org": {
-        "shexSpec/spec": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        },
-        "shexSpec/shape-map": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        },
-        "shexSpec/primer": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        },
-        "shexSpec/shex": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "master": ["push"]
-            }
-        },
-        "shexSpec/shexTest": {
-            "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.labeled"],
-            "branches": {
-                "master": ["push"]
-            }
-        }
-    },
-    "public-sdwig@w3.org": {
-        "w3c/sdw": {
-            "events": ["issues.opened",  "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
-            "branches": {
-                "gh-pages": ["push"]
-            }
-        }
-    },
-    "team-entertainment@w3.org": {
-        "digest:monday": [
-            {
-                "repos": [
-                    "w3c/media-wg",
-                    "w3c/autoplay",
-                    "w3c/encrypted-media",
-                    "w3c/media-capabilities",
-                    "w3c/media-playback-quality",
-                    "w3c/mediasession",
-                    "w3c/media-source",
-                    "w3c/picture-in-picture",
-                    "w3c/webcodecs",
-                    "w3c/mse-byte-stream-format-registry",
-                    "w3c/mse-byte-stream-format-webm",
-                    "w3c/mse-byte-stream-format-isobmff",
-                    "w3c/mse-byte-stream-format-mp2t",
-                    "w3c/mse-byte-stream-format-mpeg-audio",
-
-                    "w3c/media-and-entertainment",
-                    "w3c/me-media-timed-events",
-                    "w3c/me-cloud-browser",
-                    "w3c/me-vision",
-                    "w3c/me-media-integration-guidelines",
-
-                    "w3c/imsc",
-                    "w3c/ttml1",
-                    "w3c/ttml2",
-                    "w3c/ttml-webvtt-mapping",
-                    "w3c/tt-profile-registry",
-                    "w3c/adpt",
-
-                    "immersive-web/webxr",
-                    "immersive-web/webxr-gamepads-module",
-                    "immersive-web/webxr-ar-module",
-                    "immersive-web/dom-overlays",
-                    "immersive-web/hit-test",
-                    "immersive-web/layers",
-                    "immersive-web/webxr-hand-input",
-                    "immersive-web/proposals",
-
-                    "w3c/presentation-api",
-                    "w3c/remote-playback",
-                    "w3c/openscreenprotocol",
-
-                    "webscreens/window-placement",
-                    "webscreens/window-segments",
-
-                    "w3c/mediacapture-automation",
-                    "w3c/mediacapture-depth",
-                    "w3c/mediacapture-extensions",
-                    "w3c/mediacapture-fromelement",
-                    "w3c/mediacapture-image",
-                    "w3c/mediacapture-main",
-                    "w3c/mediacapture-output",
-                    "w3c/mediacapture-record",
-                    "w3c/mediacapture-screen-share",
-                    "w3c/mediacapture-transform",
-                    "w3c/mst-content-hint",
-                    "w3c/webrtc-encoded-transform",
-                    "w3c/webrtc-pc",
-                    "w3c/webrtc-svc",
-                    "w3c/mediacapture-scenarios",
-                    "w3c/webrtc-nv-use-cases",
-
-                    "w3c/webtransport",
-
-                    "w3c/audiobooks",
-                    "w3c/sync-media-pub",
-
-                    "WebAudio/web-audio-api",
-                    "gpuweb/gpuweb",
-                    "w3c/webmediaapi",
-                    "w3c/webmediaguidelines",
-                    "w3c/webmediaporting",
-                    "w3c/ColorWeb-CG",
-                    "webtiming/timingobject",
-                    "w3c/multicast-cg",
-                    "w3c/danmaku",
-
-                    "WICG/datacue",
-                    "WICG/media-feeds",
-                    "WICG/video-rvfc",
-                    "WICG/canvas-color-space",
-                    "WICG/shape-detection-api"
-                ],
-                "topic": "Media related repositories"
-            }
+    "w3c/geofencing-api": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ]
+    }
+  },
+  "www-svg@w3.org": {
+    "digest:tuesday": [
+      {
+        "repos": [
+          "w3c/svgwg",
+          "w3c/svg-aam",
+          "w3c/fxtf-drafts",
+          "w3c/graphics-aam",
+          "w3c/graphics-aria"
         ]
+      },
+      {
+        "repos": ["w3c/web-platform-tests"],
+        "eventFilter": {
+          "label": [
+            "svg",
+            "svg-aam",
+            "wg-svg",
+            "graphics-aam",
+            "css-transforms",
+            "css-masking",
+            "filter-effects",
+            "geometry",
+            "compositing",
+            "motion",
+            "web-animations"
+          ]
+        }
+      },
+      {
+        "repos": ["w3c/csswg-drafts"],
+        "eventFilter": {
+          "label": [
+            "SVG",
+            "css-transforms-1",
+            "css-transforms-2",
+            "fx-filter-effects-1",
+            "web-animations-1",
+            "web-animations-2",
+            "css-fill-and-stroke-3",
+            "css-shapes-1",
+            "css-shapes-2"
+          ]
+        }
+      }
+    ]
+  },
+  "public-svg-issues@w3.org": {
+    "w3c/svgwg": {
+      "events": [
+        "issues.opened",
+        "issues.labeled",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     },
+    "w3c/svg-aam": {
+      "events": [
+        "issues.opened",
+        "issues.labeled",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    }
+  },
+  "public-webauthn@w3.org": {
+    "w3c/webauthn": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed",
+        "push"
+      ]
+    },
+    "digest:tuesday": {
+      "repos": ["w3c/webauthn"],
+      "topic": "WebAuthn"
+    }
+  },
+  "public-css-archive@w3.org": {
+    "w3c/csswg-drafts": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-houdini-archive@w3.org": {
+    "w3c/css-houdini-drafts": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-dxwg-wg@w3.org": {
+    "w3c/dxwg": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-fxtf-archive@w3.org": {
+    "w3c/fxtf-drafts": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-tvcontrol@w3.org": {
+    "w3c/tvcontrol-api": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-webscreens@w3.org": {
+    "webscreens/openscreenprotocol": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "public-web-perf@w3.org": {
+    "digest:tuesday": {
+      "repos": [
+        "w3c/hr-time",
+        "w3c/performance-timeline",
+        "w3c/resource-timing",
+        "w3c/navigation-timing",
+        "w3c/user-timing",
+        "w3c/beacon",
+        "w3c/page-visibility",
+        "w3c/preload",
+        "w3c/resource-hints",
+        "w3c/requestidlecallback",
+        "w3c/device-memory",
+        "w3c/paint-timing",
+        "w3c/longtasks",
+        "w3c/server-timing"
+      ],
+      "topic": "Web Performance WG specs"
+    }
+  },
+  "public-trace-context@w3.org": {
+    "digest:tuesday": {
+      "repos": [
+        "w3c/trace-context",
+        "w3c/correlation-context",
+        "w3c/distributed-tracing-wg"
+      ],
+      "topic": "Distributed Tracing WG specs"
+    }
+  },
+  "public-webapps@w3.org": {
+    "digest:monday": [
+      {
+        "repos": [
+          "w3c/badging",
+          "w3c/FileAPI",
+          "w3c/gamepad",
+          "w3c/image-resource",
+          "w3c/IntersectionObserver",
+          "w3c/manifest",
+          "w3c/pointerlock",
+          "w3c/push-api",
+          "w3c/screen-orientation",
+          "w3c/uievents",
+          "w3c/web-share",
+          "whatwg/dom",
+          "whatwg/infra",
+          "whatwg/webidl"
+        ],
+        "topic": "WebApps WG specs"
+      }
+    ]
+  },
+  "public-html@w3.org": {
+    "digest:monday": {
+      "repos": [
+        "w3c/html-aam",
+        "w3c/html-aria",
+        "w3c/html-extensions",
+        "w3c/htmlwg",
+        "w3c/webcomponents",
+        "whatwg/html",
+        "whatwg/dom"
+      ],
+      "topic": "HTML specs"
+    }
+  },
+  "public-webappsec@w3.org": {
+    "digest:monday": {
+      "repos": [
+        "w3c/webappsec",
+        "w3c/webappsec-subresource-integrity",
+        "w3c/webappsec-csp",
+        "w3c/webappsec-mixed-content",
+        "w3c/webappsec-upgrade-insecure-requests",
+        "w3c/webappsec-credential-management",
+        "w3c/permissions",
+        "w3c/webappsec-referrer-policy",
+        "w3c/webappsec-secure-contexts",
+        "w3c/webappsec-clear-site-data",
+        "w3c/webappsec-cowl",
+        "w3c/webappsec-epr",
+        "w3c/webappsec-suborigins",
+        "w3c/webappsec-cspee",
+        "w3c/webappsec-permissions-policy",
+        "w3c/webappsec-fetch-metadata",
+        "w3c/webappsec-trusted-types",
+        "w3c/webappsec-change-password-url",
+        "w3c/webappsec-post-spectre-webdev"
+      ],
+      "topic": "WebAppSec specs"
+    }
+  },
+  "public-shex-dev@w3.org": {
+    "shexSpec/spec": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "shexSpec/shape-map": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "shexSpec/primer": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "shexSpec/shex": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    },
+    "shexSpec/shexTest": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.labeled"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
+    }
+  },
+  "public-sdwig@w3.org": {
+    "w3c/sdw": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  },
+  "team-entertainment@w3.org": {
+    "digest:monday": [
+      {
+        "repos": [
+          "w3c/media-wg",
+          "w3c/autoplay",
+          "w3c/encrypted-media",
+          "w3c/media-capabilities",
+          "w3c/media-playback-quality",
+          "w3c/mediasession",
+          "w3c/media-source",
+          "w3c/picture-in-picture",
+          "w3c/webcodecs",
+          "w3c/mse-byte-stream-format-registry",
+          "w3c/mse-byte-stream-format-webm",
+          "w3c/mse-byte-stream-format-isobmff",
+          "w3c/mse-byte-stream-format-mp2t",
+          "w3c/mse-byte-stream-format-mpeg-audio",
+
+          "w3c/media-and-entertainment",
+          "w3c/me-media-timed-events",
+          "w3c/me-cloud-browser",
+          "w3c/me-vision",
+          "w3c/me-media-integration-guidelines",
+
+          "w3c/imsc",
+          "w3c/ttml1",
+          "w3c/ttml2",
+          "w3c/ttml-webvtt-mapping",
+          "w3c/tt-profile-registry",
+          "w3c/adpt",
+
+          "immersive-web/webxr",
+          "immersive-web/webxr-gamepads-module",
+          "immersive-web/webxr-ar-module",
+          "immersive-web/dom-overlays",
+          "immersive-web/hit-test",
+          "immersive-web/layers",
+          "immersive-web/webxr-hand-input",
+          "immersive-web/proposals",
+
+          "w3c/presentation-api",
+          "w3c/remote-playback",
+          "w3c/openscreenprotocol",
+
+          "webscreens/window-placement",
+          "webscreens/window-segments",
+
+          "w3c/mediacapture-automation",
+          "w3c/mediacapture-depth",
+          "w3c/mediacapture-extensions",
+          "w3c/mediacapture-fromelement",
+          "w3c/mediacapture-image",
+          "w3c/mediacapture-main",
+          "w3c/mediacapture-output",
+          "w3c/mediacapture-record",
+          "w3c/mediacapture-screen-share",
+          "w3c/mediacapture-transform",
+          "w3c/mst-content-hint",
+          "w3c/webrtc-encoded-transform",
+          "w3c/webrtc-pc",
+          "w3c/webrtc-svc",
+          "w3c/mediacapture-scenarios",
+          "w3c/webrtc-nv-use-cases",
+
+          "w3c/webtransport",
+
+          "w3c/audiobooks",
+          "w3c/sync-media-pub",
+
+          "WebAudio/web-audio-api",
+          "gpuweb/gpuweb",
+          "w3c/webmediaapi",
+          "w3c/webmediaguidelines",
+          "w3c/webmediaporting",
+          "w3c/ColorWeb-CG",
+          "webtiming/timingobject",
+          "w3c/multicast-cg",
+          "w3c/danmaku",
+
+          "WICG/datacue",
+          "WICG/media-feeds",
+          "WICG/video-rvfc",
+          "WICG/canvas-color-space",
+          "WICG/shape-detection-api"
+        ],
+        "topic": "Media related repositories"
+      }
+    ]
+  },
   "trevor@trevor.smith.name": {
     "digest:monday": [
       {
-        "repos": ["immersive-web/webxr", "immersive-web/privacy-and-security", "immersive-web/proposals", "immersive-web/geo-alignment", "immersive-web/hit-test", "immersive-web/anchors"],
+        "repos": [
+          "immersive-web/webxr",
+          "immersive-web/privacy-and-security",
+          "immersive-web/proposals",
+          "immersive-web/geo-alignment",
+          "immersive-web/hit-test",
+          "immersive-web/anchors"
+        ],
         "topic": "Immersive Web activity"
       }
     ]
@@ -1132,7 +1922,91 @@
   "ee@w3.org": {
     "digest:daily": [
       {
-        "repos": ["w3c/wai-InvolveUsersAll", "w3c/wai-InvolveUsersEval", "w3c/wai-about-w3c-process", "w3c/wai-about-wai", "w3c/wai-accessibility-principles", "w3c/wai-act-design", "w3c/wai-act-overview", "w3c/wai-aria-intro", "w3c/wai-audiences", "w3c/wai-axsdb-web", "w3c/wai-bcase", "w3c/wai-bcase-old", "w3c/wai-colors-font-test", "w3c/wai-combined-expertise", "w3c/wai-components", "w3c/wai-components-gallery", "w3c/wai-components-gallery-wp", "w3c/wai-conformance-eval-overview", "w3c/wai-contacting-orgs", "w3c/wai-customize-design", "w3c/wai-design", "w3c/wai-design-develop-overview", "w3c/wai-develop-training", "w3c/wai-dynamic-planning", "w3c/wai-easy-checks", "w3c/wai-eo-mobile", "w3c/wai-eval-overview", "w3c/wai-eval-report-templates", "w3c/wai-eval-tools", "w3c/wai-eval-tools-overview", "w3c/wai-first-aid", "w3c/wai-get-involved", "w3c/wai-gh-training-20150629", "w3c/wai-inclusion", "w3c/wai-inclusion-jekyll", "w3c/wai-intro-accessibility", "w3c/wai-intro-aria", "w3c/wai-intro-atag", "w3c/wai-intro-earl", "w3c/wai-intro-linking", "w3c/wai-intro-uaag", "w3c/wai-intro-wcag", "w3c/wai-intro-wcag-odd", "w3c/wai-media-intro", "w3c/wai-mobile-intro", "w3c/wai-news", "w3c/wai-older-users", "w3c/wai-org-policies", "w3c/wai-people-use-web", "w3c/wai-perspective-videos", "w3c/wai-plan-policies-overview", "w3c/wai-planning-and-managing", "w3c/wai-policies-prototype", "w3c/wai-policieslist", "w3c/wai-presentations", "w3c/wai-presentations2all", "w3c/wai-projects", "w3c/wai-quick-start", "w3c/wai-quickref", "w3c/wai-resource-template", "w3c/wai-resources", "w3c/wai-resources-jekyll", "w3c/wai-selecting-authoring-tools", "w3c/wai-selecting-eval-tools", "w3c/wai-shared-experiences", "w3c/wai-sitemap", "w3c/wai-statements", "w3c/wai-std-gl-overview", "w3c/wai-std-harmonization", "w3c/wai-styleguide", "w3c/wai-tatu", "w3c/wai-teach-advocate-overview", "w3c/wai-training", "w3c/wai-tutorials", "w3c/wai-video-standards-and-benefits", "w3c/wai-wcag-em-overview", "w3c/wai-wcag-mob-overlap", "w3c/wai-website", "w3c/wai-website personas", "w3c/wai-website-assets", "w3c/wai-website-jekyll-templates", "w3c/wai-website-personas", "w3c/wai-website-theme"],
+        "repos": [
+          "w3c/wai-InvolveUsersAll",
+          "w3c/wai-InvolveUsersEval",
+          "w3c/wai-about-w3c-process",
+          "w3c/wai-about-wai",
+          "w3c/wai-accessibility-principles",
+          "w3c/wai-act-design",
+          "w3c/wai-act-overview",
+          "w3c/wai-aria-intro",
+          "w3c/wai-audiences",
+          "w3c/wai-axsdb-web",
+          "w3c/wai-bcase",
+          "w3c/wai-bcase-old",
+          "w3c/wai-colors-font-test",
+          "w3c/wai-combined-expertise",
+          "w3c/wai-components",
+          "w3c/wai-components-gallery",
+          "w3c/wai-components-gallery-wp",
+          "w3c/wai-conformance-eval-overview",
+          "w3c/wai-contacting-orgs",
+          "w3c/wai-customize-design",
+          "w3c/wai-design",
+          "w3c/wai-design-develop-overview",
+          "w3c/wai-develop-training",
+          "w3c/wai-dynamic-planning",
+          "w3c/wai-easy-checks",
+          "w3c/wai-eo-mobile",
+          "w3c/wai-eval-overview",
+          "w3c/wai-eval-report-templates",
+          "w3c/wai-eval-tools",
+          "w3c/wai-eval-tools-overview",
+          "w3c/wai-first-aid",
+          "w3c/wai-get-involved",
+          "w3c/wai-gh-training-20150629",
+          "w3c/wai-inclusion",
+          "w3c/wai-inclusion-jekyll",
+          "w3c/wai-intro-accessibility",
+          "w3c/wai-intro-aria",
+          "w3c/wai-intro-atag",
+          "w3c/wai-intro-earl",
+          "w3c/wai-intro-linking",
+          "w3c/wai-intro-uaag",
+          "w3c/wai-intro-wcag",
+          "w3c/wai-intro-wcag-odd",
+          "w3c/wai-media-intro",
+          "w3c/wai-mobile-intro",
+          "w3c/wai-news",
+          "w3c/wai-older-users",
+          "w3c/wai-org-policies",
+          "w3c/wai-people-use-web",
+          "w3c/wai-perspective-videos",
+          "w3c/wai-plan-policies-overview",
+          "w3c/wai-planning-and-managing",
+          "w3c/wai-policies-prototype",
+          "w3c/wai-policieslist",
+          "w3c/wai-presentations",
+          "w3c/wai-presentations2all",
+          "w3c/wai-projects",
+          "w3c/wai-quick-start",
+          "w3c/wai-quickref",
+          "w3c/wai-resource-template",
+          "w3c/wai-resources",
+          "w3c/wai-resources-jekyll",
+          "w3c/wai-selecting-authoring-tools",
+          "w3c/wai-selecting-eval-tools",
+          "w3c/wai-shared-experiences",
+          "w3c/wai-sitemap",
+          "w3c/wai-statements",
+          "w3c/wai-std-gl-overview",
+          "w3c/wai-std-harmonization",
+          "w3c/wai-styleguide",
+          "w3c/wai-tatu",
+          "w3c/wai-teach-advocate-overview",
+          "w3c/wai-training",
+          "w3c/wai-tutorials",
+          "w3c/wai-video-standards-and-benefits",
+          "w3c/wai-wcag-em-overview",
+          "w3c/wai-wcag-mob-overlap",
+          "w3c/wai-website",
+          "w3c/wai-website personas",
+          "w3c/wai-website-assets",
+          "w3c/wai-website-jekyll-templates",
+          "w3c/wai-website-personas",
+          "w3c/wai-website-theme"
+        ],
         "topic": "WAI Repos Activity"
       }
     ]
@@ -1145,19 +2019,45 @@
   "team-horizontal@w3.org": {
     "w3c/strategy": {
       "events": ["issues.labeled"],
-      "eventFilter": { "label": ["Horizontal review requested", "Accessibility review completed", "Internationalization review completed", "Security review completed", "Privacy review completed", "Device independence review completed", "Architecture review completed"]}
+      "eventFilter": {
+        "label": [
+          "Horizontal review requested",
+          "Accessibility review completed",
+          "Internationalization review completed",
+          "Security review completed",
+          "Privacy review completed",
+          "Device independence review completed",
+          "Architecture review completed"
+        ]
+      }
     },
     "w3c/team-strat": {
       "events": ["issues.labeled"],
-      "eventFilter": { "label": ["Horizontal review requested", "Accessibility review completed", "Internationalization review completed", "Security review completed", "Privacy review completed", "Device independence review completed", "Architecture review completed"]}
+      "eventFilter": {
+        "label": [
+          "Horizontal review requested",
+          "Accessibility review completed",
+          "Internationalization review completed",
+          "Security review completed",
+          "Privacy review completed",
+          "Device independence review completed",
+          "Architecture review completed"
+        ]
+      }
     }
   },
   "public-design-tokens-log@w3.org": {
     "design-tokens/community-group": {
-      "events": ["issues.opened", "issues.closed", "issue_comment.created", "pull_request.opened", "pull_request.closed"],
-            "branches": {
-              "master": ["push"]
-            }
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed"
+      ],
+      "branches": {
+        "master": ["push"]
+      }
     }
   },
   "member-ab-issue-archive@w3.org": {
@@ -1171,9 +2071,17 @@
     }
   },
   "public-credentials@w3.org": {
-    "digest:monday": [{
-      "repos": ["w3c/vc-data-model", "w3c/vc-test-suite", "w3c/vc-imp-guide", "w3c/vc-use-cases", "w3c/vc-wg-charter"],
-      "topic": "Weekly update on Verifiable Credentials WG activity"
-    }]
+    "digest:monday": [
+      {
+        "repos": [
+          "w3c/vc-data-model",
+          "w3c/vc-test-suite",
+          "w3c/vc-imp-guide",
+          "w3c/vc-use-cases",
+          "w3c/vc-wg-charter"
+        ],
+        "topic": "Weekly update on Verifiable Credentials WG activity"
+      }
+    ]
   }
 }
