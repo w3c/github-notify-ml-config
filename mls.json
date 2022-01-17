@@ -2141,5 +2141,18 @@
         "topic": "Weekly update on Verifiable Credentials WG activity"
       }
     ]
+  },
+  "twg@lists.c2pa.org": {
+    "digest:monday": [
+      {
+        "repos": [
+          "c2pa-org/specs-core",
+          "c2pa-org/documentation",
+          "c2pa-org/threats-harms"
+          "c2pa-org/ux"
+        ],
+        "topic": "Weekly update on C2PA TWG activity"
+      }
+    ]
   }
 }
