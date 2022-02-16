@@ -88,6 +88,16 @@
         "pull_request.opened",
         "pull_request.closed"
       ]
+    },
+    "patcg/private-measurement": {
+        "events": [
+            "issues.opened",
+            "issues.closed",
+            "issue_comment.created",
+            "pull_request.opened",
+            "pull_request.closed",
+            "pull_request.labeled"
+        ]
     }
   },
     "public-webrtc@w3.org": {
