@@ -2151,5 +2151,18 @@
         "topic": "Weekly update on Verifiable Credentials WG activity"
       }
     ]
+  },
+  "public-antifraud@w3.org": {
+    "digest:monday": [
+      {
+        "repos": [
+          "antifraudcg/meetings",
+          "antifraudcg/antifraudcg.github.io",
+          "antifraudcg/proposals",
+          "antifraudcg/admin"
+        ],
+        "topic": "Weekly Anti-Fraud CG Github activity"
+      }
+    ]
   }
 }
