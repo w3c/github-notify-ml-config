@@ -959,7 +959,7 @@
             "eventFilter": { "label": ["i18n-jlreq"] }
           },
           {
-            "repos": ["w3c/jlreq", "w3c/simple-ruby"]
+            "repos": ["w3c/jlreq", "w3c/simple-ruby", "w3c/ruby-t2s-req"]
           }
         ]
       }
