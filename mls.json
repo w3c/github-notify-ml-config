@@ -429,24 +429,7 @@
       "branches": {
         "master": ["push"]
       }
-    ]
    },
-"public-i18n-japanese@w3.org": {
-   "digest:daily": [
-     {
-       "topic": "jlreq",
-       "sources": [
-           {
-             "repos": ["w3c/csswg-drafts", "w3c/html", "whatwg/html", "w3c/ttml2", "w3c/i18n-issues", "w3c/tt-module-cjk-ext-1"],
-             "eventFilter": {"label": ["i18n-jlreq"]}
-           },
-           {
-             "repos": ["w3c/jlreq","w3c/simple-ruby","w3c/ruby-t2s-req"]
-           }
-         ]
-     }
-   ]
-  },
   "public-annotation@w3.org": {
     "w3c/web-annotation": {
       "events": ["issues.opened", "issues.closed", "issue_comment.created"]
@@ -975,7 +958,7 @@
             "eventFilter": { "label": ["i18n-jlreq"] }
           },
           {
-            "repos": ["w3c/jlreq", "w3c/simple-ruby"]
+            "repos": ["w3c/jlreq", "w3c/simple-ruby", "w3c/ruby-t2s-req"]
           }
         ]
       }
