@@ -429,7 +429,8 @@
       "branches": {
         "master": ["push"]
       }
-   },
+    }
+  },
   "public-annotation@w3.org": {
     "w3c/web-annotation": {
       "events": ["issues.opened", "issues.closed", "issue_comment.created"]
