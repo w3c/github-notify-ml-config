@@ -98,6 +98,15 @@
             "pull_request.closed",
             "pull_request.labeled"
         ]
+	},
+	"patcg/docs-and-reports": {
+		"events": [
+			"issues.opened",
+			"issues.closed",
+			"issue_comment.created",
+			"pull_request.opened",
+			"pull_request.closed"
+		]
     }
   },
     "public-webrtc@w3.org": {
