@@ -1814,6 +1814,7 @@
         "w3c/webappsec-upgrade-insecure-requests",
         "w3c/webappsec-credential-management",
         "w3c/permissions",
+        "w3c/permissions-registry",
         "w3c/webappsec-referrer-policy",
         "w3c/webappsec-secure-contexts",
         "w3c/webappsec-clear-site-data",
