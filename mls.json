@@ -107,6 +107,15 @@
 			"pull_request.opened",
 			"pull_request.closed"
 		]
+	},
+	"patcg/patwg-charter": {
+		"events": [
+			"issues.opened",
+			"issues.closed",
+			"issue_comment.created",
+			"pull_request.opened",
+			"pull_request.closed"
+		]
     }
   },
     "public-webrtc@w3.org": {
