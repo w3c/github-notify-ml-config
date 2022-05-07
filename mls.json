@@ -720,7 +720,8 @@
           "w3c/afrlreq",
           "w3c/string-meta",
           "w3c/i18n-issues",
-          "w3c/localizable-manifests"
+          "w3c/localizable-manifests",
+          "w3c/timezone"
         ],
         "eventFilter": { "notlabel": ["dontnotify"] }
       },
@@ -785,7 +786,8 @@
           "w3c/eurlreq",
           "w3c/afrlreq",
           "w3c/i18n-issues",
-          "w3c/localizable-manifests"
+          "w3c/localizable-manifests",
+          "w3c/timezone"
         ],
         "topic": "I18n repos"
       },
