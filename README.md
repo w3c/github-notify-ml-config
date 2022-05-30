@@ -16,3 +16,6 @@ All repositories in the `w3c` organization are set up to make use of the notific
 
 If you want to use a different text in the notifications, you can also provide pull requests that bring special per mailing list templates as described above.
 
+## Unsubscribe
+
+If you've hit this repo because you're receiving digests from a W3C mailing lists and no longer want to, please follow the [instructions to unsubscribe from W3C mailing lists](https://www.w3.org/Mail/Request#unsubscribe).
