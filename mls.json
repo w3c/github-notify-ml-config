@@ -123,7 +123,7 @@
         "topic": "WebRTC WG specifications",
         "sources": [
           {
-            "repos": ["w3c/webrtc-pc", "w3c/webrtc-identity", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-priority", "w3c/webrtc-ice", "w3c/webrtc-nv-use-cases" ,"w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-depth", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint", "w3c/webrtc-svc", "w3c/webrtc-extensions", "w3c/webrtc-provisional-stats", "w3c/webrtc-encoded-transform", "w3c/mediacapture-automation", "w3c/mediacapture-transform", "w3c/mediacapture-region", "w3c/mediacapture-handle"]
+            "repos": ["w3c/webrtc-pc", "w3c/webrtc-identity", "w3c/webrtc-stats", "w3c/webrtc-charter", "w3c/webrtc-priority", "w3c/webrtc-ice", "w3c/webrtc-nv-use-cases" ,"w3c/mediacapture-main", "w3c/mediacapture-record", "w3c/mediacapture-image", "w3c/mediacapture-fromelement", "w3c/mediacapture-output", "w3c/mediacapture-screen-share", "w3c/mst-content-hint", "w3c/webrtc-svc", "w3c/webrtc-extensions", "w3c/webrtc-provisional-stats", "w3c/webrtc-encoded-transform", "w3c/mediacapture-automation", "w3c/mediacapture-transform", "w3c/mediacapture-region", "w3c/mediacapture-handle", "w3c/mediacapture-viewport"]
           },
           {
             "repos": ["web-platform-tests/wpt"],
@@ -191,10 +191,6 @@
             "events": ["issues.opened", "pull_request.opened"],
             "eventFilter": {"notlabel": ["repo-management"]}
         },
-        "w3c/mediacapture-depth": {
-            "events": ["issues.opened", "pull_request.opened"],
-            "eventFilter": {"notlabel": ["repo-management"]}
-        },
         "w3c/mediacapture-fromelement": {
             "events": ["issues.opened", "pull_request.opened"],
             "eventFilter": {"notlabel": ["repo-management"]}
@@ -215,6 +211,10 @@
             "events": ["issues.opened", "pull_request.opened"],
             "eventFilter": {"notlabel": ["repo-management"]}
         },
+        "w3c/mediacapture-viewport": {
+            "events": ["issues.opened", "pull_request.opened"],
+            "eventFilter": {"notlabel": ["repo-management"]}
+        },
         "w3c/mediacapture-automation": {
             "events": ["issues.opened", "pull_request.opened"],
             "eventFilter": {"notlabel": ["repo-management"]}
@@ -229,7 +229,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-encoded-transform": {
@@ -240,7 +240,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/mediacapture-transform": {
@@ -251,7 +251,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-extensions": {
@@ -262,7 +262,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-svc": {
@@ -273,7 +273,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-identity": {
@@ -284,7 +284,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-charter": {
@@ -295,7 +295,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-stats": {
@@ -306,7 +306,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-provisional-stats": {
@@ -317,7 +317,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-priority": {
@@ -328,7 +328,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/webrtc-ice": {
@@ -339,7 +339,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/mediacapture-main": {
@@ -350,7 +350,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/mst-content-hint": {
@@ -361,7 +361,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "gh-pages": ["push"]
       }
     },
     "w3c/mediacapture-record": {
@@ -372,7 +372,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/mediacapture-image": {
@@ -383,18 +383,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
-      }
-    },
-    "w3c/mediacapture-depth": {
-      "events": [
-        "issues.opened",
-        "issues.closed",
-        "issue_comment.created",
-        "pull_request.opened"
-      ],
-      "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/mediacapture-fromelement": {
@@ -405,7 +394,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/mediacapture-output": {
@@ -416,7 +405,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/mediacapture-screen-share": {
@@ -427,7 +416,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "gh-pages": ["push"]
       }
     },
     "w3c/mediacapture-region": {
@@ -438,7 +427,18 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
+      }
+    },
+    "w3c/mediacapture-viewport": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "main": ["push"]
       }
     },
     "w3c/mediacapture-handle": {
@@ -449,7 +449,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     },
     "w3c/mediacapture-automation": {
@@ -460,7 +460,7 @@
         "pull_request.opened"
       ],
       "branches": {
-        "master": ["push"]
+        "main": ["push"]
       }
     }
   },
@@ -1965,7 +1965,6 @@
           "webscreens/window-segments",
 
           "w3c/mediacapture-automation",
-          "w3c/mediacapture-depth",
           "w3c/mediacapture-extensions",
           "w3c/mediacapture-fromelement",
           "w3c/mediacapture-image",
