@@ -709,6 +709,7 @@
           "w3c/alreq",
           "w3c/clreq",
           "w3c/jlreq",
+          "w3c/jlreq-d",
           "w3c/tlreq",
           "w3c/its2req",
           "w3c/mlw-metadata-us-impl",
@@ -775,6 +776,7 @@
           "w3c/alreq",
           "w3c/clreq",
           "w3c/jlreq",
+          "w3c/jlreq-d",
           "w3c/tlreq",
           "w3c/its2req",
           "w3c/mlw-metadata-us-impl",
@@ -950,7 +952,7 @@
             }
           },
           {
-            "repos": ["w3c/clreq", "w3c/jlreq", "w3c/klreq"]
+            "repos": ["w3c/clreq", "w3c/jlreq", "w3c/jlreq-d/", "w3c/klreq"]
           }
         ]
       }
@@ -994,7 +996,7 @@
             "eventFilter": { "label": ["i18n-jlreq"] }
           },
           {
-            "repos": ["w3c/jlreq", "w3c/simple-ruby", "w3c/ruby-t2s-req"]
+            "repos": ["w3c/jlreq", "w3c/simple-ruby", "w3c/ruby-t2s-req", "w3c/jlreq-d"]
           }
         ]
       }
@@ -1266,6 +1268,17 @@
       }
     },
     "w3c/jlreq": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    },
+    "w3c/jlreq-d": {
       "events": [
         "issues.opened",
         "issues.closed",
