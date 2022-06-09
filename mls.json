@@ -952,7 +952,7 @@
             }
           },
           {
-            "repos": ["w3c/clreq", "w3c/jlreq", "w3c/jlreq-d/", "w3c/klreq"]
+            "repos": ["w3c/clreq", "w3c/jlreq", "w3c/jlreq-d", "w3c/klreq"]
           }
         ]
       }
