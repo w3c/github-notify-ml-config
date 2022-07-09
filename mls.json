@@ -722,7 +722,11 @@
           "w3c/string-meta",
           "w3c/i18n-issues",
           "w3c/localizable-manifests",
-          "w3c/timezone"
+          "w3c/timezone",
+          "w3c/i18n-glossary",
+          "w3c/i18n-requests",
+          "w3c/i18n-tests",
+          "w3c/type-samples"
         ],
         "eventFilter": { "notlabel": ["dontnotify"] }
       },
@@ -789,7 +793,11 @@
           "w3c/afrlreq",
           "w3c/i18n-issues",
           "w3c/localizable-manifests",
-          "w3c/timezone"
+          "w3c/timezone",
+          "w3c/i18n-glossary",
+          "w3c/i18n-requests",
+          "w3c/i18n-tests",
+          "w3c/type-samples"
         ],
         "topic": "I18n repos"
       },
