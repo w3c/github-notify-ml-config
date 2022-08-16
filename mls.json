@@ -2202,7 +2202,10 @@
           "w3c/vc-test-suite",
           "w3c/vc-imp-guide",
           "w3c/vc-use-cases",
-          "w3c/vc-wg-charter"
+          "w3c/vc-wg-charter",
+          "w3c/vc-data-integrity",
+          "w3c/vc-jws-2020",
+          "w3c/vc-jwt"
         ],
         "topic": "Weekly update on Verifiable Credentials WG activity"
       }
