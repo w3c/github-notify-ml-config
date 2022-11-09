@@ -736,7 +736,8 @@
           "whatwg/encoding",
           "whatwg/html",
           "whatwg/url",
-          "whatwg/webidl"
+          "whatwg/webidl",
+          "openui/open-ui"
         ],
         "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
 
@@ -807,7 +808,8 @@
           "whatwg/encoding",
           "whatwg/html",
           "whatwg/url",
-          "whatwg/webidl"
+          "whatwg/webidl",
+          "openui/open-ui"
         ],
         "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
         "eventFilter": {
