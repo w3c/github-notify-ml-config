@@ -2223,5 +2223,21 @@
         "topic": "Weekly Anti-Fraud CG Github activity"
       }
     ]
+  },
+  "public-aria@w3.org": {
+    "digest:tuesday": [
+      {
+        "repos": [
+          "w3c/aria",
+          "w3c/core-aam",
+          "w3c/html-aam",
+          "w3c/accname",
+          "w3c/dpub-aam",
+          "w3c/dpub-aria",
+          "w3c/mathml-aam"
+	],
+        "topic": "Weekly ARIA WG Github activity"
+      }
+    ]
   }
 }
