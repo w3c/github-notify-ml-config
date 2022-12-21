@@ -612,7 +612,13 @@
     "w3c/vibration": {
       "events": ["issues.opened", "issues.closed", "issue_comment.created"]
     },
-    "w3c/dap-charter": {
+    "w3c/das-charter": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/compute-pressure": {
+      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
+    },
+    "w3c/contact-picker": {
       "events": ["issues.opened", "issues.closed", "issue_comment.created"]
     }
   },
