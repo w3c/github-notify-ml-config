@@ -642,9 +642,12 @@
         "w3c/battery",
         "w3c/screen-wake-lock",
         "w3c/system-wake-lock",
+        "w3c/device-posture",
         "w3c/html-media-capture",
         "w3c/vibration",
-        "w3c/dap-charter"
+        "w3c/das-charter",
+        "w3c/compute-pressure",
+        "w3c/contact-picker"
       ],
       "topic": "Devices and Sensors WG specifications"
     }
