@@ -2151,6 +2151,16 @@
       "events": ["repository.created", "repository.deleted"]
     }
   },
+  "ab@w3.org": {
+    "w3c/strategy": {
+      "events": ["issues.labeled"],
+      "eventFilter": {
+        "label": [
+          "Horizontal review requested"
+        ]
+      }
+    }
+  },
   "team-horizontal@w3.org": {
     "w3c/strategy": {
       "events": ["issues.labeled"],
