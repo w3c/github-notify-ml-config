@@ -1130,6 +1130,27 @@
       }
     ]
   },
+  "public-i18n-americas@w3.org": {
+    "digest:daily": [
+      {
+        "topic": "amlreq",
+        "sources": [
+          {
+            "repos": [
+              "w3c/csswg-drafts",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues"
+            ],
+            "eventFilter": { "label": ["i18n-amlreq"] }
+          },
+          {
+            "repos": ["w3c/amlreq"]
+          }
+        ]
+      }
+    ]
+  },
   "public-i18n-ethiopic@w3.org": {
     "digest:daily": [
       {
