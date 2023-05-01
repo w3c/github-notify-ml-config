@@ -1835,7 +1835,7 @@
     "digest:monday": [
       {
         "repos": [
-	  "w3c/html-aria/",
+	  "w3c/html-aria",
           "w3c/badging",
           "w3c/FileAPI",
           "w3c/gamepad",
