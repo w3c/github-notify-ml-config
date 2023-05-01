@@ -1835,6 +1835,7 @@
     "digest:monday": [
       {
         "repos": [
+	  "w3c/html-aria/",
           "w3c/badging",
           "w3c/FileAPI",
           "w3c/gamepad",
@@ -1845,6 +1846,7 @@
           "w3c/push-api",
           "w3c/screen-orientation",
           "w3c/uievents",
+          "w3c/web-locks",
           "w3c/web-share",
           "whatwg/dom",
           "whatwg/infra",
