@@ -2078,6 +2078,16 @@
       }
     ]
   },
+  "w3mreq@w3.org": {
+    "digest:monday": [
+      {
+        "repos": [
+          "w3c/tilt-private"
+        ],
+        "topic": "TiLT activity"
+      }
+    ]
+  },
   "ee@w3.org": {
     "digest:daily": [
       {
