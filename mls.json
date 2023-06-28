@@ -488,6 +488,14 @@
     "w3cping/privacy-request": {
       "events": ["issues.labeled"],
       "eventFilter": { "label": ["REVIEW REQUESTED"] }
+    },
+    "w3c/strategy": {
+      "events": ["issues.labeled"],
+      "eventFilter": {
+        "label": [
+          "Horizontal review requested"
+        ]
+      }
     }
   },
   "public-ortc@w3.org": {
