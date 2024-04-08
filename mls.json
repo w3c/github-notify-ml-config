@@ -494,14 +494,6 @@
       }
     }
   },
-  "public-annotation@w3.org": {
-    "w3c/web-annotation": {
-      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-    },
-    "w3c/findtext": {
-      "events": ["issues.opened", "issues.closed", "issue_comment.created"]
-    }
-  },
   "public-apa@w3.org": {
     "w3c/a11y-request": {
       "events": ["issues.labeled"],
@@ -526,24 +518,6 @@
           "Horizontal review requested"
         ]
       }
-    }
-  },
-  "public-ortc@w3.org": {
-    "w3c/ortc": {
-      "events": [
-        "issues.opened",
-        "issues.closed",
-        "pull_request.opened",
-        "pull_request.closed"
-      ]
-    },
-    "w3c/webrtc-quic": {
-      "events": [
-        "issues.opened",
-        "issues.closed",
-        "pull_request.opened",
-        "pull_request.closed"
-      ]
     }
   },
   "public-html-media@w3.org": {
@@ -688,19 +662,6 @@
         "w3c/contact-picker"
       ],
       "topic": "Devices and Sensors WG specifications"
-    }
-  },
-  "public-nfc@w3.org": {
-    "w3c/nfc": {
-      "events": [
-        "issues.opened",
-        "issues.closed",
-        "issue_comment.created",
-        "pull_request.opened"
-      ],
-      "branches": {
-        "gh-pages": ["push"]
-      }
     }
   },
   "public-web-nfc@w3.org": {
@@ -937,12 +898,6 @@
         "topic": "Review comments"
       }
     ]
-  },
-  "public-digipub-ig@w3.org": {
-    "w3c/i18n-discuss": {
-      "events": ["issues.labeled", "issues.closed"],
-      "eventFilter": { "label": ["digipub"] }
-    }
   },
   "public-pointer-events@w3.org": {
     "w3c/pointerevents": {
@@ -1796,19 +1751,6 @@
         "issue_comment.created",
         "pull_request.opened",
         "pull_request.labeled"
-      ],
-      "branches": {
-        "gh-pages": ["push"]
-      }
-    }
-  },
-  "public-tvcontrol@w3.org": {
-    "w3c/tvcontrol-api": {
-      "events": [
-        "issues.opened",
-        "issues.closed",
-        "issue_comment.created",
-        "pull_request.opened"
       ],
       "branches": {
         "gh-pages": ["push"]
