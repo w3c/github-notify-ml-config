@@ -1823,7 +1823,10 @@
 	  "w3c/screen-wake-lock/",
 	  "w3c/uievents/",
 	  "w3c/web-locks",
-	  "w3c/web-share/"
+	  "w3c/web-share/",
+	  "whatwg/dom",
+          "whatwg/infra",
+          "whatwg/webidl"
         ],
         "topic": "WebApps WG specs"
       }
