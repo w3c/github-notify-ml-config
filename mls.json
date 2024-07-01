@@ -2126,17 +2126,29 @@
     "digest:monday": [
       {
         "repos": [
-          "w3c/vc-data-model",
-          "w3c/vc-test-suite",
-          "w3c/vc-imp-guide",
+          "w3c/vc-overview",
           "w3c/vc-use-cases",
-          "w3c/vc-json-schema",
+          "w3c/controller-document",
+          "w3c/vc-data-model",
+          "w3c/vc-bitstring-status-list",
           "w3c/vc-data-integrity",
-          "w3c/vc-di-eddsa",
           "w3c/vc-di-ecdsa",
+          "w3c/vc-di-eddsa",
           "w3c/vc-di-bbs",
-          "w3c/vc-jwt",
-          "w3c/vc-status-list-2021"
+          "w3c/vc-jose-cose",
+          "w3c/vc-json-schema",
+          "w3c/vc-specs-dir",
+          "w3c/vc-imp-guide",
+          "w3c/vc-test-suite-implementations",
+          "w3c/vc-data-model-2.0-test-suite",
+          "w3c/vc-bitstring-status-list-test-suite",
+          "w3c/vc-di-ecdsa-test-suite",
+          "w3c/vc-di-eddsa-test-suite",
+          "w3c/vc-di-ed25519signature2020-test-suite",
+          "w3c/vc-di-bbs-test-suite",
+          "w3c/vc-jose-cose-test-suite",
+          "w3c/vc-json-schema-test-suite",
+          "w3c/respec-vc"
         ],
         "topic": "Weekly update on Verifiable Credentials WG activity"
       }
