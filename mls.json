@@ -1788,7 +1788,8 @@
         "w3c/device-memory",
         "w3c/paint-timing",
         "w3c/longtasks",
-        "w3c/server-timing"
+        "w3c/server-timing",
+	"w3c/long-animation-frames"
       ],
       "topic": "Web Performance WG specs"
     }
