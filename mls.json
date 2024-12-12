@@ -129,6 +129,7 @@
         "pull_request.closed",
         "pull_request.labeled"
       ]
+    }
     },
    
     "public-webrtc@w3.org": {
