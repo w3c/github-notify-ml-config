@@ -120,7 +120,7 @@
   },
 	
 "public-patwg@w3.org": {
-    "w3c/patwg/meetings": {
+    "w3c/patwg": {
       "events": [
         "issues.opened",
         "issues.closed",
