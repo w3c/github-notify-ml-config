@@ -118,6 +118,20 @@
 		]
     }
   },
+	
+"public-patwg@w3.org": {
+    "w3c/patwg": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed",
+        "pull_request.labeled"
+      ]
+    }
+    },
+   
     "public-webrtc@w3.org": {
       "digest:tuesday": {
         "topic": "WebRTC WG specifications",
