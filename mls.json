@@ -1486,19 +1486,6 @@
       }
     }
   },
-  "public-webtiming@w3.org": {
-    "webtiming/timingobject": {
-      "events": [
-        "issues.opened",
-        "issues.closed",
-        "issue_comment.created",
-        "pull_request.opened"
-      ],
-      "branches": {
-        "gh-pages": ["push"]
-      }
-    }
-  },
   "public-texttracks@w3.org": {
     "w3c/webvtt": {
       "events": ["issues.opened", "issues.closed", "pull_request.opened"]
