@@ -2212,6 +2212,7 @@
 	"w3c-fedid/multi-idp",
 	"w3c-fedid/custom-requests",
 	 "w3c-fedid/active-mode",
+      	 "w3c-fedid/delegation",
 	 "fedidcg/LightweightFedCM",
 	 "fedidcg/proposals",
 	 "WICG/digital-credentials",
