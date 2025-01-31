@@ -14,7 +14,6 @@
         "w3c/activitypub",
         "w3c/sdw",
         "w3c/encrypted-media",
-        "w3c/data-shapes",
         "w3c/activitystreams",
         "w3c/micropub",
         "w3c/ldn",
@@ -2221,5 +2220,17 @@
       "topic": "FedID WG topics of interest"
     }
     ]
-  }	
+  },
+   "public-shacl@w3.org": {
+    "w3c/data-shapes": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "gh-pages": ["push"]
+      }
+    }
+  }		
 }
