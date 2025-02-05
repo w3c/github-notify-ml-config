@@ -528,7 +528,7 @@
       "eventFilter": { "label": ["REVIEW REQUESTED"] }
     }
   },
-  "public-web-security@w3.org": {
+  "public-security@w3.org": {
     "w3c/security-request": {
       "events": ["issues.labeled"],
       "eventFilter": { "label": ["REVIEW REQUESTED"] }
