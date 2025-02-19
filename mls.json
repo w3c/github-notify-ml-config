@@ -1729,7 +1729,7 @@
         "push"
       ]
     },
-    "digest:tuesday": {
+    "digest:monday": {
       "repos": ["w3c/securityig"],
       "topic": "Security"
     }
