@@ -1718,6 +1718,22 @@
       "topic": "WebAuthn"
     }
   },
+  "public-security@w3.org": {
+    "w3c/securityig": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed",
+        "push"
+      ]
+    },
+    "digest:monday": {
+      "repos": ["w3c/securityig"],
+      "topic": "Security"
+    }
+  },
   "public-css-archive@w3.org": {
     "w3c/csswg-drafts": {
       "events": [
