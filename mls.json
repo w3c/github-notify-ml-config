@@ -3,7 +3,8 @@
     "digest:monthly": [
       {
         "repos": ["speced/respec", "speced/bikeshed", "w3c/tr-design"],
-        "topic": "Latest changes to ReSpec, Bikeshed, and TR styles"
+        "topic": "Latest changes to ReSpec, Bikeshed, and TR styles",
+	"eventFilter": {"notlabel": ["dependencies"]}
       }
     ]
   },
