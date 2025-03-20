@@ -925,7 +925,7 @@
           "w3c/unicode-xml"
           ],
         "eventFilter": { "notlabel": ["dontnotify"] }
-        },
+        }
     ]
   },
   "weiler@w3.org": {
