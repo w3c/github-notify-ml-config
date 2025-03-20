@@ -898,7 +898,7 @@
           "w3c/sealreq",
           "w3c/tlreq",
           "w3c/type-samples",
-          "w3c/typography",
+          "w3c/typography"
           ],
         "eventFilter": { "notlabel": ["dontnotify"] }
         },
