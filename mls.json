@@ -868,67 +868,52 @@
     ]
   },
   "ishida@w3.org": {
-    "w3c/i18n-activity": {
-      "events": [
-        "issues.opened",
-        "issues.closed",
-        "issue_comment.created",
-        "issues.labeled"
-      ],
-      "eventFilter": { "label": ["REVIEW REQUESTED"] }
-      },
     "digest:daily": [
       {
         "topic": "I18n language enablement",
-        "repos": [
-          "w3c/afrlreq",
-          "w3c/alreq",
-          "w3c/amlreq",
-          "w3c/clreq",
-          "w3c/elreq",
-          "w3c/eurlreq",
-          "w3c/hlreq",
-          "w3c/iip",
-          "w3c/ilreq",
-          "w3c/jlreq-d",
-          "w3c/jlreq",
-          "w3c/klreq",
-          "w3c/mlreq",
-          "w3c/predefined-counter-styles",
-          "w3c/sealreq",
-          "w3c/tlreq",
-          "w3c/type-samples",
-          "w3c/typography"
-          ],
-        "eventFilter": { "notlabel": ["dontnotify"] }
-        },
-      {
-        "topic": "I18n projects",
-        "repos": [
-          "w3c/bp-i18n-specdev",
-          "w3c/charmod-norm",
-          "w3c/i18n-checker",
-          "w3c/i18n-discuss",
-          "w3c/i18n-drafts",
-          "w3c/i18n-glossary",
-          "w3c/i18n-issues",
-          "w3c/i18n-requests",
-          "w3c/i18n-tests",
-          "w3c/i18n-translations",
-          "w3c/its2req",
-          "w3c/localizable-manifests",
-          "w3c/ltli",
-          "w3c/mlw-metadata-us-impl",
-          "w3c/string-meta",
-          "w3c/string-search",
-          "w3c/timezone",
-          "w3c/unicode-xml"
-          ],
-        "eventFilter": { "notlabel": ["dontnotify"] }
-        }
+        "sources": [
+            {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues",
+              "w3c/tt-module-cjk-ext-1"
+            ],
+            "eventFilter": {
+              "label": ["w3c/alreq", "w3c/afrlreq", "w3c/amlreq", "w3c/clreq", "w3c/elreq", "w3c/eurlreq", "w3c/hlreq", "w3c/jlreq", "w3c/klreq", "w3c/mlreq", "w3c/iip", "w3c/sealreq", "w3c/tlreq"]
+            }
+          },
+          {
+            "repos": [
+			"w3c/afrlreq",
+			"w3c/alreq",
+			"w3c/amlreq",
+			"w3c/clreq",
+			"w3c/elreq",
+			"w3c/eurlreq",
+			"w3c/hlreq",
+			"w3c/iip",
+			"w3c/ilreq",
+			"w3c/jlreq-d",
+			"w3c/jlreq",
+			"w3c/klreq",
+			"w3c/mlreq",
+			"w3c/predefined-counter-styles",
+			"w3c/sealreq",
+			"w3c/tlreq",
+			"w3c/type-samples",
+			"w3c/typography"
+	   	 	]
+          }
+        ]
+      }
     ]
   },
-  "weiler@w3.org": {
+
+	
+"weiler@w3.org": {
     "digest:daily": [
       {
         "repos": [
