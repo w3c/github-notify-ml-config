@@ -129,7 +129,11 @@
         "pull_request.closed",
         "pull_request.labeled"
       ]
-    }
+    },
+	"digest:monday": {
+	"repos": ["w3c/ppa"],
+	"topic": "PPA"
+      }
     },
    
     "public-webrtc@w3.org": {
