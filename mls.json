@@ -2322,7 +2322,7 @@
             "issue.labeled",
             "pull_request.labeled"
           ]
-          "eventFilter": { "label": ["Final Review"] },
+          "eventFilter": { "label": ["Final Review"] }
         }
       ]
     }
