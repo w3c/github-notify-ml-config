@@ -2303,5 +2303,28 @@
         "gh-pages": ["push"]
       }
     }
-  }		
+  },		
+  "public-pm-wg@w3.org": {
+    "digest:friday": {
+      "topic:": "Weekly Publishing Maintenance WG GitHub activity",
+      "sources": [
+        {
+          "repos": ["w3c/epub-specs"],
+          "events": [
+            "issues.opened",
+            "issue_comment.created",
+            "pull_request.opened"
+          ]
+        },
+        {
+          "repos": ["w3c/epub-specs"],
+          "events": [
+            "issue.labeled",
+            "pull_request.labeled"
+          ]
+          "eventFilter": { "label": ["Final Review"] },
+        }
+      ]
+    }
+  }
 }
