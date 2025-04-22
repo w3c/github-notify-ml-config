@@ -2308,7 +2308,7 @@
     "digest:thursday": [
       {
         "topic:": "Activity in the epub-specs GitHub repository",
-        "repos": ["w3c/epub-specs"],
+        "repos": ["w3c/epub-specs"]
       },
       {
         "topic:": "New FINAL REVIEW requests in the epub-specs GitHub repository",
