@@ -2305,26 +2305,25 @@
     }
   },		
   "public-pm-wg@w3.org": {
-    "digest:thursday": {
-      "topic:": "Weekly Publishing Maintenance WG GitHub activity",
-      "sources": [
-        {
-          "repos": ["w3c/epub-specs"],
-          "events": [
-            "issues.opened",
-            "issue_comment.created",
-            "pull_request.opened"
-          ]
-        },
-        {
-          "repos": ["w3c/epub-specs"],
-          "events": [
-            "issue.labeled",
-            "pull_request.labeled"
-          ],
-          "eventFilter": { "label": ["Final Review"] }
-        }
-      ]
-    }
+    "digest:thursday": [
+      {
+        "topic:": "New activity in the epub-specs GitHub repository",
+        "repos": ["w3c/epub-specs"],
+        "events": [
+          "issues.opened",
+          "issue_comment.created",
+          "pull_request.opened"
+        ]
+      },
+      {
+        "topic:": "New FINAL REVIEW requests in the epub-specs GitHub repository",
+        "repos": ["w3c/epub-specs"],
+        "events": [
+          "issue.labeled",
+          "pull_request.labeled"
+        ],
+        "eventFilter": { "label": ["Final Review"] }
+      }
+    ]
   }
 }
