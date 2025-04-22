@@ -2307,13 +2307,19 @@
   "public-pm-wg@w3.org": {
     "digest:thursday": [
       {
-        "topic:": "Activity in the epub-specs GitHub repository",
-        "repos": ["w3c/epub-specs"]
-      },
+        "repos": [
+          "w3c/epub-specs"
+        ],
+        "eventFilter": { "label": ["Final Review"] },
+        "topic": "New FINAL REVIEW requests in the epub-specs GitHub repository"
+      }
+    ],
+    "digest:friday": [
       {
-        "topic:": "New FINAL REVIEW requests in the epub-specs GitHub repository",
-        "repos": ["w3c/epub-specs"],
-        "eventFilter": { "label": ["Final Review"] }
+        "repos": [
+          "w3c/epub-specs"
+        ],
+        "topic": "New activity in the epub-specs GitHub repository"
       }
     ]
   }
