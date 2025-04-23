@@ -2311,7 +2311,7 @@
           "w3c/epub-specs"
         ],
         "eventFilter": { "label": ["Final Review"] },
-        "topic": "New FINAL REVIEW requests in the epub-specs GitHub repository"
+        "topic": "FINAL REVIEW requests in the epub-specs GitHub repository"
       }
     ],
     "digest:friday": [
@@ -2319,6 +2319,7 @@
         "repos": [
           "w3c/epub-specs"
         ],
+        "eventFilter": { "notlabel": ["Final Review"] },
         "topic": "New activity in the epub-specs GitHub repository"
       }
     ]
