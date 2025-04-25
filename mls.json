@@ -731,17 +731,10 @@
   "www-international@w3.org": {
     "digest:daily": [
       {
-        "topic": "I18n repos",
+        "topic": "i18n WG projects",
         "repos": [
-          "w3c/afrlreq",
-          "w3c/alreq",
-          "w3c/amlreq",
           "w3c/bp-i18n-specdev",
           "w3c/charmod-norm",
-          "w3c/clreq",
-          "w3c/elreq",
-          "w3c/eurlreq",
-          "w3c/hlreq",
           "w3c/i18n-checker",
           "w3c/i18n-discuss",
           "w3c/i18n-drafts",
@@ -750,30 +743,74 @@
           "w3c/i18n-requests",
           "w3c/i18n-tests",
           "w3c/i18n-translations",
-          "w3c/iip",
-          "w3c/ilreq",
           "w3c/its2req",
-          "w3c/jlreq-d",
-          "w3c/jlreq",
-          "w3c/klreq",
           "w3c/localizable-manifests",
           "w3c/ltli",
-          "w3c/mlreq",
           "w3c/mlw-metadata-us-impl",
-          "w3c/predefined-counter-styles",
-          "w3c/sealreq",
           "w3c/string-meta",
           "w3c/string-search",
           "w3c/timezone",
-          "w3c/tlreq",
-          "w3c/type-samples",
-          "w3c/typography",
           "w3c/unicode-xml"
         ],
         "eventFilter": { "notlabel": ["dontnotify"] }
       },
       {
-        "topic": "Review comments",
+        "topic": "i18n language enablement",
+        "sources": [
+            {
+            "repos": [
+              "w3c/csswg-drafts",
+              "w3c/html",
+              "whatwg/html",
+              "w3c/ttml2",
+              "w3c/i18n-issues",
+              "w3c/tt-module-cjk-ext-1"
+            ],
+            "eventFilter": {
+              "label": [
+		      "i18n-alreq", 
+		      "i18n-afrlreq",
+		      "i18n-amlreq",
+		      "i18n-clreq",
+		      "i18n-elreq",
+		      "i18n-eurlreq",
+		      "i18n-hlreq",
+		      "i18n-jlreq",
+		      "i18n-klreq",
+		      "i18n-mlreq",
+		      "i18n-ilreq",
+		      "i18n-iip",
+		      "i18n-sealreq",
+		      "i18n-tlreq"
+	      	]
+            }
+          },
+          {
+            "repos": [
+			"w3c/afrlreq",
+			"w3c/alreq",
+			"w3c/amlreq",
+			"w3c/clreq",
+			"w3c/elreq",
+			"w3c/eurlreq",
+			"w3c/hlreq",
+			"w3c/iip",
+			"w3c/ilreq",
+			"w3c/jlreq-d",
+			"w3c/jlreq",
+			"w3c/klreq",
+			"w3c/mlreq",
+			"w3c/predefined-counter-styles",
+			"w3c/sealreq",
+			"w3c/tlreq",
+			"w3c/type-samples",
+			"w3c/typography"
+	   	 	]
+          }
+        ]
+      },
+      {
+        "topic": "i18n review comments",
         "repos": [
           "whatwg/encoding",
           "whatwg/html",
