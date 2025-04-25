@@ -842,7 +842,7 @@
     },
     "digest:wednesday": [
       {
-        "topic": "i18n WG projects"
+        "topic": "i18n WG projects",
         "repos": [
           "w3c/bp-i18n-specdev",
           "w3c/charmod-norm",
@@ -863,7 +863,7 @@
           "w3c/string-search",
           "w3c/timezone",
           "w3c/unicode-xml"
-        ],
+        ]
       },
       {
         "topic": "i18n language enablement",
