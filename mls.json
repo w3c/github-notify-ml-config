@@ -842,16 +842,10 @@
     },
     "digest:wednesday": [
       {
+        "topic": "i18n WG projects",
         "repos": [
-          "w3c/afrlreq",
-          "w3c/alreq",
-          "w3c/amlreq",
           "w3c/bp-i18n-specdev",
           "w3c/charmod-norm",
-          "w3c/clreq",
-          "w3c/elreq",
-          "w3c/eurlreq",
-          "w3c/hlreq",
           "w3c/i18n-checker",
           "w3c/i18n-discuss",
           "w3c/i18n-drafts",
@@ -860,58 +854,19 @@
           "w3c/i18n-requests",
           "w3c/i18n-tests",
           "w3c/i18n-translations",
-          "w3c/iip",
-          "w3c/ilreq",
           "w3c/its2req",
-          "w3c/jlreq-d",
-          "w3c/jlreq",
-          "w3c/klreq",
           "w3c/localizable-manifests",
           "w3c/ltli",
-          "w3c/mlreq",
           "w3c/mlw-metadata-us-impl",
           "w3c/predefined-counter-styles",
-          "w3c/sealreq",
           "w3c/string-meta",
           "w3c/string-search",
           "w3c/timezone",
-          "w3c/tlreq",
-          "w3c/type-samples",
-          "w3c/typography",
           "w3c/unicode-xml"
-        ],
-        "topic": "I18n repos"
+        ]
       },
-      { "repos": ["w3c/i18n-activity"], "topic": "Tracker items" },
       {
-        "repos": [
-          "whatwg/encoding",
-          "whatwg/html",
-          "whatwg/url",
-          "whatwg/webidl",
-          "openui/open-ui"
-        ],
-        "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
-        "eventFilter": {
-          "label": [
-            "i18n",
-            "i18n-comment",
-            "i18n-tracking",
-            "HR:i18n-comment",
-            "HR:i18n-tracking",
-            "i18n-review",
-            "i18n-needs-resolution",
-            "i18n-tracker"
-          ]
-        },
-        "topic": "Review comments"
-      }
-    ]
-  },
-  "ishida@w3.org": {
-    "digest:daily": [
-      {
-        "topic": "I18n language enablement",
+        "topic": "i18n language enablement",
         "sources": [
             {
             "repos": [
@@ -964,6 +919,30 @@
 	   	 	]
           }
         ]
+      },
+      { "repos": ["w3c/i18n-activity"], "topic": "Tracker items" },
+      {
+        "topic": "Review comments",
+        "repos": [
+          "whatwg/encoding",
+          "whatwg/html",
+          "whatwg/url",
+          "whatwg/webidl",
+          "openui/open-ui"
+        ],
+        "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
+        "eventFilter": {
+          "label": [
+            "i18n",
+            "i18n-comment",
+            "i18n-tracking",
+            "HR:i18n-comment",
+            "HR:i18n-tracking",
+            "i18n-review",
+            "i18n-needs-resolution",
+            "i18n-tracker"
+          ]
+        }
       }
     ]
   },
