@@ -922,7 +922,7 @@
       },
       { "repos": ["w3c/i18n-activity"], "topic": "Tracker items" },
       {
-        "topic": "Review comments"
+        "topic": "Review comments",
         "repos": [
           "whatwg/encoding",
           "whatwg/html",
@@ -942,7 +942,7 @@
             "i18n-needs-resolution",
             "i18n-tracker"
           ]
-        },
+        }
       }
     ]
   },
