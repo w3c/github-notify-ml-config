@@ -2328,7 +2328,7 @@
           "w3c/epub-tests"
         ],
         "eventFilter": { "label": ["Final Review"] },
-        "topic": "FINAL REVIEW requests in the EPUB GitHub repository"
+        "topic": "FINAL REVIEW requests in the EPUB GitHub repositories"
       }
     ],
     "digest:friday": [
@@ -2338,7 +2338,7 @@
           "w3c/epub-tests"
         ],
         "eventFilter": { "notlabel": ["Final Review"] },
-        "topic": "New activity in the EPUB GitHub repository"
+        "topic": "New activity in the EPUB GitHub repositories"
       }
     ]
   }
