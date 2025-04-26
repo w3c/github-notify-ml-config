@@ -2324,19 +2324,21 @@
     "digest:thursday": [
       {
         "repos": [
-          "w3c/epub-specs"
+          "w3c/epub-specs",
+          "w3c/epub-tests"
         ],
         "eventFilter": { "label": ["Final Review"] },
-        "topic": "FINAL REVIEW requests in the epub-specs GitHub repository"
+        "topic": "FINAL REVIEW requests in the EPUB GitHub repository"
       }
     ],
     "digest:friday": [
       {
         "repos": [
-          "w3c/epub-specs"
+          "w3c/epub-specs",
+          "w3c/epub-tests"
         ],
         "eventFilter": { "notlabel": ["Final Review"] },
-        "topic": "New activity in the epub-specs GitHub repository"
+        "topic": "New activity in the EPUB GitHub repository"
       }
     ]
   }
