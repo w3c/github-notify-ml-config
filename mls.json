@@ -2281,8 +2281,11 @@
           "w3c/accname",
           "w3c/dpub-aam",
           "w3c/dpub-aria",
-          "w3c/mathml-aam"
-	],
+          "w3c/mathml-aam",
+          "w3c/html-aria",
+          "w3c/svg-aam",
+          "w3c/graphics-aria"
+        ],
         "topic": "Weekly ARIA WG Github activity"
       }
     ]
