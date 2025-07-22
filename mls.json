@@ -1805,6 +1805,22 @@
       "topic": "Security"
     }
   },
+  "w3c-ietf-coord@ietf.org": {
+    "w3c/w3c-ietf-coord": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened",
+        "pull_request.closed",
+        "push"
+      ]
+    },
+    "digest:monday": {
+      "repos": ["w3c/w3c-ietf-coord"],
+      "topic": "W3C/IETF"
+    }
+  },
   "public-css-archive@w3.org": {
     "w3c/csswg-drafts": {
       "events": [
