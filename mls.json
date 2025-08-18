@@ -750,7 +750,8 @@
           "w3c/string-meta",
           "w3c/string-search",
           "w3c/timezone",
-          "w3c/unicode-xml"
+          "w3c/unicode-xml",
+          "w3c/wp-theme-i18n"
         ],
         "eventFilter": { "notlabel": ["dontnotify"] }
       },
@@ -862,7 +863,8 @@
           "w3c/string-meta",
           "w3c/string-search",
           "w3c/timezone",
-          "w3c/unicode-xml"
+          "w3c/unicode-xml",
+          "w3c/wp-theme-i18n"
         ]
       },
       {
