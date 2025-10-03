@@ -2362,5 +2362,16 @@
         "topic": "New activity in the EPUB GitHub repositories"
       }
     ]
+  },
+  "team-strat@w3.org": {
+    "digest:monday": [
+      {
+        "repos": [
+          "w3c/strategy"
+        ],
+        "eventFilter": { "label": ["charter"] },
+        "topic": "Agenda? Charters in the pipeline"
+      }
+    ]
   }
 }
