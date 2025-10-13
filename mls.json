@@ -118,7 +118,7 @@
 		]
     }
   },
-	
+
 "public-patwg@w3.org": {
     "w3c/patwg": {
       "events": [
@@ -135,7 +135,7 @@
 	"topic": "PPA"
       }
     },
-   
+
     "public-webrtc@w3.org": {
       "digest:tuesday": {
         "topic": "WebRTC WG specifications",
@@ -769,7 +769,7 @@
             ],
             "eventFilter": {
               "label": [
-		      "i18n-alreq", 
+		      "i18n-alreq",
 		      "i18n-afrlreq",
 		      "i18n-amlreq",
 		      "i18n-clreq",
@@ -881,7 +881,7 @@
             ],
             "eventFilter": {
               "label": [
-		      "i18n-alreq", 
+		      "i18n-alreq",
 		      "i18n-afrlreq",
 		      "i18n-amlreq",
 		      "i18n-clreq",
@@ -949,7 +949,7 @@
     ]
   },
 
-	
+
 "weiler@w3.org": {
     "digest:daily": [
       {
@@ -2250,9 +2250,11 @@
         "repos": [
           "w3c/vc-overview",
           "w3c/vc-use-cases",
-          "w3c/controller-document",
+          "w3c/cid",
           "w3c/vc-data-model",
           "w3c/vc-bitstring-status-list",
+          "w3c/vc-render-method",
+          "w3c/vc-confidence-method",
           "w3c/vc-data-integrity",
           "w3c/vc-di-ecdsa",
           "w3c/vc-di-eddsa",
@@ -2340,7 +2342,7 @@
         "gh-pages": ["push"]
       }
     }
-  },		
+  },
   "public-pm-wg@w3.org": {
     "digest:thursday": [
       {
