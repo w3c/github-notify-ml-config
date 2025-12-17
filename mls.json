@@ -735,6 +735,7 @@
         "repos": [
           "w3c/bp-i18n-specdev",
           "w3c/charmod-norm",
+          "w3c/html-ruby",
           "w3c/i18n-checker",
           "w3c/i18n-discuss",
           "w3c/i18n-drafts",
@@ -847,6 +848,7 @@
         "repos": [
           "w3c/bp-i18n-specdev",
           "w3c/charmod-norm",
+          "w3c/html-ruby",
           "w3c/i18n-checker",
           "w3c/i18n-discuss",
           "w3c/i18n-drafts",
