@@ -1113,7 +1113,7 @@
             "eventFilter": { "label": ["i18n-jlreq"] }
           },
           {
-            "repos": ["w3c/jlreq", "w3c/simple-ruby", "w3c/ruby-t2s-req", "w3c/jlreq-d"]
+            "repos": ["w3c/jlreq", "w3c/simple-ruby", "w3c/ruby-tts-req", "w3c/jlreq-d"]
           }
         ]
       }
