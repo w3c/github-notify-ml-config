@@ -2378,5 +2378,23 @@
         "topic": "Agenda? Charters in the pipeline"
       }
     ]
+  },
+  "public-webai@w3.org":{
+    "w3c/webai":{
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created"
+      ],
+      "digest:monthly": [
+        {
+          "repos": [
+            "w3c/webai",
+            "w3c/ai-web-impact"
+          ],
+          "topic": "Monthly update on Web & AI Interest Group"
+        }
+      ]
+    }
   }
 }
