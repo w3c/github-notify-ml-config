@@ -2379,8 +2379,8 @@
       }
     ]
   },
-  "public-webai@w3.org":{
-    "w3c/webai":{
+  "public-webai@w3.org": {
+    "w3c/webai": {
       "events": [
         "issues.opened",
         "issues.closed",
