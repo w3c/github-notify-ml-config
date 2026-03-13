@@ -2380,12 +2380,15 @@
     ]
   },
   "public-webai@w3.org": {
-    "w3c/webai": {
-      "events": [
-        "issues.opened",
-        "issues.closed",
-        "issue_comment.created"
-      ]
-    }
+    "digest:friday": [
+      {
+        "repos": [
+          "w3c/webai",
+          "w3c/webai-roadmap",
+          "w3c/ai-web-impact"
+        ],
+        "topic": "Weekly Web & AI IG Github activity"
+      }
+    ]
   }
 }
