@@ -818,6 +818,7 @@
           "whatwg/html",
           "whatwg/url",
           "whatwg/webidl",
+          "whatwg/proposal-dom-localization",
           "openui/open-ui"
         ],
         "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
@@ -932,6 +933,7 @@
           "whatwg/html",
           "whatwg/url",
           "whatwg/webidl",
+          "whatwg/proposal-dom-localization",
           "openui/open-ui"
         ],
         "repoList": "https://w3c.github.io/validate-repos/hr-repos.json",
