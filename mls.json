@@ -2332,7 +2332,7 @@
       	 "w3c-fedid/delegation",
 	 "fedidcg/LightweightFedCM",
 	 "fedidcg/proposals",
-	 "WICG/digital-credentials",
+	 "w3c-fedid/digital-credentials",
 	 "privacycg/is-logged-in"
 	 ],
       "topic": "FedID WG topics of interest"
