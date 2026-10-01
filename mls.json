@@ -2,8 +2,8 @@
   "spec-prod@w3.org": {
     "digest:monthly": [
       {
-        "repos": ["speced/respec", "speced/bikeshed", "w3c/tr-design"],
-        "topic": "Latest changes to ReSpec, Bikeshed, and TR styles",
+        "repos": ["speced/respec", "speced/bikeshed", "w3c/spec-prod", "w3c/tr-design"],
+        "topic": "Latest changes to ReSpec, Bikeshed, spec-prod, and TR styles",
 	"eventFilter": {"notlabel": ["dependencies"]}
       }
     ]
