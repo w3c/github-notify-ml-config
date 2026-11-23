@@ -1712,7 +1712,8 @@
           "w3c/svg-aam",
           "w3c/fxtf-drafts",
           "w3c/graphics-aam",
-          "w3c/graphics-aria"
+          "w3c/graphics-aria",
+          "w3c/IntersectionObserver"
         ]
       },
       {
@@ -1934,27 +1935,26 @@
     "digest:monday": [
       {
         "repos": [
-          "w3c/badging",
-	  "w3c/contact-picker",
-	  "w3c/deviceorientation",
-	  "w3c/FileAPI",
-	  "w3c/gamepad",
-	  "w3c/geolocation-api",
-	  "w3c/image-resource",
-	  "w3c/IndexedDB",
-	  "w3c/IntersectionObserver",
-	  "w3c/manifest",
-	  "w3c/pointerlock",
-	  "w3c/push-api",
-	  "w3c/screen-orientation",
-	  "w3c/screen-wake-lock",
-	  "w3c/ServiceWorker",
-	  "w3c/uievents",
-	  "w3c/web-locks",
-	  "w3c/web-share",
-	  "whatwg/dom",
-          "whatwg/infra",
-          "whatwg/webidl"
+	        "w3c/badging",
+			"w3c/contact-picker",
+			"w3c/deviceorientation",
+			"w3c/FileAPI",
+			"w3c/gamepad",
+			"w3c/geolocation-api",
+			"w3c/image-resource",
+			"w3c/IndexedDB",
+			"w3c/manifest",
+			"w3c/pointerlock",
+			"w3c/push-api",
+			"w3c/screen-orientation",
+			"w3c/screen-wake-lock",
+			"w3c/ServiceWorker",
+			"w3c/uievents",
+			"w3c/web-locks",
+			"w3c/web-share",
+			"whatwg/dom",
+	        "whatwg/infra",
+	        "whatwg/webidl"
         ],
         "topic": "WebApps WG specs"
       }
